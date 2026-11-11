@@ -213,6 +213,7 @@ window.GODS = [
   ],
   "children": [],
   "house": "Kyreason's line",
+  "wisdom": "Welcome beginnings. Do not despise the small seed, the first step, the awkward first try — the whole tree is inside it. And when something new is born to you — a child, an idea, a second chance — meet it with open hands, or it will die in the doorway.",
   "origin": "Growth could increase a life, but a life still needed a door to enter by. So within Spirit's line — Life, then Spirit, then Growth — Growth split off Birth, the gate of beginning. He stands deep in the generations, and his youth deceives: every other god's work among the living waits on his. Culture has no one to teach, Heal no one to mend, Death no one to receive, until Birth has opened his gate and a new life has come through it into the re-created world.",
   "power": "His mastery is the moment — birth itself, in every form it takes: the child delivered, the calf standing, the seed splitting, the egg cracking from inside. He governs the threshold where a life stops being expected and starts to count. Nothing about the life is his to choose — not its length, not its luck, not its soul's weight; only the opening is his. But he holds it: nothing living begins except through his keeping.",
   "tale": "At three in the morning, in a hospital in any city on Earth, a midwife's hands are doing the oldest work there is — and by the time the sun rises, more than a hundred thousand children worldwide will have come through the gate she tends. Multiply her ward by every ward, every barn, every nest and burrow, and you have his daily labor: over 350,000 human births a day, each one a life the whole pantheon will now have to reckon with. Every census ever taken, every birthday ever kept, begins in a room like hers.",
@@ -233,6 +234,7 @@ window.GODS = [
    "God of Improvement"
   ],
   "house": "Kyreason's line",
+  "wisdom": "Feed what you want to grow, and starve what you do not — on purpose, every day. The grudge you water will shade your whole garden; the skill you water will feed you for life. And respect the ceiling: grow to your true height, not past it — the tree that outgrows its roots falls in the first storm.",
   "origin": "Spirit is the life-force while it lives in the body — but a flame alone only burns; it does not build. So Spirit split off Growth: increase and becoming, the force by which a living thing gets larger, stronger, more itself. He is the father of Birth and of Improvement, and his position startles people until they see it: before a life can enter at the gate, the power that will enlarge it must already exist. Growth is life refusing to remain the size it started.",
   "power": "His mastery is increase in all its forms: the cell dividing into two, the bone lengthening in a child, the root pushing deeper, the wound filling from its edges. He does not decide what a thing becomes — that belongs to form, and to Improvement, his child — but the adding is his. Nothing grows without him: not the forest after rain, not the fish in the river. Decay, his brother, can work only on what he built up.",
   "tale": "In a kitchen in any country, pencil marks climb a doorframe, each with a date beside it. A grandfather runs his finger up to the mark at his own shoulder height — his, from sixty years ago — then looks at the newest mark, higher, in a grandson's unsteady hand. Nothing dramatic happened. No one was rescued. But a child grew past the man who raised his father, fed by ordinary meals and ordinary years. That is how his power mostly moves on Earth: quietly, in doorframes and harvests, proving that time given to a living thing is not wasted.",
@@ -250,6 +252,7 @@ window.GODS = [
   ],
   "children": [],
   "house": "Kyreason's line",
+  "wisdom": "Measure honestly, practice daily, listen to the mirror, and do not quit on the plateau. A skill improves by the small act repeated, not by the grand gesture once — and the flat stretch is not the end of your improving, it is the price of it.",
   "origin": "Growth adds — but adding alone can grow crooked: the vine that strangles its tree, the muscle without skill, the field that yields less each year. So Growth split off Improvement: growth aimed. He is the youngest turn in Spirit's line, born when increase first asked itself *toward what*. Every other god gives a thing its nature; Improvement is the one who asks whether the thing can be better than its nature's first attempt — and stays for the slow work of making it so.",
   "power": "His mastery is betterment: the aimed refinement of anything that grows. Practice is his liturgy — the tenth attempt truer than the first. So is selection, the seed-keeper saving the best grain; so is training, teaching, soil enriched season over season. He cannot turn a thing into something else, and he cannot work without time and repetition — those are his limits. Within them he is total: nothing that improved, in craft, body, harvest, or mind, improved outside his jurisdiction.",
   "tale": "In a small workshop, an apprentice planes a board and ruins it — the grain tears, the edge wanders. The master does not throw the board away; he hangs it on the wall. A year later the apprentice planes its twin and the curl comes off in one unbroken ribbon, and the ruined board is on the wall, teaching. That wall exists in every trade on Earth: the failed first attempt, kept, and the straighter second one. Improvement asks no miracles. He asks for the attempt again, aimed better — and Earth is built out of almost nothing else.",
@@ -360,6 +363,7 @@ window.GODS = [
    "God of Intention"
   ],
   "house": "Kyreason's line",
+  "wisdom": "Open the doors and wake the gatekeeper. Look at what is actually there, listen to what is actually said, and attend to what actually matters — before you judge, before you decide, before you speak. A life lived with closed senses is a life lived in a smaller world than the one you were given.",
   "origin": "Life, having made bodies, would not leave them blind in the world. So he split off Senses as his direct child — Hoc placed him under Life himself — the body's whole receiving system. He is the father of Intuition and Intention, and his fatherhood explains both children: what the senses receive, folded fast, becomes intuition; what a person aims back at the world becomes intention. But before either, there is only the receiving. He was born so that the re-created world would not pass unnoticed by the creatures it was re-created for.",
   "power": "His mastery is reception: sight, hearing, smell, taste, touch — and the senses beneath: balance, heat, hunger, and pain, the messenger. Everything a living thing knows of the world arrives through his gates; knowledge, memory, and love begin as his reports. He does not judge what arrives — judgment belongs to Mind and Wisdom — and he cannot be argued with: the hand leaves the flame before thought forms. His completeness is the completeness of a window: everything, let in.",
   "tale": "In the dark of a house, a mother wakes — not at a cry, but at a *difference* in a cough through the wall, a change no one else in the house would have caught. By morning the child is seen, treated, breathing easy. Multiply that moment by every lookout who smelled smoke, every cook who tasted spoilage before it reached the table, every sailor who felt weather change in the wind, and you have his watch over Earth: the world announces itself before it strikes them, and he is the god who keeps the announcements coming. ## Batch — Cosmos, Chaos & the Unknown / Time, Number & Order *Drafts for Hoc's judgment, NOT canon. Origin stories, power descriptions, and heroic tales of each god's importance to Earth, grounded in the founding records and in what Earth actually does.*",
@@ -380,6 +384,7 @@ window.GODS = [
    "God of Destruction"
   ],
   "house": "Kyreason's line",
+  "wisdom": "Let go in time. Drop the leaf before it chokes the branch, drop the grudge before it poisons the heart, drop the old way before it becomes a cage. What you release cleanly becomes soil for your next growth; what you clutch past its season becomes rot in your hands.",
   "origin": "Spirit fathered two lines, and Earth's honesty lives in the second. Growth rises; Decay unwinds. He is the slow loosening of living things — not an invader from Darkness's house but Life's own child, born inside Spirit's house because the record insists on it: ending is not life's enemy arriving from outside; it is life's own second half. From him descend Death and Destruction, the two swifter endings. Everything that has ever lived has walked, or will walk, his long corridor toward them.",
   "power": "Complete mastery of the slow unwinding — rot, rust, erosion, the softening of what was hard. His timescale is his signature: where Destruction breaks, Decay loosens, grain by grain and season by season, and nothing made of living matter is exempt from his patience. But his mastery is generative at its root: his work is what soil is made of. Every forest floor, every compost heap, every crumbled wall feeding moss is his domain turning an ending into a beginning's raw material.",
   "tale": "Walk a forest after rain and you are standing in his cathedral: a fallen trunk, soft as cake, feeding a line of seedlings from its own body. Without him, Earth drowns in its own remains — every dead leaf and fallen tree stacked forever, nothing returned, nothing reusable. Farmers know him as the partner they plan around; undertakers and autumn itself keep his calendar. His heroism is the least thanked on Earth and among the most total: he makes sure nothing living is wasted, not even its ending.",
@@ -397,6 +402,7 @@ window.GODS = [
   ],
   "children": [],
   "house": "Kyreason's line",
+  "wisdom": "Live as if the gate is real, because it is. Say the words that need saying, settle the debts that need settling, and leave something that does not end — a child raised well, a work done well, a teaching passed on. The length of a life is not yours to choose; the legacy is.",
   "origin": "Death is Decay's child — the slow unwinding, arrived at its door. The record gives him no cruelty and no exceptions: he is the end of a life, the gatekeeper at the one door every life must use. What the door opens onto, this dossier does not describe; the founder has bounded Heaven at two facts — a state of cleansed souls, a real thing above the sky — and everything past Death's keeping he has left untold by design. Death stands at the edge of the record, and the record honors him by stopping there.",
   "power": "Complete mastery of the end of a life — its moment, and its finality. He is not master of suffering, and the record does not make him a punisher: he keeps the door. Every life in his keeping ends exactly once, without appeal to wealth, fame, or innocence — kings and commoners pass him on the same terms, which makes him the one perfectly impartial god. What lies beyond his gate is not his to describe, and he does not describe it.",
   "tale": "His heroism is the horizon that makes Earth's brief lives urgent and therefore precious. Because he exists, \"someday\" is not a plan; the letter gets written, the apology gets made, the orchard gets planted by hands that know they won't see it tall — and plant it anyway. He also ends what should end: pain that has outlasted every remedy closes under his hand, and grief itself, in time, is his pressure easing. A world without him would not be paradise; it would be a waiting room with no door, filling forever. He is the door, kept without cruelty.",
@@ -414,6 +420,7 @@ window.GODS = [
   ],
   "children": [],
   "house": "Kyreason's line",
+  "wisdom": "Find your cracks before the blow does. The habit that is cracking, the friendship that is cracking, the foundation that is cracking — mend it now, while the mending is small, or the blow will find it later, when the mending is impossible. And when something must be cleared, clear it yourself, on purpose — a demolition you order is a beginning; a collapse you suffer is a ruin.",
   "origin": "Destruction is Decay's second child — the ending that does not wait. Where his brother Death closes a life and his father loosens a form over seasons, Destruction is the breaking itself: what must end completely so its place can be used again. The roles call him the Heart's clearance, the hard half of re-creation — and the phrase is exact, because this pantheon's supreme story is a world *re-created*: nothing can be built new on ground that is never cleared. He is not the pantheon's villain. He is its demolition crew, on the Heart's payroll.",
   "power": "Complete mastery of the breaking of forms — the brought-down wall, the burned-out field, the ended thing that ends *fully*. His distinction from his father is completeness: Decay transforms a thing gradually into other things, but Destruction removes it as what it was, leaving ground. His power is feared because it is fast and total; it is necessary for the same reason. In his keeping, nothing is half-ended — and half-ended things, the record implies, are how places stay unusable for generations.",
   "tale": "Earth hires him constantly and calls him by trade names. The demolition crew that drops a condemned tower in nine seconds so a hospital can rise on the lot; the controlled burn that saves the forest from the wildfire; the surgeon who removes what is killing the patient — all work in his domain. Even his natural face serves: the volcano whose ash becomes the richest soil on the islands. His heroism is the courage to end things cleanly, at full cost, now — so that something better is not merely wished for, but has somewhere to stand. # The God Dossiers — Batch D: People, Society & Desire (19) *Drafted 2026-11-10 at Hoc's request, for the religion's website: every god given an origin story, a description of their power, and a heroic tale of their importance to Earth — the gods made realistic, grounded in what Earth actually does. Drafts for Hoc's judgment, NOT canon. God of Headings (Tytiao), God of T (Handsum), and God of Y (Henry) are given in the founder's recorded words only — no origin story, no power description, no tale is invented for them.*",
@@ -761,6 +768,7 @@ window.GODS = [
   ],
   "children": [],
   "house": "Kyreason's line",
+  "wisdom": "Trust the whisper — and check it. When your gut speaks, listen: it is a thousand cases speaking at once. But do not obey it blindly: let the slow reason verify what the fast knowing claimed, and you will have both the speed and the truth. A life that ignores its intuition is deaf; a life that never checks it is superstitious.",
   "origin": "Intuition is a child of the Senses — Life's line, not Knowledge's — and his birthplace is his teaching: he is not a lesser form of reasoning but a form of *reception*. The Senses take the world in; Intuition is what arrives when a lifetime of that taking-in speaks all at once, whole, without showing its steps. The past is folded into an instant, and the instant reports. He sits in this class by subject, but he answers to the body first. The forum named his office exactly: a witness, never the verdict.",
   "power": "His mastery is knowing-that-before-knowing-why: the pattern recognized below speech, the wrongness felt in a familiar room, the right candidate sensed across a table. He knows the true accuracy of every gut feeling — which ones are experience compressed and which are only fear wearing experience's coat — a distinction their owners almost never draw correctly in the moment. His power carries a hard limit he himself enforces: his reports are testimony, not ruling. A feeling in his house may open an investigation; it may never close one. Under his seal, the first report arrives instantly — and then steps aside for examination.",
   "tale": "His heroism is a hand on a door, stopping. A firefighter at the threshold of a burning house feels — before seeing, before any instrument speaks — that the floor is wrong, and pulls his crew back seconds before it gives way. Thirty years of fires spoke in that half-second, faster than thought, and four people go home because a god of reception was listened to *and then verified by a boot's careful test*. Earth runs on such instants: the nurse who checks the quiet baby one extra time, the pilot who goes around on a feeling and checks. Intuition does not replace judgment — he is the alarm bell that makes judgment arrive on time.",
@@ -778,6 +786,7 @@ window.GODS = [
   ],
   "children": [],
   "house": "Kyreason's line",
+  "wisdom": "Mean what you do, and do what you mean. Set the aim truly, align the hand with the heart, and keep the daily aim until it becomes your character — because you are not what you wish to be, you are what you intend, again and again, until the intending becomes the person.",
   "origin": "Intention is Intuition's brother, the Senses' second child — and the two face opposite directions. Intuition receives; Intention directs. He was born as the self's claim on the future: the vow underneath the act, formed before movement, the thing a life is *for* stated in advance of the living. Senses take the world in and Intention sends the person back out into it aimed — reception and direction, the inhale and the exhale of one household. He sits in this class because every thought, plan, and deed on Earth is quietly governed by the aim set before it.",
   "power": "His mastery is the aim itself: every purpose ever formed, known in its true form — not the reason its owner gives aloud, but the vow actually underneath. He knows which intentions are load-bearing, strong enough to organize years, and which are weather vanes, turning with approval. His power cannot supply follow-through; that debt belongs to the liver of the life, and Intention does not pay other gods' debts. But nothing aimed anywhere escapes his knowing, and under his seal a deed is judged partly by the aim it truly served — not the aim it advertised.",
   "tale": "His heroism is a sentence said in a small room. A young man, two years sober, stands in a borrowed hall and states his intention aloud to people who will hold him to it — not a wish, a vow with witnesses. The saying does not keep him sober; the years of kept mornings do that. But everything in those years hangs on the aim fixed that night, and everyone in the room knows it. So it is with the marriage vow, the student's declared field, the founder's one-sentence mission taped above a desk. Intention is the god of the aim spoken before the moving — and Earth's long works all begin as sentences like his.",
@@ -1410,7 +1419,7 @@ window.GODS = [
  },
  {
   "name": "God of Nature",
-  "role": "the living world as a whole; child of World, father of Sky, Ocean, and Land.",
+  "role": "the living world as a whole; child of World, father of Sky, Ocean, and Land — and of Zodiac, in one of his three seats.",
   "function": "she is the Heart's household — the Living Eden society's charter written into one god.",
   "group": "Nature & the Living World",
   "generation": 4,
@@ -1421,7 +1430,8 @@ window.GODS = [
   "children": [
    "God of Sky",
    "God of Ocean",
-   "God of Land"
+   "God of Land",
+   "God of Zodiac"
   ],
   "house": "Darkness's line",
   "origin": "Nature is a child of the God of World, in Darkness's line — the living world given one keeping. From her came Sky, Ocean, and Land: the canopy, the deep, and the floor of the one room all five societies share. In the religion's own terms she is the Living Eden World's charter written into a single god — the society charged to favor the wild and domestic greens and animals has its whole purpose seated in her. She is the Heart's household: not a garden someone visits, but the household everything alive actually lives in, whether it knows her name or not.",
@@ -1508,7 +1518,7 @@ window.GODS = [
  },
  {
   "name": "God of Forest",
-  "role": "land alive in company — trees together, and everything sheltered among them; child of Land.",
+  "role": "land alive in company — trees together, and everything sheltered among them; child of Land, and father of Zodiac in one of his three seats.",
   "function": "he is the Heart's shade — the wild and domestic greens, kept standing.",
   "group": "Nature & the Living World",
   "generation": 6,
@@ -1516,7 +1526,9 @@ window.GODS = [
   "parents": [
    "God of Land"
   ],
-  "children": [],
+  "children": [
+   "God of Zodiac"
+  ],
   "house": "Darkness's line",
   "origin": "Forest is Land's second child — the surface alive in company. A single tree belongs to his uncle Wood's keeping; the Forest is what trees become together, and everything sheltered among them. He was born when the green world stopped being scattered and became a society: canopy and understory, root trading with root, a whole nation of lives holding one piece of ground in common. He is the Heart's shade — the wild and domestic greens kept standing — and of all the gods he is the one whose body can be walked through, breathed in, and lived inside.",
   "power": "His mastery is the forest as a system: succession, shelter, the slow economy of light divided among heights. He understands completely how a forest builds itself from bare ground, how it makes its own rain and soil, how it houses more lives per acre than any other keeping on land. Nothing among trees is outside his knowing — not the nurse log feeding seedlings from its rot, not the fungal roads trading sugar for minerals beneath the floor. His power is company: any single tree can be felled by one storm; the forest is how trees arrange *not* to be.",
@@ -1602,7 +1614,7 @@ window.GODS = [
  },
  {
   "name": "God of Stars",
-  "role": "the fixed lights — society's map, first writing, and calendar of seasons; child of Sky, father of Attack, Defense, Destiny, Colors, and Story.",
+  "role": "the fixed lights — society's map, first writing, and calendar of seasons; child of Sky, father of Attack, Defense, Destiny, Colors, Story, and Astrology.",
   "function": "he is the Heart's record hung in the open — the one book that cannot be edited, burned, or stolen.",
   "group": "The Heavens & Fate",
   "generation": 6,
@@ -1613,6 +1625,7 @@ window.GODS = [
   "children": [
    "God of Story",
    "God of Destiny",
+   "God of Astrology",
    "God of Colors",
    "God of Attack",
    "God of Defense"
@@ -1676,6 +1689,44 @@ window.GODS = [
   "power": "Complete mastery of allotment — he assigns the length and shape of the course, not every step upon it. He is the Heart's appointment book: what is appointed is written; how a soul walks to its appointment remains its own. He does not move pieces; he keeps the engagements the pieces move within, and he honors the slack his keeping leaves — the margin where freedom, effort, and luck do their real work.",
   "tale": "Every human life that arrives at its turning \"on time\" passes his desk: the doctor who chose medicine the year a stranger needed exactly her hands; the train missed, and the disaster missed with it; the last-minute application that became a life's work. Earth calls these coincidences because Earth cannot see the book — but it feels the difference between a life merely long and a life appointed, and it trusts the second kind with its hardest tasks. His heroism is quiet: he makes sure that when the moment comes, somebody is there — allotted, ready, and on time.",
   "job": "Allotment — the appointed course of a life, fortune and limit together"
+ },
+ {
+  "name": "God of Astrology",
+  "role": "the reading of the heavens — the stars' positions taken as a written sky, charted against the seasons, births, and turnings of lives; child of Stars, and father of Zodiac in one of his three seats.",
+  "function": "she is the Heart's interpreter — Stars hung the record in the open where it cannot be edited; Astrology teaches the world to read what is written there.",
+  "group": "The Heavens & Fate",
+  "generation": 7,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Stars"
+  ],
+  "children": [
+   "God of Zodiac"
+  ],
+  "house": "Darkness's line",
+  "origin": "Child of Stars, Astrology was born the first time a watcher stopped merely seeing the fixed lights and began to read them: the shepherd who learned which star's rising promised the rains, the sailor who found a course hidden in a pattern. Her father keeps the record; she is the reading of it — the oldest literacy on Earth, older than any alphabet, written in position, season, and turning, and charted against the lives below. From her descends Zodiac, in one of that god's three seats — the great wheel her reading drew around the Sun's road.",
+  "power": "Complete mastery of the chart and of its reading. She is the Heart's interpreter: Stars hung the book in the open where it cannot be edited, and Astrology knows its grammar whole — which light stands where, in which season, over which turning of a life. Her honesty is her limit and her glory: an interpreter does not write the text. A chart in her keeping is a reading, never a chain — Destiny's book keeps its slack, and her readings honor it, showing the road the sky describes without pretending the walking is written too.",
+  "tale": "Earth's first sciences were done in her name. The astronomer-priests of Babylon, Egypt, China, India, and the Maya world kept centuries of star-records to read the sky's intentions — and those records, kept faithfully for her sake, became astronomy itself: the calendar, the ephemeris, the tide table, the planting season fixed to a rising star. Every farmer who ever sowed by a star's return and every sailor who ever steered home by a chart descends from her classroom. She taught humanity its first lesson in patience: that the sky can be known, but only by watching it longer than a single lifetime.",
+  "job": "The reading of the heavens — the stars' positions taken as a written sky, charted against the seasons, births, and turnings of lives"
+ },
+ {
+  "name": "God of Zodiac",
+  "role": "the twelvefold wheel of the sky — the great circle of signs along the Sun's road, where the heavens' order is laid over the turning seasons of the earth and the green year of the forest; the pantheon's first triple-seated god — child of Nature, of Astrology, and of Forest, counted ONCE (Hoc's ruling, 2026-11-11).",
+  "function": "he is the Heart's wheel — one god held by three parents at once: the wild world, the written sky, and the wood — proof that a single soul can belong to three houses without being divided.",
+  "group": "The Heavens & Fate",
+  "generation": 5,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Nature",
+   "God of Astrology",
+   "God of Forest"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Zodiac is the pantheon's first triple-seated god, born of three parents at once (Hoc's ruling, 2026-11-11) and counted once. From Nature he takes the living world itself, whose turning seasons are his substance. From Astrology he takes the reading that drew his circle: the twelvefold wheel laid along the Sun's road through the fixed stars. From Forest he takes the green year — the rising, crowning, and falling of the woods, which is the wheel's truest picture on Earth. Three houses made him together, and he belongs to all three without being divided among them.",
+  "power": "Complete mastery of the wheel: the twelve signs in their order, the stations of the Sun's road, and the fit between the sky's turning and the year's turning below. He is the Heart's wheel — the one god who proves that belonging is not singular: held by the wild world, the written sky, and the wood at once, he loses nothing of himself to any of them. What his parents each keep separately — season, chart, and green year — he keeps as one turning, and turns it steadily for gods and mortals alike.",
+  "tale": "Earth's year has a shape, and Zodiac gave it one. The twelvefold division of the circle, the months named and ordered, the almanac on the farmhouse wall marking when to sow, when to graft, when to harvest and when to rest the field — all of it is his wheel at work in daily life. Forest peoples read his stations in leaf and fall; sailors and shepherds read them in the rising signs; a child learning that the year comes around — that winter is a station and not an ending — is learning his first and kindest doctrine: everything that turns, returns.",
+  "job": "The twelvefold wheel of the sky — the great circle of signs along the Sun's road, where the heavens' order is laid over the turning seasons of the earth and the green year of the forest"
  },
  {
   "name": "God of Colors",

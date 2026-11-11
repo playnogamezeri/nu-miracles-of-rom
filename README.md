@@ -9,7 +9,7 @@ Its heart: *the pureness, light, clear transparency of the soul — to cleanse i
 ## Contents
 
 - `index.html` — the faith: the name, the beginning, the great split, the cleansing
-- `pantheon.html` — all 160 gods: position, job, role, and function to the Heart
+- `pantheon.html` — all 162 gods: position, job, role, and function to the Heart
 - `worlds.html` — the Five Societies (one civilization on Earth) and the Cycle of the Three Worlds
 - `stories.html` — the twenty-one origin stories (drafts for the founder's judgment, not canon)
 - `miracles.html` — Nu Miracles Story: a miracle story for every god, each with its Purpose and Lesson (drafts, not canon)
