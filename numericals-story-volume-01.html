@@ -1,56 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0d0b14">
-<title>Numericals Story — Volume I | Nu Miracles of ROM</title>
-<link rel="stylesheet" href="style.css">
-<style>
-.volume-intro{max-width:900px;margin:0 auto 2rem}
-.volume-index{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.8rem;margin:1.5rem 0 2rem}
-.volume-index a{display:block;padding:1rem;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);text-decoration:none}
-.volume-index a:hover{border-color:var(--gold)}
-.volume-story{max-width:920px;margin:2rem auto;padding:clamp(1rem,3vw,2rem);border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,#1c1728,#14111c);line-height:1.8}
-.volume-story h2{color:var(--gold);line-height:1.2}
-.volume-story h3{margin-top:1.5rem;color:var(--violet)}
-.volume-meta{font-size:.9rem;color:var(--dim)}
-.volume-ending{padding:1rem;border-left:3px solid var(--gold);background:#100d18;margin-top:1.3rem}
-.volume-story p{margin:.85rem 0}
-.draft-note{padding:1rem;border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:1.5rem 0}
-</style>
-</head>
-<body>
-<header class="site-head">
-<div class="brand"><a href="index.html">Nu Miracles of ROM</a></div>
-<nav>
-<a href="index.html">Home</a><a href="pantheon.html">The Pantheon</a><a href="worlds.html">The Worlds</a><a href="stories.html">The Stories</a><a href="numericals-story.html" aria-current="page">Numericals Story</a><a href="forums.html">Forums & Debates</a><a href="game.html">The Game</a><a href="questions.html">Open Questions</a><a href="tools.html">Divine Tools</a><a href="divine-council.html">Divine Council</a>
-</nav>
-</header>
-<main>
-<section class="hero volume-intro">
-<p class="kicker">Numericals Story · Volume I · The first ten</p>
-<h1>The First Ten Miracles</h1>
-<p class="big">Ten divine beings. Ten distinct trials. Ten stories about what it means to create, care, balance, know, and live.</p>
-<p>This volume follows the first ten entries in the current pantheon record, in their recorded order. Each story is a new narrative built from that being's stated domain, role, and relationships. It is not a retelling of the existing short <em>tale</em> field.</p>
-</section>
-<div class="draft-note"><strong>Author's canon note:</strong> All ten chapters are proposed fiction for review. They do not amend the Circular Disk of ROM, add Gods, settle open questions, or assign divine allegiances. In particular, Darkness's moral status remains unresolved; ysgnutcoh's circular origin remains open; and God of Cleanse does not invent the undecided numerical measure of cleansing.</div>
-<nav class="volume-index" aria-label="Volume I chapters">
-<a href="#sound"><strong>01 · The First Note</strong><br><span class="fine">God of Sound</span></a>
-<a href="#heart"><strong>02 · The World Remade</strong><br><span class="fine">ysgnutcoh</span></a>
-<a href="#kyreason"><strong>03 · The Measure of Both</strong><br><span class="fine">Kyreason</span></a>
-<a href="#darkness"><strong>04 · The Unopened Door</strong><br><span class="fine">Darkness</span></a>
-<a href="#spirit"><strong>05 · The Flame That Stayed</strong><br><span class="fine">God of Spirit</span></a>
-<a href="#soul"><strong>06 · The Weight of a Soul</strong><br><span class="fine">God of Soul</span></a>
-<a href="#readings"><strong>07 · Before the Verdict</strong><br><span class="fine">God of Readings</span></a>
-<a href="#cleanse"><strong>08 · The Work of Returning</strong><br><span class="fine">God of Cleanse</span></a>
-<a href="#conscious"><strong>09 · The Breath Between</strong><br><span class="fine">God of Conscious</span></a>
-<a href="#life"><strong>10 · The Green After Fire</strong><br><span class="fine">God of Life</span></a>
-</nav>
-
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0d0b14"><title>Numericals Story — Volume I: The First Ten Miracles | Nu Miracles of ROM</title><link rel="stylesheet" href="style.css"><style>
+.volume-intro,.story-intro{max-width:920px;margin:0 auto 2rem}.volume-index,.volume-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.8rem;margin:1.5rem 0 2rem}
+.volume-index a,.volume-card{display:block;padding:1rem;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);text-decoration:none}.volume-index a:hover,.volume-card:hover{border-color:var(--gold)}
+.volume-card h2{margin:.3rem 0;color:var(--gold)}.volume-card p{margin:.4rem 0}
+.volume-story,.story-chapter{max-width:920px;margin:2rem auto;padding:clamp(1rem,3vw,2rem);border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,#1c1728,#14111c);line-height:1.8}
+.volume-story h2,.story-chapter h2{color:var(--gold);line-height:1.2}.volume-story h3,.story-chapter h3{margin-top:1.5rem;color:var(--violet)}
+.volume-meta,.story-meta{font-size:.9rem;color:var(--dim)}.volume-ending{padding:1rem;border-left:3px solid var(--gold);background:#100d18;margin-top:1.3rem}
+.volume-story p,.story-chapter p{margin:.85rem 0}.draft-note{padding:1rem;border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:1.5rem auto;max-width:920px}
+.volume-switch{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin:1.5rem auto;max-width:920px}.volume-switch a{color:var(--gold)}
+.archive details{max-width:920px;margin:1rem auto;border:1px solid var(--line);border-radius:12px;padding:1rem;background:var(--panel)}.archive summary{cursor:pointer;color:var(--gold);font-weight:600}.archive .story-chapter{margin:1rem 0}
+</style></head><body><header class="site-head"><div class="brand"><a href="index.html">Nu Miracles of ROM</a></div><nav><a href="index.html">Home</a><a href="pantheon.html">The Pantheon</a><a href="worlds.html">The Worlds</a><a href="stories.html">The Stories</a><a href="miracles.html">Nu Miracles Story</a><a href="numericals-story.html" aria-current="page">Numericals Story</a><a href="forums.html">Forums &amp; Debates</a><a href="game.html">The Game</a><a href="tools.html">Divine Toolbox</a><a href="divine-council.html">Divine Council</a><a href="questions.html">Open Questions</a></nav></header><main>
+<section class="hero volume-intro"><p class="kicker">Numericals Story · Volume I · Chapters 1–10</p><h1>The First Ten Miracles</h1><p class="big">Ten divine stories, presented in the exact order of the current 160-entry pantheon.</p><p>This volume contains chapters 1–10: God of Sound · ysgnutcoh · Kyreason · Darkness · God of Spirit · God of Soul · God of Readings · God of Cleanse · God of Conscious · God of Life. Each chapter heading uses the canonical pantheon name; the separate portrayal label identifies how that being appears in the story.</p></section>
+<div class="draft-note"><strong>Canon note:</strong> All ten chapters are proposed fiction for review. They do not change canonical names, domains, genealogy, powers, or divine allegiances, and they leave unresolved questions open. Story portrayal is interchangeable and does not change a divine being's canonical identity.</div>
+<nav class="volume-switch" aria-label="Volume navigation"><span></span><a href="numericals-story.html">All 160 stories</a><a href="numericals-story-volume-02.html">Volume II: The Living Arc →</a></nav><nav class="volume-index" aria-label="Volume I chapters"><a href="#sound"><strong>001 · The First Note</strong><br><span class="fine">God of Sound</span></a>
+<a href="#heart"><strong>002 · The World Remade</strong><br><span class="fine">ysgnutcoh</span></a>
+<a href="#kyreason"><strong>003 · The Measure of Both</strong><br><span class="fine">Kyreason</span></a>
+<a href="#darkness"><strong>004 · The Unopened Door</strong><br><span class="fine">Darkness</span></a>
+<a href="#spirit"><strong>005 · The Flame That Stayed</strong><br><span class="fine">God of Spirit</span></a>
+<a href="#soul"><strong>006 · The Weight of a Soul</strong><br><span class="fine">God of Soul</span></a>
+<a href="#readings"><strong>007 · Before the Verdict</strong><br><span class="fine">God of Readings</span></a>
+<a href="#cleanse"><strong>008 · The Work of Returning</strong><br><span class="fine">God of Cleanse</span></a>
+<a href="#conscious"><strong>009 · The Breath Between</strong><br><span class="fine">God of Conscious</span></a>
+<a href="#life"><strong>010 · The Green After Fire</strong><br><span class="fine">God of Life</span></a></nav>
 <article class="volume-story" id="sound">
-<p class="kicker">Chapter 01 · God of Sound</p>
-<p class="volume-meta">Story portrayal: <strong>God</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 001 · God of Sound</p>
+<p class="volume-meta">Story portrayal: <strong>God</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The First Note</h2>
 <p class="volume-meta">A creation story about imagination, voice, and the courage to begin</p>
 <h3>I. The silence before a shape</h3>
@@ -64,10 +37,9 @@
 <p>The God of Sound was there in the signal—not as a voice that commanded the rubble to disappear, but as the maker of the connection by which one frightened person could reach another. The rescuers followed the tapping, cleared a narrow passage, and brought the child into daylight.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Sound turns what cannot yet be touched into something that can be shared. A dream becomes a beginning when it finds a voice; a life can be saved when a voice finds an answer.</div>
 </article>
-
 <article class="volume-story" id="heart">
-<p class="kicker">Chapter 02 · ysgnutcoh</p>
-<p class="volume-meta">Story portrayal: <strong>God</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 002 · ysgnutcoh</p>
+<p class="volume-meta">Story portrayal: <strong>God</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The World Remade</h2>
 <p class="volume-meta">A story about love for all creations, responsibility, and a second beginning</p>
 <h3>I. The world inside the dream</h3>
@@ -81,10 +53,9 @@
 <p>The settlement repaired the water system first and planned a smaller monument later. No trumpet announced the decision. Yet children drank safely, gardens survived, and a future generation inherited a choice made in their favor.</p>
 <div class="volume-ending"><strong>The miracle:</strong> To love all creations is to accept responsibility beyond the visible and celebrated. A second chance is not a perfect repeat of the past; it is the opportunity to revise what failed while preserving what is worth loving.</div>
 </article>
-
 <article class="volume-story" id="kyreason">
-<p class="kicker">Chapter 03 · Kyreason</p>
-<p class="volume-meta">Story portrayal: <strong>Goddess</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 003 · Kyreason</p>
+<p class="volume-meta">Story portrayal: <strong>Goddess</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Measure of Both</h2>
 <p class="volume-meta">A story about balance without surrendering either truth</p>
 <h3>I. The valley of two necessary things</h3>
@@ -98,10 +69,9 @@
 <p>Kyreason watched the valley learn that balance was not indecision. It required judgment, timing, and the willingness to protect what each side contributed.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Light without darkness can exhaust; darkness without light can conceal what needs to grow. Kyreason's balance is not a compromise that weakens both. It is the capability to recognize when each is necessary and prevent either from consuming the whole.</div>
 </article>
-
 <article class="volume-story" id="darkness">
-<p class="kicker">Chapter 04 · Darkness</p>
-<p class="volume-meta">Story portrayal: <strong>God</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 004 · Darkness</p>
+<p class="volume-meta">Story portrayal: <strong>God</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Unopened Door</h2>
 <p class="volume-meta">A story about the unknown, restraint, and the value of unanswered questions</p>
 <h3>I. The door beneath the observatory</h3>
@@ -115,10 +85,9 @@
 <p>Years passed. New instruments improved the measurements, but the door remained unopened. The explorers learned more about the surrounding structure and discovered that their first theories had been wrong. Their restraint had preserved the possibility of learning rather than destroying it through haste.</p>
 <div class="volume-ending"><strong>The miracle:</strong> The unknown is not an empty space waiting for the loudest person to fill it. Darkness preserves the boundary between evidence and speculation. Sometimes the most honest act of discovery is to say, “We do not know yet,” and keep searching carefully.</div>
 </article>
-
 <article class="volume-story" id="spirit">
-<p class="kicker">Chapter 05 · God of Spirit</p>
-<p class="volume-meta">Story portrayal: <strong>Goddess</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 005 · God of Spirit</p>
+<p class="volume-meta">Story portrayal: <strong>Goddess</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Flame That Stayed</h2>
 <p class="volume-meta">A story about the life-force through growth, exhaustion, and decline</p>
 <h3>I. The long winter</h3>
@@ -132,10 +101,9 @@
 <p>In time, the gardener's life reached its natural ending. The family grieved, but the orchard stood. His living had passed into the habits and knowledge he had shared, while the life-force that had animated his body was no longer there.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Spirit is not a promise that life never changes or ends. It is the living force present while a body lives. Its dignity can be seen in persistence, in accepting care, and in passing something meaningful to others while there is still time.</div>
 </article>
-
 <article class="volume-story" id="soul">
-<p class="kicker">Chapter 06 · God of Soul</p>
-<p class="volume-meta">Story portrayal: <strong>God</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 006 · God of Soul</p>
+<p class="volume-meta">Story portrayal: <strong>God</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Weight of a Soul</h2>
 <p class="volume-meta">A story about conscience, worth, and the possibility of restoration</p>
 <h3>I. The invisible burden</h3>
@@ -149,10 +117,9 @@
 <p>God of Soul did not erase the past. The God held open the possibility that darkness could be a condition to address rather than a final verdict on the person.</p>
 <div class="volume-ending"><strong>The miracle:</strong> A soul's worth is deeper than reputation and more enduring than a single failure. Honest recognition and responsible change do not make harm vanish, but they can begin the work of restoring the light.</div>
 </article>
-
 <article class="volume-story" id="readings">
-<p class="kicker">Chapter 07 · God of Readings</p>
-<p class="volume-meta">Story portrayal: <strong>Goddess</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 007 · God of Readings</p>
+<p class="volume-meta">Story portrayal: <strong>Goddess</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>Before the Verdict</h2>
 <p class="volume-meta">A story about careful examination before judgment</p>
 <h3>I. The accusation</h3>
@@ -166,10 +133,9 @@
 <p>God of Readings had not made judgment painless. The God had made it more accurate. The village learned that compassion without truth can excuse harm, while judgment without truth can create new harm.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Read before you condemn; examine before you excuse. A complete reading does not remove accountability. It makes accountability fair enough to mean something.</div>
 </article>
-
 <article class="volume-story" id="cleanse">
-<p class="kicker">Chapter 08 · God of Cleanse</p>
-<p class="volume-meta">Story portrayal: <strong>God</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 008 · God of Cleanse</p>
+<p class="volume-meta">Story portrayal: <strong>God</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Work of Returning</h2>
 <p class="volume-meta">A story about restoration through prayer, action, and repeated effort</p>
 <h3>I. The river that would not clear</h3>
@@ -183,10 +149,9 @@
 <p>The river did not become a symbol of instant perfection. It became evidence of a community learning to keep its promises.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Cleansing is not a shortcut around responsibility. It is restoration pursued through prayer and action, again and again. The God honors the work without inventing the final numerical measure that remains for the author to decide.</div>
 </article>
-
 <article class="volume-story" id="conscious">
-<p class="kicker">Chapter 09 · God of Conscious</p>
-<p class="volume-meta">Story portrayal: <strong>Goddess</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 009 · God of Conscious</p>
+<p class="volume-meta">Story portrayal: <strong>Goddess</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Breath Between</h2>
 <p class="volume-meta">A story about awareness and the freedom found in a pause</p>
 <h3>I. The moment before harm</h3>
@@ -200,10 +165,9 @@
 <p>God of Conscious watched the ordinary work of awareness. Experience could teach; memory could preserve; but a lesson could only shape a choice when the person was awake to what was happening.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Awareness cannot rewrite what has already happened, but it can arrive before the next action. One honest breath between impulse and response can protect another life and give freedom a place to begin.</div>
 </article>
-
 <article class="volume-story" id="life">
-<p class="kicker">Chapter 10 · God of Life</p>
-<p class="volume-meta">Story portrayal: <strong>God</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 010 · God of Life</p>
+<p class="volume-meta">Story portrayal: <strong>God</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Green After Fire</h2>
 <p class="volume-meta">A story about living systems, recovery, and the many forms of life</p>
 <h3>I. The black forest</h3>
@@ -217,16 +181,5 @@
 <p>Years later, the valley was not identical to the forest that had burned. It had changed. Yet birds nested again, shade returned to the stream, and new growth covered the old scars. The people understood that living did not mean remaining unchanged. It meant continuing through an arc of beginnings, development, and endings.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Life is larger than any one body or species. Given a chance and the right conditions, living systems can recover in many forms. To protect life is to care for the whole web of living things, not merely to recreate the view that existed before.</div>
 </article>
-
-<section class="volume-story">
-<h2>Volume I closing reflection</h2>
-<p>The first ten stories move from the possibility of creation to the responsibility of living. Sound gives a dream a voice. ysgnutcoh carries love for all creations into the possibility of remaking a world. Kyreason holds light and dark in balance, while Darkness preserves the unknown. Spirit animates the living body; Soul concerns the light and worth within a person; Readings examines before judgment; Cleanse restores through prayer and action; Conscious witnesses experience; and Life holds the living world in its vast variety.</p>
-<p>These are ten different domains, not ten interchangeable versions of the same power. Their stories ask one shared question in ten forms: what does it mean to use a gift responsibly?</p>
-<p class="volume-meta">End of Volume I · Ten proposed stories for the author's review.</p>
-</section>
-<p style="text-align:center;margin:2rem"><a href="numericals-story.html">← Return to the Numericals Story library</a></p>
-<p class="volume-meta" style="text-align:center"><p class="volume-meta" style="text-align:center">Gender balance record: Volumes I–II combined — ten Goddess portrayals and ten God portrayals.</p>
-</main>
-<footer><p>Nu Miracles of ROM — Numericals Story · Volume I</p><p class="fine">Creative story drafts. Canonical status remains with the author.</p></footer>
-</body>
-</html>
+<section class="volume-story"><h2>Volume I closing reflection</h2><p>This volume follows chapters 1–10 in the current pantheon order. Its ten domains are distinct, but each contributes to the larger world and its possibilities. The stories invite the reader to consider how a gift becomes meaningful when it is used with care.</p><p>These chapters are creative narratives grounded in the recorded divine names and domains. They do not independently amend genealogy, allegiance, powers, or unresolved questions in the Circular Disk of ROM.</p><p class="volume-meta">End of Volume I · Chapters 1–10 · Ten proposed stories for the author's review.</p></section>
+<nav class="volume-switch" aria-label="Volume navigation"><span></span><a href="numericals-story.html">All 160 stories</a><a href="numericals-story-volume-02.html">Volume II: The Living Arc →</a></nav></main><footer><p>Nu Miracles of ROM — Numericals Story · Volume I</p><p class="fine">Creative story drafts. Canonical status remains with the author.</p></footer></body></html>

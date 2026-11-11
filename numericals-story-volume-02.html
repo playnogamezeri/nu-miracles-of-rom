@@ -1,56 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0d0b14">
-<title>Numericals Story — Volume II | Nu Miracles of ROM</title>
-<link rel="stylesheet" href="style.css">
-<style>
-.volume-intro{max-width:900px;margin:0 auto 2rem}
-.volume-index{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.8rem;margin:1.5rem 0 2rem}
-.volume-index a{display:block;padding:1rem;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);text-decoration:none}
-.volume-index a:hover{border-color:var(--gold)}
-.volume-story{max-width:920px;margin:2rem auto;padding:clamp(1rem,3vw,2rem);border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,#1c1728,#14111c);line-height:1.8}
-.volume-story h2{color:var(--gold);line-height:1.2}
-.volume-story h3{margin-top:1.5rem;color:var(--violet)}
-.volume-meta{font-size:.9rem;color:var(--dim)}
-.volume-ending{padding:1rem;border-left:3px solid var(--gold);background:#100d18;margin-top:1.3rem}
-.volume-story p{margin:.85rem 0}
-.draft-note{padding:1rem;border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:1.5rem 0}
-</style>
-</head>
-<body>
-<header class="site-head">
-<div class="brand"><a href="index.html">Nu Miracles of ROM</a></div>
-<nav>
-<a href="index.html">Home</a><a href="pantheon.html">The Pantheon</a><a href="worlds.html">The Worlds</a><a href="stories.html">The Stories</a><a href="numericals-story.html" aria-current="page">Numericals Story</a><a href="forums.html">Forums & Debates</a><a href="game.html">The Game</a><a href="questions.html">Open Questions</a><a href="tools.html">Divine Tools</a><a href="divine-council.html">Divine Council</a>
-</nav>
-</header>
-<main>
-<section class="hero volume-intro">
-<p class="kicker">Numericals Story · Volume II · The next ten</p>
-<h1>The Living Arc</h1>
-<p class="big">Ten stories about beginnings, becoming, knowledge, nourishment, healing, perception, and the slow return of living matter.</p>
-<p>This volume follows pantheon entries 11–20 in their recorded order. Each chapter is an original narrative grounded in the named God's recorded domain and relationships, not a rewrite of the existing short tale.</p>
-</section>
-<div class="draft-note"><strong>Author's canon note:</strong> These are proposed stories for review, not established canon. They do not add Gods, alter genealogy, assign allegiances, or make new divine relationships. Medical scenes are fictional and are not medical advice. The Goddess of Heal is presented as the first Goddess named in the pantheon. God of Decay remains part of Life's line, not an evil outsider.</div>
-<nav class="volume-index" aria-label="Volume II chapters">
-<a href="#birth"><strong>11 · The First Cry at Dawn</strong><br><span class="fine">God of Birth</span></a>
-<a href="#growth"><strong>12 · The Marks on the Door</strong><br><span class="fine">God of Growth</span></a>
-<a href="#improvement"><strong>13 · The Unfinished Bridge</strong><br><span class="fine">God of Improvement</span></a>
-<a href="#biology"><strong>14 · The Living Archive</strong><br><span class="fine">God of Biology</span></a>
-<a href="#vitamin"><strong>15 · The Missing Grain</strong><br><span class="fine">God of Vitamin</span></a>
-<a href="#heal"><strong>16 · The Hands That Made Room</strong><br><span class="fine">Goddess of Heal</span></a>
-<a href="#drug"><strong>17 · The Measure in the Drop</strong><br><span class="fine">God of Drug</span></a>
-<a href="#cell"><strong>18 · The One Among Millions</strong><br><span class="fine">God of Cell</span></a>
-<a href="#senses"><strong>19 · The World at the Window</strong><br><span class="fine">God of Senses</span></a>
-<a href="#decay"><strong>20 · The Forest That Fed Itself</strong><br><span class="fine">God of Decay</span></a>
-</nav>
-
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0d0b14"><title>Numericals Story — Volume II: The Living Arc | Nu Miracles of ROM</title><link rel="stylesheet" href="style.css"><style>
+.volume-intro,.story-intro{max-width:920px;margin:0 auto 2rem}.volume-index,.volume-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.8rem;margin:1.5rem 0 2rem}
+.volume-index a,.volume-card{display:block;padding:1rem;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);text-decoration:none}.volume-index a:hover,.volume-card:hover{border-color:var(--gold)}
+.volume-card h2{margin:.3rem 0;color:var(--gold)}.volume-card p{margin:.4rem 0}
+.volume-story,.story-chapter{max-width:920px;margin:2rem auto;padding:clamp(1rem,3vw,2rem);border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,#1c1728,#14111c);line-height:1.8}
+.volume-story h2,.story-chapter h2{color:var(--gold);line-height:1.2}.volume-story h3,.story-chapter h3{margin-top:1.5rem;color:var(--violet)}
+.volume-meta,.story-meta{font-size:.9rem;color:var(--dim)}.volume-ending{padding:1rem;border-left:3px solid var(--gold);background:#100d18;margin-top:1.3rem}
+.volume-story p,.story-chapter p{margin:.85rem 0}.draft-note{padding:1rem;border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:1.5rem auto;max-width:920px}
+.volume-switch{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin:1.5rem auto;max-width:920px}.volume-switch a{color:var(--gold)}
+.archive details{max-width:920px;margin:1rem auto;border:1px solid var(--line);border-radius:12px;padding:1rem;background:var(--panel)}.archive summary{cursor:pointer;color:var(--gold);font-weight:600}.archive .story-chapter{margin:1rem 0}
+</style></head><body><header class="site-head"><div class="brand"><a href="index.html">Nu Miracles of ROM</a></div><nav><a href="index.html">Home</a><a href="pantheon.html">The Pantheon</a><a href="worlds.html">The Worlds</a><a href="stories.html">The Stories</a><a href="miracles.html">Nu Miracles Story</a><a href="numericals-story.html" aria-current="page">Numericals Story</a><a href="forums.html">Forums &amp; Debates</a><a href="game.html">The Game</a><a href="tools.html">Divine Toolbox</a><a href="divine-council.html">Divine Council</a><a href="questions.html">Open Questions</a></nav></header><main>
+<section class="hero volume-intro"><p class="kicker">Numericals Story · Volume II · Chapters 11–20</p><h1>The Living Arc</h1><p class="big">Ten divine stories, presented in the exact order of the current 160-entry pantheon.</p><p>This volume contains chapters 11–20: God of Birth · God of Growth · God of Improvement · God of Biology · God of Vitamin · Goddess of Heal · God of Drug · God of Cell · God of Senses · God of Decay. Each chapter heading uses the canonical pantheon name; the separate portrayal label identifies how that being appears in the story.</p></section>
+<div class="draft-note"><strong>Canon note:</strong> All ten chapters are proposed fiction for review. They do not change canonical names, domains, genealogy, powers, or divine allegiances, and they leave unresolved questions open. Story portrayal is interchangeable and does not change a divine being's canonical identity.</div>
+<nav class="volume-switch" aria-label="Volume navigation"><a href="numericals-story-volume-01.html">← Volume I: The First Ten Miracles</a><a href="numericals-story.html">All 160 stories</a><a href="numericals-story-volume-03.html">Volume III: The Quiet Architects →</a></nav><nav class="volume-index" aria-label="Volume II chapters"><a href="#birth"><strong>011 · The First Cry at Dawn</strong><br><span class="fine">God of Birth</span></a>
+<a href="#growth"><strong>012 · The Marks on the Door</strong><br><span class="fine">God of Growth</span></a>
+<a href="#improvement"><strong>013 · The Unfinished Bridge</strong><br><span class="fine">God of Improvement</span></a>
+<a href="#biology"><strong>014 · The Living Archive</strong><br><span class="fine">God of Biology</span></a>
+<a href="#vitamin"><strong>015 · The Missing Grain</strong><br><span class="fine">God of Vitamin</span></a>
+<a href="#heal"><strong>016 · The Hands That Made Room</strong><br><span class="fine">Goddess of Heal</span></a>
+<a href="#drug"><strong>017 · The Measure in the Drop</strong><br><span class="fine">God of Drug</span></a>
+<a href="#cell"><strong>018 · The One Among Millions</strong><br><span class="fine">God of Cell</span></a>
+<a href="#senses"><strong>019 · The World at the Window</strong><br><span class="fine">God of Senses</span></a>
+<a href="#decay"><strong>020 · The Forest That Fed Itself</strong><br><span class="fine">God of Decay</span></a></nav>
 <article class="volume-story" id="birth">
-<p class="kicker">Chapter 11 · God of Birth</p>
-<p class="volume-meta">Story portrayal: <strong>Goddess</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 011 · God of Birth</p>
+<p class="volume-meta">Story portrayal: <strong>Goddess</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The First Cry at Dawn</h2>
 <p class="volume-meta">A story about thresholds, safe beginnings, and the lives that enter the world</p>
 <h3>I. The night that would not end</h3>
@@ -64,10 +37,9 @@
 <p>Later, the family wrote the child's name in the village book. The page was blank before that morning. Now a new line had begun, and the whole community had another life to protect, welcome, and teach.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Birth is the gate through which life enters, not a guarantee of what lies beyond it. Every beginning calls the world to welcome a new life and take responsibility for the conditions in which it will grow.</div>
 </article>
-
 <article class="volume-story" id="growth">
-<p class="kicker">Chapter 12 · God of Growth</p>
-<p class="volume-meta">Story portrayal: <strong>God</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 012 · God of Growth</p>
+<p class="volume-meta">Story portrayal: <strong>God</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Marks on the Door</h2>
 <p class="volume-meta">A story about increase, patience, and the quiet evidence of becoming</p>
 <h3>I. A child who wanted to hurry</h3>
@@ -81,10 +53,9 @@
 <p>He added one more beside the newest mark, this time for his own child. The line was small. He did not ask it to become large by tomorrow. He understood that growth was not a race against another person's body or calendar.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Growth is the adding that makes becoming possible. It is often quiet, uneven, and invisible until time reveals it. The task is not to force every living thing to grow at the same speed, but to give it what it needs to develop.</div>
 </article>
-
 <article class="volume-story" id="improvement">
-<p class="kicker">Chapter 13 · God of Improvement</p>
-<p class="volume-meta">Story portrayal: <strong>Goddess</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 013 · God of Improvement</p>
+<p class="volume-meta">Story portrayal: <strong>Goddess</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Unfinished Bridge</h2>
 <p class="volume-meta">A story about directed betterment, practice, and learning from failure</p>
 <h3>I. The bridge that almost worked</h3>
@@ -98,10 +69,9 @@
 <p>At the opening, the apprentice who had made the first measurements carried the old plan in a folder. The town did not celebrate perfection. It celebrated a craft that had become more honest and more capable through correction.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Improvement is not simply becoming bigger or doing more. It is learning to aim growth toward better results. Failure becomes useful when it is examined truthfully and turned into a more careful next attempt.</div>
 </article>
-
 <article class="volume-story" id="biology">
-<p class="kicker">Chapter 14 · God of Biology</p>
-<p class="volume-meta">Story portrayal: <strong>God</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 014 · God of Biology</p>
+<p class="volume-meta">Story portrayal: <strong>God</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Living Archive</h2>
 <p class="volume-meta">A story about understanding living systems and preserving their diversity</p>
 <h3>I. The island's last seeds</h3>
@@ -115,10 +85,9 @@
 <p>Several seasons later, the disease had not vanished from the world, but the island had more options. A failed crop no longer meant the end of a family's entire planting tradition. The archive was not a museum of dead things. It was a living reserve for future choices.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Biology turns knowledge of living systems into the possibility of deliberate care. To understand life is to see relationships, preserve diversity, and protect the conditions that allow living things to continue.</div>
 </article>
-
 <article class="volume-story" id="vitamin">
-<p class="kicker">Chapter 15 · God of Vitamin</p>
-<p class="volume-meta">Story portrayal: <strong>Goddess</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 015 · God of Vitamin</p>
+<p class="volume-meta">Story portrayal: <strong>Goddess</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Missing Grain</h2>
 <p class="volume-meta">A story about small necessities and the hidden foundations of strength</p>
 <h3>I. The full pantry</h3>
@@ -132,10 +101,9 @@
 <p>The child's strength returned gradually under appropriate care. The pantry was not necessarily larger than before, but its contents had become more useful. The family began to respect the smallest provisions as seriously as the largest.</p>
 <div class="volume-ending"><strong>The miracle:</strong> A body can have plenty and still lack what it needs. God of Vitamin teaches that importance is not measured by size: a small essential provision can support the work of an entire living system.</div>
 </article>
-
 <article class="volume-story" id="heal">
-<p class="kicker">Chapter 16 · Goddess of Heal</p>
-<p class="volume-meta">Story portrayal: <strong>Goddess</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 016 · Goddess of Heal</p>
+<p class="volume-meta">Story portrayal: <strong>Goddess</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Hands That Made Room</h2>
 <p class="volume-meta">A story about recovery, patience, and the first Goddess's work</p>
 <h3>I. The wound after the flood</h3>
@@ -149,10 +117,9 @@
 <p>She understood that healing did not always mean returning to an identical former state. Sometimes it meant becoming whole enough to live, move, and create again—with care for what had happened.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Healing is a return toward wholeness, not a demand that damage never occurred. The Goddess makes room for the body's own work, and reminds the living that recovery deserves patience, protection, and tenderness.</div>
 </article>
-
 <article class="volume-story" id="drug">
-<p class="kicker">Chapter 17 · God of Drug</p>
-<p class="volume-meta">Story portrayal: <strong>Goddess</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 017 · God of Drug</p>
+<p class="volume-meta">Story portrayal: <strong>Goddess</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Measure in the Drop</h2>
 <p class="volume-meta">A story about medicines, danger, and the responsibility carried by powerful substances</p>
 <h3>I. The medicine cabinet</h3>
@@ -166,10 +133,9 @@
 <p>Months later, a patient returned to say that the treatment had helped. Another came seeking support for a dependency that had grown quietly over years. The clinic understood that both belonged within the same honest account of medicine.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Substances powerful enough to relieve suffering can also create it. God of Drug teaches that medicine demands knowledge, proportion, oversight, and compassion—never careless confidence or shame.</div>
 </article>
-
 <article class="volume-story" id="cell">
-<p class="kicker">Chapter 18 · God of Cell</p>
-<p class="volume-meta">Story portrayal: <strong>God</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 018 · God of Cell</p>
+<p class="volume-meta">Story portrayal: <strong>God</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The One Among Millions</h2>
 <p class="volume-meta">A story about the smallest unit, careful detection, and the value of one</p>
 <h3>I. The slide beneath the lens</h3>
@@ -183,10 +149,9 @@
 <p>God of Cell did not claim that every illness could be found early or that every cell could be commanded into obedience. The miracle was more exact: one important difference had been located, investigated, and answered in time.</p>
 <div class="volume-ending"><strong>The miracle:</strong> The scale of a problem does not determine its importance. A single cell can matter to an entire body. Careful detection, confirmation, and targeted response can change the course of a life.</div>
 </article>
-
 <article class="volume-story" id="senses">
-<p class="kicker">Chapter 19 · God of Senses</p>
-<p class="volume-meta">Story portrayal: <strong>Goddess</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 019 · God of Senses</p>
+<p class="volume-meta">Story portrayal: <strong>Goddess</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The World at the Window</h2>
 <p class="volume-meta">A story about perception, receiving the world, and noticing what others miss</p>
 <h3>I. The quiet warning</h3>
@@ -200,10 +165,9 @@
 <p>The fish seller returned the next season. This time, the harbor was tested before the stalls opened. She stood by the water, listening to the gulls and feeling the breeze, while the town's instruments confirmed that the catch was safe.</p>
 <div class="volume-ending"><strong>The miracle:</strong> The world speaks to living bodies through countless signals. God of Senses keeps those windows open. What arrives through them must still be examined, but without reception there can be no informed response.</div>
 </article>
-
 <article class="volume-story" id="decay">
-<p class="kicker">Chapter 20 · God of Decay</p>
-<p class="volume-meta">Story portrayal: <strong>God</strong>. Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
+<p class="kicker">Chapter 020 · God of Decay</p>
+<p class="volume-meta">Story portrayal: <strong>God</strong> · Divine gender is interchangeable in the established pantheon; this label identifies this story's presentation only.</p>
 <h2>The Forest That Fed Itself</h2>
 <p class="volume-meta">A story about endings, decomposition, and the return of matter to living ground</p>
 <h3>I. The fallen giants</h3>
@@ -217,16 +181,5 @@
 <p>The forest was not restored by pretending the storm had never happened. It recovered by allowing the remains of one generation of life to support another. The residents began to see the fallen trees not only as loss, but as part of the forest's continuing work.</p>
 <div class="volume-ending"><strong>The miracle:</strong> Decay is not simply destruction. It is the patient transformation that returns living matter to the world. An ending can become nourishment, shelter, and ground for new beginnings.</div>
 </article>
-
-<section class="volume-story">
-<h2>Volume II closing reflection</h2>
-<p>These ten stories trace a living arc. Birth opens the gate. Growth adds and develops. Improvement gives growth direction. Biology studies the relationships that sustain living systems, while Vitamin guards the small necessities within them. Goddess of Heal tends the return toward wholeness. God of Drug holds the double-edged power of substances. God of Cell attends to the smallest unit. God of Senses receives the world's signals. God of Decay returns what has lived to the material cycle.</p>
-<p>None of these domains can replace the others. A beginning needs conditions in which to grow; growth needs direction; knowledge needs care; healing needs time; perception needs judgment; and life needs its endings to be part of a larger cycle.</p>
-<p class="volume-meta">End of Volume II · Ten proposed stories for the author's review.</p>
-</section>
-<p style="text-align:center;margin:2rem"><a href="numericals-story.html">← Return to the Numericals Story library</a> · <a href="numericals-story-volume-01.html">Read Volume I →</a></p>
-<p class="volume-meta" style="text-align:center"><p class="volume-meta" style="text-align:center">Gender balance record: Volumes I–II combined — ten Goddess portrayals and ten God portrayals.</p>
-</main>
-<footer><p>Nu Miracles of ROM — Numericals Story · Volume II</p><p class="fine">Creative story drafts. Canonical status remains with the author.</p></footer>
-</body>
-</html>
+<section class="volume-story"><h2>Volume II closing reflection</h2><p>This volume follows chapters 11–20 in the current pantheon order. Its ten domains are distinct, but each contributes to the larger world and its possibilities. The stories invite the reader to consider how a gift becomes meaningful when it is used with care.</p><p>These chapters are creative narratives grounded in the recorded divine names and domains. They do not independently amend genealogy, allegiance, powers, or unresolved questions in the Circular Disk of ROM.</p><p class="volume-meta">End of Volume II · Chapters 11–20 · Ten proposed stories for the author's review.</p></section>
+<nav class="volume-switch" aria-label="Volume navigation"><a href="numericals-story-volume-01.html">← Volume I: The First Ten Miracles</a><a href="numericals-story.html">All 160 stories</a><a href="numericals-story-volume-03.html">Volume III: The Quiet Architects →</a></nav></main><footer><p>Nu Miracles of ROM — Numericals Story · Volume II</p><p class="fine">Creative story drafts. Canonical status remains with the author.</p></footer></body></html>
