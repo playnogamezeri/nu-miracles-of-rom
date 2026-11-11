@@ -27,7 +27,7 @@ Founder: **Hoc**. Keeper of the records: Belladonna, Hoc's Muse.
 - `pantheon-by-importance.md` — an older relativity sorting (covers the first 123 gods; kept for the record).
 - `open-questions.md` — the questions the founder has deliberately left open.
 
-**The stories** (`stories/`) — the twenty origin stories of the restarted telling, in order.
+**The stories** (`stories/`) — the origin stories of the restarted telling (twenty-one, and counting), in order.
 
 **The forums** (`forums/`) — the banquet, debates, forums, conversations, and essays held by the gods,
 each a dated record.
