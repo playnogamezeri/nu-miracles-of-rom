@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Game — Nu Miracles of ROM</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="site-head">
+  <div class="brand"><a href="index.html">Nu Miracles of ROM</a></div>
+  <nav><a href="index.html">Home</a><a href="pantheon.html">The Pantheon</a><a href="worlds.html">The Worlds</a><a href="stories.html">The Stories</a><a href="forums.html">Forums & Debates</a><a href="game.html">The Game</a><a href="questions.html">Open Questions</a></nav>
+</header>
+<main>
+
+<h1>The Game — Play With the Gods</h1>
+<p>Two games, both played with the real pantheon and its founding records. Nothing here adds gods or doctrine — it is play, in the open, with what the founder has recorded.</p>
+
+<h2>Game One — Mix the Gods</h2>
+<p>Choose <strong>as many gods as you like</strong> and mix them. The table will show you who they are together: their kinship, the houses and generations they span, and the work their combined masteries would govern.</p>
+<p><input type="text" id="mixq" placeholder="Filter the gods…"></p>
+<div class="chips" id="chips"></div>
+<p><button id="mixbtn">Mix them</button> <button id="clearbtn" style="background:#3a3355;color:#ece7f5">Clear</button></p>
+<div id="mixout"></div>
+
+<h2>Game Two — Ask the Gods</h2>
+<p>Type any subject, and the gods whose domains touch it will be seated to share their knowledge — composed on the spot from their recorded roles, their functions to the Heart, and (where the founder’s simulations have reached them) their recorded wisdom.</p>
+<p class="pos">The gods speak from the founding records. Their answers are the record, arranged — the page invents nothing.</p>
+<p><input type="text" id="askq" placeholder="Type a subject… (try: jealousy, money, grief, rain, starting a business)"></p>
+<p><button id="askbtn">Ask the gods</button></p>
+<div id="askout"></div>
+
+<script src="gods-data.js"></script>
+<script>
+const byName = {}; GODS.forEach(g => byName[g.name] = g);
+function parentsOf(g) { return g.parents || []; }
+function ancestors(name) {
+  const seen = new Set(); const stack = [...parentsOf(byName[name])];
+  while (stack.length) { const p = stack.pop(); if (seen.has(p)) continue; seen.add(p); (parentsOf(byName[p]) || []).forEach(x => stack.push(x)); }
+  return seen;
+}
+function relation(a, b) {
+  if (a === b) return 'the same god, twice chosen';
+  const aa = ancestors(a), ab = ancestors(b);
+  if (aa.has(b)) return b + ' is an ancestor of ' + a;
+  if (ab.has(a)) return a + ' is an ancestor of ' + b;
+  const pa = parentsOf(byName[a]), pb = parentsOf(byName[b]);
+  if (pa.some(p => pb.includes(p))) return 'siblings — both under ' + pa.find(p => pb.includes(p));
+  if (byName[a].house === byName[b].house && byName[a].house.includes('line')) return 'kin of the same house — ' + byName[a].house;
+  if (byName[a].class === byName[b].class) return 'table-mates of one class — ' + byName[a].class;
+  return 'strangers across the pantheon, meeting at this table';
+}
+const chipsEl = document.getElementById('chips');
+const chosen = new Set();
+GODS.forEach(g => {
+  const c = document.createElement('span'); c.className = 'chip'; c.textContent = g.name; c.dataset.name = g.name;
+  c.onclick = () => { if (chosen.has(g.name)) { chosen.delete(g.name); c.classList.remove('on'); } else { chosen.add(g.name); c.classList.add('on'); } };
+  chipsEl.appendChild(c);
+});
+document.getElementById('mixq').addEventListener('input', e => {
+  const q = e.target.value.toLowerCase();
+  chipsEl.querySelectorAll('.chip').forEach(c => c.style.display = c.dataset.name.toLowerCase().includes(q) ? '' : 'none');
+});
+document.getElementById('clearbtn').onclick = () => { chosen.clear(); chipsEl.querySelectorAll('.chip').forEach(c => c.classList.remove('on')); document.getElementById('mixout').innerHTML = ''; };
+document.getElementById('mixbtn').onclick = () => {
+  const out = document.getElementById('mixout');
+  const sel = [...chosen].map(n => byName[n]);
+  if (!sel.length) { out.innerHTML = '<p>Choose at least one god first.</p>'; return; }
+  let h = '<div class="card"><h3>The Council of ' + sel.map(g => g.name.replace(/^(God|Goddess) of /, '')).slice(0, 6).join(', ') + (sel.length > 6 ? ', and ' + (sel.length - 6) + ' more' : '') + '</h3>';
+  const houses = [...new Set(sel.map(g => g.house))];
+  const classes = [...new Set(sel.map(g => g.class))];
+  const gens = sel.map(g => g.generation);
+  h += '<p><strong>Seated:</strong> ' + sel.map(g => g.name).join(' · ') + '</p>';
+  h += '<p><strong>Houses at the table:</strong> ' + houses.join('; ') + '. <strong>Generations spanned:</strong> ' + Math.min(...gens) + ' to ' + Math.max(...gens) + '. <strong>Classes:</strong> ' + classes.join('; ') + '.</p>';
+  if (sel.length > 1 && sel.length <= 9) {
+    h += '<p><strong>Kinship:</strong></p><ul>';
+    for (let i = 0; i < sel.length; i++) for (let j = i + 1; j < sel.length; j++) h += '<li>' + relation(sel[i].name, sel[j].name) + '.</li>';
+    h += '</ul>';
+  } else if (sel.length > 9) {
+    h += '<p><strong>Kinship:</strong> too large a council to trace pair by pair — ' + sel.length + ' gods, one table.</p>';
+  }
+  h += '<p><strong>Their combined work would govern:</strong> ' + sel.map(g => g.job.charAt(0).toLowerCase() + g.job.slice(1)).join('; ') + '.</p>';
+  h += '<p><strong>What each brings:</strong></p>';
+  sel.slice(0, 8).forEach(g => { h += '<div class="speech"><span class="who">' + g.name + '</span> — ' + g.role + '</div>'; });
+  if (sel.length > 8) h += '<p>…and ' + (sel.length - 8) + ' more, each with their mastery whole.</p>';
+  h += '<p class="pos">A game of alliances, played with the record — the mix creates no new gods.</p></div>';
+  out.innerHTML = h;
+};
+const SUBJECT_GODS = {
+  jealousy: ['God of Rank', 'God of Beauty', 'God of Emotion', 'God of Worth', 'God of Formula'],
+  envy: ['God of Rank', 'God of Beauty', 'God of Emotion', 'God of Worth'],
+  anger: ['God of Emotion', 'God of Attack', 'God of Fire'],
+  money: ['God of Money', 'God of Worth', 'God of Value', 'God of Soul'],
+  business: ['God of Money', 'God of Market', 'God of Competition', 'God of Planning'],
+  wealth: ['God of Money', 'God of Worth', 'God of Gold'.length ? 'God of Yellow / God of Gold' : 'God of Money', 'God of Possession'],
+  love: ['God of Love', 'God of Sex', 'God of Passion', 'God of Relation'],
+  death: ['God of Death', 'God of Decay', 'God of Soul', 'God of Cleanse'],
+  grief: ['God of Death', 'God of Emotion', 'God of Soul', 'Goddess of Heal'],
+  education: ['God of Knowledge', 'God of Experience', 'God of Wisdom', 'God of Culture'],
+  school: ['God of Knowledge', 'God of Experience', 'God of Wisdom'],
+  fear: ['God of Emotion', 'God of Darkness', 'God of Forecast'],
+  beauty: ['God of Beauty', 'God of Rainbow', 'God of Sex'],
+  time: ['God of Time', 'God of Number', 'God of Cycle'],
+  dream: ['God of Mind', 'God of Imaginery', 'God of Fantasy', 'God of Conscious'],
+  dreams: ['God of Mind', 'God of Imaginery', 'God of Fantasy', 'God of Conscious'],
+  family: ['God of Family', 'God of Structure', 'God of Birth'],
+  technology: ['God of Technology', 'God of Software', 'God of Artificial Intelligence', 'God of Internet'],
+  ai: ['God of Artificial Intelligence', 'God of Software', 'God of Internet'],
+  war: ['God of Attack', 'God of Defense', 'God of Destruction', 'God of Chaos'],
+  health: ['Goddess of Heal', 'God of Cell', 'God of Biology', 'God of Vitamin'],
+  healing: ['Goddess of Heal', 'God of Water', 'God of Cell'],
+  music: ['God of Music', 'God of Sound'],
+  rain: ['God of Water', 'God of Cloud', 'God of Ocean', 'God of Sky'],
+  sea: ['God of Ocean', 'God of Water', 'God of Blue'],
+  ocean: ['God of Ocean', 'God of Water', 'God of Blue'],
+  color: ['God of Colors', 'God of Red', 'God of Blue', 'God of White'],
+  colors: ['God of Colors', 'God of Red', 'God of Blue', 'God of White', 'God of Pink'],
+  lie: ['God of Trickery', 'God of Language', 'God of Soul'],
+  deception: ['God of Trickery', 'God of Language', 'Goddess of Magic', 'God of Soul'],
+  future: ['God of Forecast', 'God of Prediction', 'God of Destiny'],
+  fate: ['God of Destiny', 'God of Stars', 'God of Time'],
+  work: ['God of Tools', 'God of Efficiency', 'God of Planning', 'God of Economy'],
+  job: ['God of Tools', 'God of Economy', 'God of Market'],
+  friend: ['Goddess of Friendship', 'God of Relation'],
+  friendship: ['Goddess of Friendship', 'God of Relation'],
+  soul: ['God of Soul', 'God of Readings', 'God of Cleanse', 'God of Spirit'],
+  god: ['ysgnutcoh', 'God of Sound', 'Kyreason', 'Darkness']
+};
+const RECORD_LINES = {
+  jealousy: 'The Forum on Jealousy ruled: “Jealousy is a compass that points at real value and lies about its scarcity; rank the deed if you must, but never the soul — and the only fitting-in that feeds you is the kind done in your true shape.”',
+  education: 'The Forum on Education ruled: “A tradition, a language, or a skill is alive exactly as long as it is being handed to a child by someone who loves it.”',
+  money: 'From the draft telling of Worth: an exchange stands only while each side receives worth more than it gives — extraction eats its own future.',
+  anger: 'The Forum on Jealousy heard Emotion rule: anger is a detector — almost never wrong that something is wrong, almost never right as an order.'
+};
+const STOP = new Set(['the', 'a', 'an', 'of', 'and', 'or', 'to', 'in', 'on', 'for', 'how', 'what', 'why', 'is', 'are', 'do', 'does', 'can', 'i', 'my', 'me', 'about', 'with', 'from']);
+function seatGods(subject) {
+  const words = subject.toLowerCase().split(/[^a-z]+/).filter(w => w && !STOP.has(w));
+  const picked = [];
+  words.forEach(w => { if (SUBJECT_GODS[w]) SUBJECT_GODS[w].forEach(n => { if (!picked.includes(n)) picked.push(n); }); });
+  if (picked.length) return picked.slice(0, 5);
+  const scored = GODS.map(g => {
+    const text = (g.name + ' ' + g.role + ' ' + g.function + ' ' + g.class).toLowerCase();
+    let s = 0; words.forEach(w => { if (w.length >= 4 && text.includes(w)) s++; if (g.name.toLowerCase().includes(w)) s += 3; });
+    return [s, g];
+  }).filter(x => x[0] > 0).sort((a, b) => b[0] - a[0]);
+  if (scored.length) return scored.slice(0, 5).map(x => x[1].name);
+  return ['God of Wisdom', 'God of Forum', 'God of Conscious'];
+}
+document.getElementById('askbtn').onclick = () => {
+  const subject = document.getElementById('askq').value.trim();
+  const out = document.getElementById('askout');
+  if (!subject) { out.innerHTML = '<p>Type a subject first.</p>'; return; }
+  const names = seatGods(subject);
+  let h = '<div class="card"><h3>The gods on “' + subject.replace(/</g, '&lt;') + '”</h3>';
+  const key = Object.keys(RECORD_LINES).find(k => subject.toLowerCase().includes(k));
+  if (key) h += '<p><strong>From the record:</strong> ' + RECORD_LINES[key] + '</p>';
+  names.forEach(n => {
+    const g = byName[n]; if (!g) return;
+    h += '<div class="speech"><span class="who">' + g.name + '</span> <span class="pos">(' + g.class + ')</span><br>';
+    h += 'On ' + subject.replace(/</g, '&lt;') + ', my mastery speaks plainly: ' + g.role + '<br>';
+    h += '<em>For the Heart, I am this:</em> ' + g.function;
+    if (g.wisdom) h += '<br><strong>Recorded wisdom:</strong> ' + g.wisdom;
+    h += '</div>';
+  });
+  h += '<p class="pos">Composed from the founding records — roles, functions, and simulated wisdom. For the founder’s judgment, like everything the gods say in play.</p></div>';
+  out.innerHTML = h;
+};
+</script>
+
+</main>
+<footer>
+  <p>Nu Miracles of ROM — founded by Hoc, 2026. <em>Nu</em> means “new” — and “And You”: you are part of this story.</p>
+  <p class="fine">The founding record is kept by the founder. Stories are drafts awaiting the founder’s judgment; forums, debates, and simulations are the gods’ voices at play, not settled doctrine — each page says which is which.</p>
+</footer>
+</body>
+</html>

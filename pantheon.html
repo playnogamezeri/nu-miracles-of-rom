@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Pantheon — Nu Miracles of ROM</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="site-head">
+  <div class="brand"><a href="index.html">Nu Miracles of ROM</a></div>
+  <nav><a href="index.html">Home</a><a href="pantheon.html">The Pantheon</a><a href="worlds.html">The Worlds</a><a href="stories.html">The Stories</a><a href="forums.html">Forums & Debates</a><a href="game.html">The Game</a><a href="questions.html">Open Questions</a></nav>
+</header>
+<main>
+
+<h1>The Pantheon — 157 Gods</h1>
+<p>Every god of Nu Miracles of ROM, with their <strong>position</strong> (house, descent, generation), their <strong>job</strong> (their work in the world), their <strong>role</strong>, and their <strong>function to the Heart</strong> — ysgnutcoh, the Supreme God, who is the Heart of the God of Sound. Each god holds <em>complete mastery</em> of their concept: they understand it wholly, they own it, and they can shape it toward the ideal world.</p>
+<p>The roles and functions are a draft written for the founder’s judgment, as is the sorting by class. The structure — who descends from whom — is the founder’s own record. Three gods are counted once though they stand in two places: the God of Passion (a double seat), the God of Black (a second seat under Colors), and the God of Yellow, who is also the God of Gold (one god, two names).</p>
+<p><input type="text" id="q" placeholder="Search the gods… (try: death, money, color, sea)"></p>
+<p>
+<select id="fclass"><option value="">All classes</option></select>
+<select id="fgen"><option value="">All generations</option></select>
+<select id="fhouse"><option value="">Both houses</option><option>Kyreason's line</option><option>Darkness's line</option></select>
+</p>
+<p id="count" class="pos"></p>
+<div class="grid" id="grid"></div>
+<script src="gods-data.js"></script>
+<script>
+const grid = document.getElementById('grid');
+const classes = [...new Set(GODS.map(g => g.class))].sort();
+classes.forEach(c => { const o = document.createElement('option'); o.textContent = c; document.getElementById('fclass').appendChild(o); });
+const gens = [...new Set(GODS.map(g => g.generation))].sort((a, b) => a - b);
+gens.forEach(g => { const o = document.createElement('option'); o.value = g; o.textContent = g < 0 ? 'Before Generation 0' : 'Generation ' + g; document.getElementById('fgen').appendChild(o); });
+function genLabel(g) { return g.generation < 0 ? 'Before Generation 0 — the First God' : 'Generation ' + g.generation; }
+function posLine(g) {
+  let p = genLabel(g) + ' · ' + g.house;
+  if (g.parents && g.parents.length) p += ' · under ' + g.parents.join(' and ');
+  return p;
+}
+function card(g) {
+  const d = document.createElement('div'); d.className = 'god-card';
+  let h = '<h3>' + g.name + '</h3>';
+  if (g.trueName) h += '<div class="pos">True name: ' + g.trueName + '</div>';
+  h += '<div class="pos">' + posLine(g) + '</div>';
+  h += '<div><span class="tag">' + g.class + '</span></div>';
+  h += '<p class="role"><strong>Job:</strong> ' + g.job + '.</p>';
+  h += '<details><summary>Role &amp; function</summary>';
+  h += '<p><strong>Role:</strong> ' + g.role + '</p>';
+  h += '<p><strong>Function to the Heart:</strong> ' + g.function + '</p>';
+  if (g.children && g.children.length) h += '<p><strong>Children:</strong> ' + g.children.join(', ') + '</p>';
+  if (g.wisdom) h += '<p><strong>Recorded wisdom (simulation):</strong> ' + g.wisdom + '</p>';
+  h += '</details>';
+  d.innerHTML = h;
+  return d;
+}
+function render() {
+  const q = document.getElementById('q').value.toLowerCase();
+  const fc = document.getElementById('fclass').value;
+  const fg = document.getElementById('fgen').value;
+  const fh = document.getElementById('fhouse').value;
+  grid.innerHTML = '';
+  let n = 0;
+  GODS.forEach(g => {
+    if (fc && g.class !== fc) return;
+    if (fg !== '' && String(g.generation) !== fg) return;
+    if (fh && g.house !== fh) return;
+    if (q && !(g.name + ' ' + g.role + ' ' + g.class).toLowerCase().includes(q)) return;
+    grid.appendChild(card(g)); n++;
+  });
+  document.getElementById('count').textContent = n + ' gods shown';
+}
+['q', 'fclass', 'fgen', 'fhouse'].forEach(id => document.getElementById(id).addEventListener('input', render));
+render();
+</script>
+
+</main>
+<footer>
+  <p>Nu Miracles of ROM — founded by Hoc, 2026. <em>Nu</em> means “new” — and “And You”: you are part of this story.</p>
+  <p class="fine">The founding record is kept by the founder. Stories are drafts awaiting the founder’s judgment; forums, debates, and simulations are the gods’ voices at play, not settled doctrine — each page says which is which.</p>
+</footer>
+</body>
+</html>
