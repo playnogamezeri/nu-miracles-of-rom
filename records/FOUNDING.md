@@ -204,6 +204,7 @@ Sun, Moon, and Earth are not only bodies in the sky and under it — they are th
   - **The Sun's spirit** (he; the First World) is studying and learning still, to prepare to be the Moon, the Second World, in the next cycle — so that he can analyze what happened in history with cyber ai power.
   - **The Moon's spirit** (he; the Second World) turns into the Earth, the Third World, and reuses his formula or alters it for desired new results.
   - **The Earth's spirit** (she; the Third World) will turn into the Sun, the First World, because she has to learn what working and being on time and schedule mean — or to be idolized as the Sun.
+- **The soul is what passes on** (Hoc, 2026-11-10): the spirit of the Sun, the Moon, and the Earth does not change — but the soul does. It is the soul that gets passed on to the next world when the cycle turns forward, carrying its new knowledge, formulas, and equations with it.
 - Still open: is the model's Balance path the perfection sought, or is perfection beyond the three paths?
 
 ## Heaven — noted 2026-11-07 ~16:26 PT, not yet discussed
