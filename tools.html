@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0d0b14">
+<title>Divine Tools — Nu Miracles of ROM</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.tool-intro{max-width:48rem;color:var(--dim)}
+.tool-card{background:linear-gradient(145deg,#1c1728,#14111c);border:1px solid var(--line);border-radius:14px;padding:1.15rem;margin:1rem 0}
+.tool-card h2{margin:.1rem 0 .35rem}
+.tool-card .tool-sub{color:var(--dim);margin-top:0}
+.tool-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:.8rem}
+.tool-output{background:#100d18;border:1px solid var(--line);border-radius:10px;padding:1rem;margin-top:1rem}
+.tool-output h3{color:var(--gold)}
+.tool-output ul{padding-left:1.25rem}
+.field-label{display:block;color:var(--dim);font-size:.9rem;margin:.65rem 0 .25rem}
+input[type=date],input[type=text],textarea,select{font:inherit}
+textarea{width:100%;min-height:5rem;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:.65rem}
+.tool-button{margin-top:.75rem}
+.tool-note{font-size:.82rem;color:var(--dim)}
+.god-pill{display:inline-block;border:1px solid var(--violet);border-radius:99px;padding:.12rem .55rem;margin:.15rem;color:#d9cdf8;font-size:.82rem}
+.forecast-day{border-left:3px solid var(--gold);padding:.3rem .8rem;margin:.8rem 0}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <div class="brand"><a href="index.html">Nu Miracles of ROM</a></div>
+  <nav><a href="index.html">Home</a><a href="pantheon.html">The Pantheon</a><a href="worlds.html">The Worlds</a><a href="stories.html">The Stories</a><a href="forums.html">Forums & Debates</a><a href="game.html">The Game</a><a href="questions.html">Open Questions</a><a href="tools.html">Divine Tools</a></nav>
+</header>
+<main>
+<div class="hero">
+  <div class="kicker">Practical tools · inspired by the pantheon</div>
+  <h1>The Divine Toolbox</h1>
+  <p class="big">Bring the Gods' domains into everyday questions, plans, and decisions.</p>
+  <p>These tools use the existing pantheon as a framework for reflection and practical thinking. They do not claim supernatural certainty or replace professional advice.</p>
+</div>
+<p class="tool-intro">Choose a tool below. Each one draws on the names, roles, and domains in <code>gods-data.js</code>, so the toolbox grows naturally as the pantheon grows.</p>
+
+<section class="tool-card" id="forecast">
+  <div class="kicker">01 · God of Time · God of Destiny · God of Forecast</div>
+  <h2>Birthday Forecast</h2>
+  <p class="tool-sub">A personal daily reading for today and tomorrow, using your birthday as a symbolic starting point.</p>
+  <label class="field-label" for="birthday">Your birthday</label>
+  <input id="birthday" type="date" autocomplete="bday">
+  <button class="tool-button" id="forecastBtn">Reveal my forecast</button>
+  <p class="tool-note">Your birthday stays in this browser page; it is not sent to a server. This is a reflective, entertainment-style reading, not a factual prediction.</p>
+  <div id="forecastOutput" aria-live="polite"></div>
+</section>
+
+<div class="tool-grid">
+<section class="tool-card" id="decision">
+  <div class="kicker">02 · God of Wisdom · God of Worth · God of Risk</div>
+  <h2>Decision Compass</h2>
+  <p class="tool-sub">Lay out two options and think through what matters before choosing.</p>
+  <label class="field-label" for="optionA">Option A</label><input id="optionA" type="text" placeholder="e.g. Take the new job">
+  <label class="field-label" for="optionB">Option B</label><input id="optionB" type="text" placeholder="e.g. Stay where I am">
+  <label class="field-label" for="priority">What matters most right now?</label>
+  <select id="priority"><option value="stability">Stability and security</option><option value="growth">Learning and growth</option><option value="freedom">Freedom and flexibility</option><option value="connection">Relationships and belonging</option><option value="wellbeing">Health and wellbeing</option><option value="meaning">Purpose and meaning</option></select>
+  <label class="field-label" for="tradeoffs">What are the biggest benefits, costs, and unknowns?</label>
+  <textarea id="tradeoffs" placeholder="Write a few notes about each option..."></textarea>
+  <button class="tool-button" id="decisionBtn">Build my comparison</button>
+  <div id="decisionOutput" aria-live="polite"></div>
+</section>
+
+<section class="tool-card" id="focus">
+  <div class="kicker">03 · God of Planning · God of Efficiency · God of Improvement</div>
+  <h2>Daily Focus Builder</h2>
+  <p class="tool-sub">Turn a crowded day into one clear next step.</p>
+  <label class="field-label" for="task">What do you want to move forward?</label><input id="task" type="text" placeholder="The task or goal">
+  <label class="field-label" for="energy">Your available energy</label>
+  <select id="energy"><option value="low">Low — keep it gentle</option><option value="medium" selected>Medium — steady progress</option><option value="high">High — ready for a challenge</option></select>
+  <label class="field-label" for="minutes">Time available</label>
+  <select id="minutes"><option value="10">10 minutes</option><option value="25" selected>25 minutes</option><option value="45">45 minutes</option><option value="60">60 minutes</option></select>
+  <button class="tool-button" id="focusBtn">Make my focus plan</button>
+  <div id="focusOutput" aria-live="polite"></div>
+</section>
+</div>
+
+<section class="tool-card">
+  <div class="kicker">04 · The Pantheon · The Game</div>
+  <h2>Ask the Gods & Mix Their Masteries</h2>
+  <p class="tool-sub">Explore a subject with the existing council simulator, or combine Gods and compare their domains.</p>
+  <p><a href="game.html">Open Ask the Gods and Mix the Gods →</a></p>
+</section>
+</main>
+<footer>
+  <p>Nu Miracles of ROM — Divine Tools</p>
+  <p class="fine">The Gods' roles are drawn from the pantheon data. Forecasts and recommendations are interactive reflections, not canon, prophecy, or guaranteed outcomes.</p>
+</footer>
+<script src="gods-data.js"></script>
+<script>
+(function(){
+  const gods = Array.isArray(window.GODS) ? window.GODS : [];
+  const byName = name => gods.find(g => g.name.toLowerCase() === name.toLowerCase());
+  const godFor = (terms) => {
+    for (const term of terms) {
+      const g = gods.find(x => (x.name + " " + x.job + " " + x.class).toLowerCase().includes(term));
+      if (g) return g;
+    }
+    return null;
+  };
+  const escapeHtml = value => String(value).replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+  const dayOfYear = date => {
+    const start = new Date(date.getFullYear(),0,0);
+    return Math.floor((date - start) / 86400000);
+  };
+  const dateLabel = date => date.toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric"});
+  const themes = [
+    {name:"Clarity & communication",gods:["God of Communication","God of Language","God of Wisdom"],prompt:"Say the important thing plainly. Ask one question before assuming you know the answer.",action:"Send the message, ask for clarification, or write down what you actually mean."},
+    {name:"Growth & improvement",gods:["God of Growth","God of Improvement","God of Experience"],prompt:"Small progress is still progress. Focus on what can be improved without demanding perfection.",action:"Choose one skill or task and make a visible ten-minute improvement."},
+    {name:"Relationships & connection",gods:["God of Relation","Goddess of Friendship","God of Love"],prompt:"Give attention before asking for attention. A sincere check-in can matter more than a grand gesture.",action:"Reach out to someone, listen carefully, or express appreciation."},
+    {name:"Order & resources",gods:["God of Structure","God of Money","God of Planning"],prompt:"Make the invisible visible: time, money, obligations, and unfinished work all become easier to handle when written down.",action:"Review one commitment, expense, or plan and decide its next concrete step."},
+    {name:"Restoration & wellbeing",gods:["Goddess of Heal","God of Biology","God of Spirit"],prompt:"Treat your energy as a real resource. Rest and basic care are part of making progress sustainable.",action:"Take a proper break, hydrate, eat something nourishing, or prepare for sleep."},
+    {name:"Courage & boundaries",gods:["God of Defense","God of Freedom","God of Worth"],prompt:"A good boundary protects what matters without turning every disagreement into a battle.",action:"Name one limit or priority clearly and respectfully."},
+    {name:"Curiosity & discovery",gods:["God of Knowledge","God of Idea","God of Forecast"],prompt:"Stay curious about what you do not yet know. A useful discovery may come from checking an assumption.",action:"Research one question or try a small experiment before committing."}
+  ];
+  function themeFor(birth,date){
+    const seed = birth.getDate()*3 + (birth.getMonth()+1)*7 + dayOfYear(date)*11 + date.getFullYear();
+    return themes[((seed % themes.length)+themes.length)%themes.length];
+  }
+  function renderForecast(){
+    const raw=document.getElementById("birthday").value;
+    const out=document.getElementById("forecastOutput");
+    if(!raw){out.innerHTML='<div class="tool-output">Enter your birthday to create your reading.</div>';return;}
+    const birth=new Date(raw+"T12:00:00");
+    if(Number.isNaN(birth.getTime()) || birth>new Date()){out.innerHTML='<div class="tool-output">Please enter a valid birthday in the past.</div>';return;}
+    const today=new Date(); today.setHours(12,0,0,0);
+    const tomorrow=new Date(today); tomorrow.setDate(tomorrow.getDate()+1);
+    const renderDay=date=>{
+      const theme=themeFor(birth,date);
+      const related=theme.gods.map(byName).filter(Boolean);
+      const tags=related.length?related.map(g=>'<span class="god-pill">'+escapeHtml(g.name)+'</span>').join(""):'<span class="god-pill">The Pantheon</span>';
+      return '<div class="forecast-day"><h3>'+escapeHtml(dateLabel(date))+' · '+escapeHtml(theme.name)+'</h3><p>'+escapeHtml(theme.prompt)+'</p><p><strong>Try this:</strong> '+escapeHtml(theme.action)+'</p><p class="tool-note"><strong>Gods in focus:</strong> '+tags+'</p></div>';
+    };
+    out.innerHTML='<div class="tool-output"><p><strong>Your birthday:</strong> '+escapeHtml(birth.toLocaleDateString(undefined,{month:"long",day:"numeric"}))+'</p>'+renderDay(today)+renderDay(tomorrow)+'<p class="tool-note">This reading is generated from a repeatable date-and-birthday pattern. It is a prompt for reflection, not a prediction of events.</p></div>';
+  }
+  document.getElementById("forecastBtn").addEventListener("click",renderForecast);
+  document.getElementById("decisionBtn").addEventListener("click",()=>{
+    const a=document.getElementById("optionA").value.trim(), b=document.getElementById("optionB").value.trim();
+    const p=document.getElementById("priority").selectedOptions[0].textContent;
+    const notes=document.getElementById("tradeoffs").value.trim();
+    const out=document.getElementById("decisionOutput");
+    if(!a||!b){out.innerHTML='<div class="tool-output">Give both options a name so we can compare them.</div>';return;}
+    const wisdom=godFor(["wisdom"])||byName("God of Knowledge");
+    out.innerHTML='<div class="tool-output"><h3>Decision review</h3><p><strong>Option A:</strong> '+escapeHtml(a)+'</p><p><strong>Option B:</strong> '+escapeHtml(b)+'</p><p><strong>Your priority:</strong> '+escapeHtml(p)+'</p><p><strong>Your notes:</strong><br>'+escapeHtml(notes||"No trade-offs recorded yet. Add concrete benefits, costs, and uncertainties before deciding.").replace(/\n/g,"<br>")+'</p><p><strong>Reflection:</strong> Which option best serves your stated priority, and what new information could change your answer?</p><p class="tool-note">'+(wisdom?escapeHtml(wisdom.name)+" — "+escapeHtml(wisdom.job):"A practical reflection")+'</p></div>';
+  });
+  document.getElementById("focusBtn").addEventListener("click",()=>{
+    const task=document.getElementById("task").value.trim(), energy=document.getElementById("energy").value, mins=Number(document.getElementById("minutes").value);
+    const out=document.getElementById("focusOutput");
+    if(!task){out.innerHTML='<div class="tool-output">Write down one task or goal first.</div>';return;}
+    const steps=energy==="low"?["Make the task smaller than you think it needs to be.","Work for "+Math.min(10,mins)+" minutes, then pause.","Decide whether to continue or recover."]:energy==="high"?["Define what finished looks like.","Work without switching tasks for "+mins+" minutes.","Record the result and choose the next milestone."]:["Write the very next physical action.","Work on that action for "+mins+" minutes.","Take a short break and note what moved forward."];
+    const planner=byName("God of Planning")||godFor(["planning"]);
+    out.innerHTML='<div class="tool-output"><h3>Your focus session</h3><p><strong>Goal:</strong> '+escapeHtml(task)+'</p><ol>'+steps.map(s=>"<li>"+escapeHtml(s)+"</li>").join("")+'</ol><p class="tool-note">'+(planner?escapeHtml(planner.name)+" — "+escapeHtml(planner.job):"A simple plan")+'</p></div>';
+  });
+})();
+</script>
+</body>
+</html>
