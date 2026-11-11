@@ -34,7 +34,7 @@ textarea{width:100%;min-height:5rem;background:var(--panel2);color:var(--ink);bo
   <div class="kicker">Practical tools · inspired by the pantheon</div>
   <h1>The Divine Toolbox</h1>
   <p class="big">Bring the Gods' domains into everyday questions, plans, and decisions.</p>
-  <p>These tools use the existing pantheon as a framework for reflection and practical thinking. They do not claim supernatural certainty or replace professional advice.</p>
+  <p>This is a divine-first symbolic system. Its equations organize the pantheon into repeatable readings; they do not claim guaranteed knowledge of future events.</p>
 </div>
 <p class="tool-intro">Choose a tool below. Each one draws on the names, roles, and domains in <code>gods-data.js</code>, so the toolbox grows naturally as the pantheon grows.</p>
 
@@ -45,7 +45,7 @@ textarea{width:100%;min-height:5rem;background:var(--panel2);color:var(--ink);bo
   <label class="field-label" for="birthday">Your birthday</label>
   <input id="birthday" type="date" autocomplete="bday">
   <button class="tool-button" id="forecastBtn">Reveal my forecast</button>
-  <p class="tool-note">Your birthday stays in this browser page; it is not sent to a server. This is a reflective, entertainment-style reading, not a factual prediction.</p>
+  <p class="tool-note">Your birthday stays in this browser page; it is not sent to a server. This is a symbolic divine reading, not a guarantee of future events.</p>
   <div id="forecastOutput" aria-live="polite"></div>
 </section>
 
@@ -87,9 +87,10 @@ textarea{width:100%;min-height:5rem;background:var(--panel2);color:var(--ink);bo
 </main>
 <footer>
   <p>Nu Miracles of ROM — Divine Tools</p>
-  <p class="fine">The Gods' roles are drawn from the pantheon data. Forecasts and recommendations are interactive reflections, not canon, prophecy, or guaranteed outcomes.</p>
+  <p class="fine">The Gods' roles are drawn from the pantheon data. Symbolic readings are not automatically canon or guaranteed prophecy.</p>
 </footer>
 <script src="gods-data.js"></script>
+<script src="divine-engine.js"></script>
 <script>
 (function(){
   const gods = Array.isArray(window.GODS) ? window.GODS : [];
@@ -126,15 +127,13 @@ textarea{width:100%;min-height:5rem;background:var(--panel2);color:var(--ink);bo
     if(!raw){out.innerHTML='<div class="tool-output">Enter your birthday to create your reading.</div>';return;}
     const birth=new Date(raw+"T12:00:00");
     if(Number.isNaN(birth.getTime()) || birth>new Date()){out.innerHTML='<div class="tool-output">Please enter a valid birthday in the past.</div>';return;}
-    const today=new Date(); today.setHours(12,0,0,0);
-    const tomorrow=new Date(today); tomorrow.setDate(tomorrow.getDate()+1);
-    const renderDay=date=>{
-      const theme=themeFor(birth,date);
-      const related=theme.gods.map(byName).filter(Boolean);
-      const tags=related.length?related.map(g=>'<span class="god-pill">'+escapeHtml(g.name)+'</span>').join(""):'<span class="god-pill">The Pantheon</span>';
-      return '<div class="forecast-day"><h3>'+escapeHtml(dateLabel(date))+' · '+escapeHtml(theme.name)+'</h3><p>'+escapeHtml(theme.prompt)+'</p><p><strong>Try this:</strong> '+escapeHtml(theme.action)+'</p><p class="tool-note"><strong>Gods in focus:</strong> '+tags+'</p></div>';
+    if(!window.DivineEngine){out.innerHTML='<div class="tool-output">The Divine Engine could not be loaded. Refresh and try again.</div>';return;}
+    const readings=window.DivineEngine.buildBirthdayReadings(gods,birth,new Date());
+    const renderReading=reading=>{
+      const cards=reading.gods.map(g=>'<div class="forecast-day"><h3>'+escapeHtml(g.name)+'</h3><p class="tool-note">'+escapeHtml(g.group)+' · Generation '+escapeHtml(g.generation)+'</p><p>'+escapeHtml(g.reflection)+'</p><p class="tool-note">Divine resonance index: '+g.resonance+'</p></div>').join("");
+      return '<section><h3>'+escapeHtml(reading.date)+'</h3>'+cards+'<p class="tool-note">Cycle '+reading.cycle+' · Birth signature '+reading.signature+' · Date pulse '+reading.pulse+'</p></section>';
     };
-    out.innerHTML='<div class="tool-output"><p><strong>Your birthday:</strong> '+escapeHtml(birth.toLocaleDateString(undefined,{month:"long",day:"numeric"}))+'</p>'+renderDay(today)+renderDay(tomorrow)+'<p class="tool-note">This reading is generated from a repeatable date-and-birthday pattern. It is a prompt for reflection, not a prediction of events.</p></div>';
+    out.innerHTML='<div class="tool-output"><p><strong>Your birthday:</strong> '+escapeHtml(birth.toLocaleDateString(undefined,{month:"long",day:"numeric",year:"numeric"}))+'</p>'+readings.map(renderReading).join('<hr>')+'<p class="tool-note">'+escapeHtml(readings[0].note)+'</p><details><summary>Show the Divine Cycle Equation</summary><p class="tool-note">B = (31 × birth month + 17 × birth day + birth year mod 97) mod 997. D = UTC day number mod 997. Each God receives a repeatable resonance index from B, D, name, generation, and parent lineage. The three lowest-ranked distinct-group results form this reading. The index orders symbolic themes; it does not measure luck or predict events.</p></details></div>';
   }
   document.getElementById("forecastBtn").addEventListener("click",renderForecast);
   document.getElementById("decisionBtn").addEventListener("click",()=>{
