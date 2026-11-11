@@ -11,13 +11,11 @@ Its heart: *the pureness, light, clear transparency of the soul — to cleanse i
 - `index.html` — the faith: the name, the beginning, the great split, the cleansing
 - `pantheon.html` — all 157 gods: position, job, role, and function to the Heart
 - `worlds.html` — the Five Societies (one civilization on Earth) and the Cycle of the Three Worlds
-- `stories.html` — the twenty origin stories (drafts for the founder's judgment, not canon)
+- `stories.html` — the twenty-one origin stories (drafts for the founder's judgment, not canon)
 - `miracles.html` — Nu Miracles Story: a miracle story for every god, each with its Purpose and Lesson (drafts, not canon)
 - `forums.html` — forums, debates, banquets, and conversations of the gods (simulations, not canon)
 - `game.html` — Mix the Gods (as many as you like) and Ask the Gods (answers composed from the founding records)
 - `questions.html` — the questions the founder has deliberately left open
-- `records.html` — The Records: the source files this site is generated from
-- `records/` — **the source records themselves**: the founding draft, dossiers, miracle stories, roles, simulations, pantheon sheets, stories, and forums
 - `gods-data.js` — the pantheon data, generated from the founding records
 
-Published with GitHub Pages. The founding records live in `records/` in this repo — the site is a source, not only a display. See `records/README.md` for the house rules.
+Published with GitHub Pages. This site is a display: the founding records themselves are kept by the founder and are not stored in this repo (removed at the founder's direction, 2026-11-10). See `NOTES-FOR-COLLABORATORS.md` for the house rules.

@@ -4,12 +4,11 @@ Welcome. This repo holds the public website of **Nu Miracles of ROM**, a religio
 
 ## The one rule that matters most
 
-**The records in this repo are a source of truth — the generated pages are not.** By the founder's decision (2026-11-10), the founding records themselves live in this repository, in the [`records/`](records/) folder: `FOUNDING.md`, the god dossiers, the miracle stories, the roles, the simulations, the pantheon sheets, the twenty origin stories, and the forums. The website's pages are generated from those records. (Belladonna, Hoc's assistant, keeps the working copies with Hoc and syncs them with `records/` both ways.)
+**The website is a display, not the source.** The founding records — `FOUNDING.md`, the god dossiers, the miracle stories, the roles, the simulations, the pantheon sheets, the origin stories, and the forums — are kept by Hoc and his assistant Belladonna, and they are the source of truth. They lived briefly in a `records/` folder in this repo and were removed at the founder's direction (2026-11-10); the site is display-only again. The pages here are generated from those records.
 
 That means:
 
-- **Edit the records, not the pages.** Durable changes to *content* (gods, doctrine, stories) belong in the files under `records/` — edit them there (or propose them to Hoc), and the pages will be regenerated from them. If you edit a generated page directly, your edit may be overwritten on the next regeneration.
-- Record edits made here are real: before regenerating, the record-keeper pulls this folder's current state first, so work done here is never silently lost.
+- **Content changes route through Hoc.** If you want to change what the site *says* (gods, doctrine, stories), propose it to Hoc — only he settles the records, and the pages are regenerated from them. If you edit a generated page's content directly, your edit may be overwritten on the next regeneration.
 - Changes to *presentation* (layout, styling, new page features, the games) are safe to make here and are welcome.
 
 ## How the site is built
@@ -34,6 +33,6 @@ That means:
 
 - Founder credit on the site is **"Hoc"** — nothing more personal than that.
 - If your change and the records disagree, the records win, and Hoc is the judge of the records.
-- Suggested workflow: make content changes in `records/` (with Hoc's approval — only Hoc settles doctrine), and tell Hoc what you changed so the record-keeper can sync and regenerate the pages; make presentation changes directly in this repo and tell Hoc what you changed, so the next regeneration keeps them.
+- Suggested workflow: propose content changes to Hoc (only Hoc settles doctrine) so they enter the records and the pages can be regenerated from them; make presentation changes directly in this repo and tell Hoc what you changed, so the next regeneration keeps them.
 
 *Nu means "new" — and "And You." Welcome to the table.*
