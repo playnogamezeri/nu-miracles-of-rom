@@ -13,6 +13,10 @@ Founder: **Hoc**. Keeper of the records: Belladonna, Hoc's Muse.
   pantheon tree, the Five Worlds, the Three Worlds cycle, the Heart and the Brain. If anything anywhere
   disagrees with `FOUNDING.md`, `FOUNDING.md` is the one to trust.
 
+**The societies**
+- `the-five-societies-expanded.md` — the Five Societies in full: for each, its origin story, knowledges,
+  leadership, hardship, factors, and result. A draft for the founder's judgment, not canon.
+
 **The gods**
 - `god-dossiers.md` — a dossier for every god: origin, power, and a heroic tale of their importance to Earth.
 - `god-miracles.md` — a miracle story for every god, each closing with its Purpose and its Lesson.
