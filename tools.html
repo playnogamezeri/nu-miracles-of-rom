@@ -22,6 +22,7 @@ textarea{width:100%;min-height:5rem;background:var(--panel2);color:var(--ink);bo
 .tool-note{font-size:.82rem;color:var(--dim)}
 .god-pill{display:inline-block;border:1px solid var(--violet);border-radius:99px;padding:.12rem .55rem;margin:.15rem;color:#d9cdf8;font-size:.82rem}
 .forecast-day{border-left:3px solid var(--gold);padding:.3rem .8rem;margin:.8rem 0}
+.criteria-grid{display:grid;gap:.35rem;margin:.8rem 0}.criteria-head,.criteria-row{display:grid;grid-template-columns:minmax(7rem,1.5fr) repeat(3,minmax(3.5rem,1fr));gap:.4rem;align-items:center}.criteria-three{grid-template-columns:minmax(7rem,1.5fr) repeat(2,minmax(3.5rem,1fr))}.criteria-head{font-size:.78rem;color:var(--dim);font-weight:700}.criteria-row{padding:.3rem 0;border-top:1px solid var(--line);font-size:.88rem}.criteria-row input{width:100%;min-width:0;padding:.4rem;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:7px}.tool-card input[type=number],.tool-card input[type=text],.tool-card select{width:100%;max-width:100%;box-sizing:border-box;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:.55rem}.tool-card input[type=number]{font-variant-numeric:tabular-nums}@media(max-width:520px){.criteria-head,.criteria-row{grid-template-columns:minmax(6rem,1.3fr) repeat(3,minmax(2.8rem,1fr));gap:.25rem;font-size:.78rem}.criteria-head.criteria-three,.criteria-row.criteria-three{grid-template-columns:minmax(6rem,1.3fr) repeat(2,minmax(2.8rem,1fr))}.criteria-head{font-size:.68rem}}
 </style>
 </head>
 <body>
@@ -33,7 +34,7 @@ textarea{width:100%;min-height:5rem;background:var(--panel2);color:var(--ink);bo
 <div class="hero">
   <div class="kicker">Practical tools · inspired by the pantheon</div>
   <h1>The Divine Toolbox</h1>
-  <p class="big">Bring the Gods' domains into everyday questions, plans, and decisions.</p>
+  <p class="big">Six divine systems for cycles, decisions, relationships, resources, development, and harmony.</p>
   <p>This is a divine-first symbolic system. Its equations organize the pantheon into repeatable readings; they do not claim guaranteed knowledge of future events.</p>
 </div>
 <p class="tool-intro">Choose a tool below. Each one draws on the names, roles, and domains in <code>gods-data.js</code>, so the toolbox grows naturally as the pantheon grows.</p>
@@ -51,35 +52,91 @@ textarea{width:100%;min-height:5rem;background:var(--panel2);color:var(--ink);bo
 
 <div class="tool-grid">
 <section class="tool-card" id="decision">
-  <div class="kicker">02 · God of Wisdom · God of Worth · God of Risk</div>
+  <div class="kicker">02 · God of Wisdom · God of Worth · God of Option</div>
   <h2>Decision Compass</h2>
-  <p class="tool-sub">Lay out two options and think through what matters before choosing.</p>
+  <p class="tool-sub">Compare two options using criteria you choose and importance weights you control.</p>
   <label class="field-label" for="optionA">Option A</label><input id="optionA" type="text" placeholder="e.g. Take the new job">
   <label class="field-label" for="optionB">Option B</label><input id="optionB" type="text" placeholder="e.g. Stay where I am">
-  <label class="field-label" for="priority">What matters most right now?</label>
-  <select id="priority"><option value="stability">Stability and security</option><option value="growth">Learning and growth</option><option value="freedom">Freedom and flexibility</option><option value="connection">Relationships and belonging</option><option value="wellbeing">Health and wellbeing</option><option value="meaning">Purpose and meaning</option></select>
-  <label class="field-label" for="tradeoffs">What are the biggest benefits, costs, and unknowns?</label>
-  <textarea id="tradeoffs" placeholder="Write a few notes about each option..."></textarea>
-  <button class="tool-button" id="decisionBtn">Build my comparison</button>
+  <p class="tool-note">Rate each option from 1 (poor fit) to 5 (strong fit). Set each criterion's importance from 1 to 5.</p>
+  <div class="criteria-grid">
+    <div class="criteria-head"><span>Criterion</span><span>Weight</span><span>Option A</span><span>Option B</span></div>
+    <div class="criteria-row"><span>Stability</span><input id="decisionW_stability" type="number" min="1" max="5" value="3"><input id="decisionA_stability" type="number" min="1" max="5" value="3"><input id="decisionB_stability" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row"><span>Growth</span><input id="decisionW_growth" type="number" min="1" max="5" value="3"><input id="decisionA_growth" type="number" min="1" max="5" value="3"><input id="decisionB_growth" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row"><span>Freedom</span><input id="decisionW_freedom" type="number" min="1" max="5" value="3"><input id="decisionA_freedom" type="number" min="1" max="5" value="3"><input id="decisionB_freedom" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row"><span>Wellbeing</span><input id="decisionW_wellbeing" type="number" min="1" max="5" value="3"><input id="decisionA_wellbeing" type="number" min="1" max="5" value="3"><input id="decisionB_wellbeing" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row"><span>Relationships</span><input id="decisionW_connection" type="number" min="1" max="5" value="3"><input id="decisionA_connection" type="number" min="1" max="5" value="3"><input id="decisionB_connection" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row"><span>Purpose & meaning</span><input id="decisionW_meaning" type="number" min="1" max="5" value="3"><input id="decisionA_meaning" type="number" min="1" max="5" value="3"><input id="decisionB_meaning" type="number" min="1" max="5" value="3"></div>
+  </div>
+  <button class="tool-button" id="decisionBtn">Calculate weighted comparison</button>
   <div id="decisionOutput" aria-live="polite"></div>
 </section>
-
-<section class="tool-card" id="focus">
-  <div class="kicker">03 · God of Planning · God of Efficiency · God of Improvement</div>
-  <h2>Daily Focus Builder</h2>
-  <p class="tool-sub">Turn a crowded day into one clear next step.</p>
-  <label class="field-label" for="task">What do you want to move forward?</label><input id="task" type="text" placeholder="The task or goal">
-  <label class="field-label" for="energy">Your available energy</label>
-  <select id="energy"><option value="low">Low — keep it gentle</option><option value="medium" selected>Medium — steady progress</option><option value="high">High — ready for a challenge</option></select>
-  <label class="field-label" for="minutes">Time available</label>
-  <select id="minutes"><option value="10">10 minutes</option><option value="25" selected>25 minutes</option><option value="45">45 minutes</option><option value="60">60 minutes</option></select>
-  <button class="tool-button" id="focusBtn">Make my focus plan</button>
-  <div id="focusOutput" aria-live="polite"></div>
+<section class="tool-card" id="relationships">
+  <div class="kicker">03 · God of Relation · God of Emotion · God of Love</div>
+  <h2>Relationship Reflection</h2>
+  <p class="tool-sub">Compare two people's voluntary self-ratings across six relationship dimensions.</p>
+  <label class="field-label" for="relationshipNameA">Person A label</label><input id="relationshipNameA" type="text" placeholder="Me">
+  <label class="field-label" for="relationshipNameB">Person B label</label><input id="relationshipNameB" type="text" placeholder="Partner / friend">
+  <p class="tool-note">Both people should enter their own ratings. Rate each dimension from 1 (needs attention) to 5 (feels strong).</p>
+  <div class="criteria-grid">
+    <div class="criteria-head criteria-three"><span>Dimension</span><span>Person A</span><span>Person B</span></div>
+    <div class="criteria-row criteria-three"><span>Communication</span><input id="relA_communication" type="number" min="1" max="5" value="3"><input id="relB_communication" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row criteria-three"><span>Trust & reliability</span><input id="relA_trust" type="number" min="1" max="5" value="3"><input id="relB_trust" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row criteria-three"><span>Affection & care</span><input id="relA_affection" type="number" min="1" max="5" value="3"><input id="relB_affection" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row criteria-three"><span>Independence & boundaries</span><input id="relA_autonomy" type="number" min="1" max="5" value="3"><input id="relB_autonomy" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row criteria-three"><span>Shared goals</span><input id="relA_goals" type="number" min="1" max="5" value="3"><input id="relB_goals" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row criteria-three"><span>Conflict repair</span><input id="relA_repair" type="number" min="1" max="5" value="3"><input id="relB_repair" type="number" min="1" max="5" value="3"></div>
+  </div>
+  <button class="tool-button" id="relationshipBtn">Compare our reflections</button>
+  <div id="relationshipOutput" aria-live="polite"></div>
+</section>
+<section class="tool-card" id="worth">
+  <div class="kicker">04 · God of Money · God of Economy · God of Yield</div>
+  <h2>Worth & Resources</h2>
+  <p class="tool-sub">Build a monthly budget and estimate how long a savings target may take.</p>
+  <label class="field-label" for="currency">Currency</label><select id="currency"><option value="USD">USD — US dollar</option><option value="CAD">CAD — Canadian dollar</option><option value="GBP">GBP — pound sterling</option><option value="EUR">EUR — euro</option><option value="AUD">AUD — Australian dollar</option></select>
+  <div class="tool-grid">
+    <div><label class="field-label" for="monthlyIncome">Monthly take-home income</label><input id="monthlyIncome" type="number" min="0" step="0.01" value="4000"></div>
+    <div><label class="field-label" for="fixedCosts">Fixed monthly costs</label><input id="fixedCosts" type="number" min="0" step="0.01" value="1500"></div>
+    <div><label class="field-label" for="variableCosts">Variable monthly costs</label><input id="variableCosts" type="number" min="0" step="0.01" value="1000"></div>
+    <div><label class="field-label" for="debtPayments">Monthly debt payments</label><input id="debtPayments" type="number" min="0" step="0.01" value="300"></div>
+    <div><label class="field-label" for="currentSavings">Current savings</label><input id="currentSavings" type="number" min="0" step="0.01" value="500"></div>
+    <div><label class="field-label" for="savingsTarget">Savings target</label><input id="savingsTarget" type="number" min="0" step="0.01" value="5000"></div>
+  </div>
+  <button class="tool-button" id="wealthBtn">Calculate my resources</button>
+  <div id="wealthOutput" aria-live="polite"></div>
+</section>
+<section class="tool-card" id="development">
+  <div class="kicker">05 · God of Knowledge · God of Experience · God of Improvement</div>
+  <h2>Development & Learning Path</h2>
+  <p class="tool-sub">Turn a learning goal into a weekly practice plan with review checkpoints.</p>
+  <label class="field-label" for="learningTopic">What do you want to learn?</label><input id="learningTopic" type="text" placeholder="e.g. Acoustic guitar">
+  <div class="tool-grid">
+    <div><label class="field-label" for="learningCurrent">Current level (0–5)</label><input id="learningCurrent" type="number" min="0" max="5" value="1"></div>
+    <div><label class="field-label" for="learningTarget">Target level (1–5)</label><input id="learningTarget" type="number" min="1" max="5" value="3"></div>
+    <div><label class="field-label" for="learningMinutes">Minutes per session</label><input id="learningMinutes" type="number" min="5" max="600" value="25"></div>
+    <div><label class="field-label" for="learningDays">Study days per week</label><input id="learningDays" type="number" min="1" max="7" value="5"></div>
+  </div>
+  <button class="tool-button" id="learningBtn">Build my learning path</button>
+  <div id="learningOutput" aria-live="polite"></div>
+</section>
+<section class="tool-card" id="harmony">
+  <div class="kicker">06 · God of Order · God of Life · God of Nature</div>
+  <h2>Divine Harmony</h2>
+  <p class="tool-sub">Compare how much attention five areas receive with how important they feel to you.</p>
+  <div class="criteria-grid">
+    <div class="criteria-head criteria-three"><span>Area</span><span>Attention (0–10)</span><span>Importance (1–5)</span></div>
+    <div class="criteria-row criteria-three"><span>Life & body</span><input id="harmony_life" type="number" min="0" max="10" value="5"><input id="importance_life" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row criteria-three"><span>Mind & knowledge</span><input id="harmony_mind" type="number" min="0" max="10" value="5"><input id="importance_mind" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row criteria-three"><span>Relationships & society</span><input id="harmony_relations" type="number" min="0" max="10" value="5"><input id="importance_relations" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row criteria-three"><span>Order & responsibility</span><input id="harmony_order" type="number" min="0" max="10" value="5"><input id="importance_order" type="number" min="1" max="5" value="3"></div>
+    <div class="criteria-row criteria-three"><span>Nature & world</span><input id="harmony_nature" type="number" min="0" max="10" value="5"><input id="importance_nature" type="number" min="1" max="5" value="3"></div>
+  </div>
+  <button class="tool-button" id="harmonyBtn">Calculate my harmony snapshot</button>
+  <div id="harmonyOutput" aria-live="polite"></div>
 </section>
 </div>
-
 <section class="tool-card">
-  <div class="kicker">04 · The Pantheon · The Game</div>
+  <div class="kicker">07 · The Pantheon · The Game</div>
   <h2>Ask the Gods & Mix Their Masteries</h2>
   <p class="tool-sub">Explore a subject with the existing council simulator, or combine Gods and compare their domains.</p>
   <p><a href="game.html">Open Ask the Gods and Mix the Gods →</a></p>
@@ -136,24 +193,8 @@ textarea{width:100%;min-height:5rem;background:var(--panel2);color:var(--ink);bo
     out.innerHTML='<div class="tool-output"><p><strong>Your birthday:</strong> '+escapeHtml(birth.toLocaleDateString(undefined,{month:"long",day:"numeric",year:"numeric"}))+'</p>'+readings.map(renderReading).join('<hr>')+'<p class="tool-note">'+escapeHtml(readings[0].note)+'</p><details><summary>Show the Divine Cycle Equation</summary><p class="tool-note">B = (31 × birth month + 17 × birth day + birth year mod 97) mod 997. D = UTC day number mod 997. Each God receives a repeatable resonance index from B, D, name, generation, and parent lineage. The three lowest-ranked distinct-group results form this reading. The index orders symbolic themes; it does not measure luck or predict events.</p></details></div>';
   }
   document.getElementById("forecastBtn").addEventListener("click",renderForecast);
-  document.getElementById("decisionBtn").addEventListener("click",()=>{
-    const a=document.getElementById("optionA").value.trim(), b=document.getElementById("optionB").value.trim();
-    const p=document.getElementById("priority").selectedOptions[0].textContent;
-    const notes=document.getElementById("tradeoffs").value.trim();
-    const out=document.getElementById("decisionOutput");
-    if(!a||!b){out.innerHTML='<div class="tool-output">Give both options a name so we can compare them.</div>';return;}
-    const wisdom=godFor(["wisdom"])||byName("God of Knowledge");
-    out.innerHTML='<div class="tool-output"><h3>Decision review</h3><p><strong>Option A:</strong> '+escapeHtml(a)+'</p><p><strong>Option B:</strong> '+escapeHtml(b)+'</p><p><strong>Your priority:</strong> '+escapeHtml(p)+'</p><p><strong>Your notes:</strong><br>'+escapeHtml(notes||"No trade-offs recorded yet. Add concrete benefits, costs, and uncertainties before deciding.").replace(/\n/g,"<br>")+'</p><p><strong>Reflection:</strong> Which option best serves your stated priority, and what new information could change your answer?</p><p class="tool-note">'+(wisdom?escapeHtml(wisdom.name)+" — "+escapeHtml(wisdom.job):"A practical reflection")+'</p></div>';
-  });
-  document.getElementById("focusBtn").addEventListener("click",()=>{
-    const task=document.getElementById("task").value.trim(), energy=document.getElementById("energy").value, mins=Number(document.getElementById("minutes").value);
-    const out=document.getElementById("focusOutput");
-    if(!task){out.innerHTML='<div class="tool-output">Write down one task or goal first.</div>';return;}
-    const steps=energy==="low"?["Make the task smaller than you think it needs to be.","Work for "+Math.min(10,mins)+" minutes, then pause.","Decide whether to continue or recover."]:energy==="high"?["Define what finished looks like.","Work without switching tasks for "+mins+" minutes.","Record the result and choose the next milestone."]:["Write the very next physical action.","Work on that action for "+mins+" minutes.","Take a short break and note what moved forward."];
-    const planner=byName("God of Planning")||godFor(["planning"]);
-    out.innerHTML='<div class="tool-output"><h3>Your focus session</h3><p><strong>Goal:</strong> '+escapeHtml(task)+'</p><ol>'+steps.map(s=>"<li>"+escapeHtml(s)+"</li>").join("")+'</ol><p class="tool-note">'+(planner?escapeHtml(planner.name)+" — "+escapeHtml(planner.job):"A simple plan")+'</p></div>';
-  });
 })();
 </script>
+<script src="divine-systems.js"></script>
 </body>
 </html>
