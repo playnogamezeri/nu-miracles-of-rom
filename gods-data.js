@@ -7,7 +7,9 @@ window.GODS = [
   "generation": -1,
   "class": "The Origin & the Ultimate",
   "parents": [],
-  "children": [],
+  "children": [
+   "ysgnutcoh"
+  ],
   "house": "Before the Heart",
   "wisdom": "Say the dream out loud, in a rhythm you can repeat. What you never voice, you cannot hold; what you voice often enough becomes the shape of your days.",
   "origin": "Before there was anything to hear, there was the one who could be heard. The God of Sound is the First God — ever-present, working with the Void at the beginning of time, when all that existed was endless darkness. Out of that darkness he creates new form and shape. He is the Inventor, the Creator, and the Maker of Everything, the true inventor of existence, who manufactures dreams into imagination so that life can be created. And when existence needed a heart, he made one: he chose one Spirit, ysgnutcoh, to represent the core of his heart. Every other god in this pantheon stands downstream of that choice.",
@@ -22,7 +24,9 @@ window.GODS = [
   "group": "The Origin & the Ultimate",
   "generation": 0,
   "class": "The Origin & the Ultimate",
-  "parents": [],
+  "parents": [
+   "God of Sound"
+  ],
   "children": [
    "Kyreason",
    "Darkness"
@@ -417,7 +421,7 @@ window.GODS = [
  },
  {
   "name": "God of Culture",
-  "role": "what a people makes of itself and hands down — custom, art, shared meaning; child of Life, father of Knowledge and Entertainment.",
+  "role": "what a people makes of itself and hands down — custom, art, shared meaning; child of Life, father of Knowledge, Entertainment, and Institution.",
   "function": "he is the Heart's memory among peoples — how the re-created world remembers being human.",
   "group": "Mind, Knowledge & Imagination",
   "generation": 3,
@@ -428,11 +432,12 @@ window.GODS = [
   "children": [
    "God of Knowledge",
    "God of Experience",
+   "God of Institution",
    "God of Entertainment"
   ],
   "house": "Kyreason's line",
   "wisdom": "Choose the stories you repeat, because they are choosing you. Tell the tale of the person you want to be until you become its teller and its proof.",
-  "origin": "Life, Kyreason's first child, filled the world with living things — but living things that only eat and breed are a garden, not a people. So from Life came Culture: what a people makes of itself beyond survival, and hands down. He is the eldest of this class and its doorway — through him the Heart's will learned to remember itself in custom, in art, in shared meaning. His children carry his two great directions: Knowledge, what a people verifies, and Entertainment, what a people celebrates. Every god of mind in this class stands downstream of his handing-down.",
+  "origin": "Life, Kyreason's first child, filled the world with living things — but living things that only eat and breed are a garden, not a people. So from Life came Culture: what a people makes of itself beyond survival, and hands down. He is the eldest of this class and its doorway — through him the Heart's will learned to remember itself in custom, in art, in shared meaning. His children carry his three great directions: Knowledge, what a people verifies; Entertainment, what a people celebrates; and Institution, what a people builds to last. Every god of mind in this class stands downstream of his handing-down.",
   "power": "His mastery is everything a people passes hand to hand that is not written in the body: language's flavor, custom, craft, ceremony, the story a grandmother tells the same way her grandmother told it. Nothing of it moves without him knowing — a tradition dying in silence, a song changing its words across a century, a people's whole idea of itself. He cannot force a culture to live; mastery here is keeping, not commanding. But what is kept in his house does not vanish when its makers do — it waits for the next hands.",
   "tale": "His heroism is transmission. In a kitchen in any country on Earth, an old woman teaches a child the dish her own mother taught her, correcting the seasoning by feel alone, and a thousand years travel across one counter without a single written word. In a refugee camp, displaced people hold a festival in a borrowed field so their children will know who they are. Armies can take a people's land; Culture is why taking the land is not the same as ending the people. He holds the world up by making sure it is inherited, not just occupied.",
   "job": "What a people makes of itself and hands down — custom, art, shared meaning"
@@ -967,6 +972,23 @@ window.GODS = [
   "power": "His mastery is rule organized: the whole machinery by which a people's common life is steered — offices and mandates, budgets and borders, the keeping of records and the keeping of peace. He understands government the way a smith understands a blade: as a tool that must be gripped correctly or it cuts the hand. His power is stewardship made public: to make authority legible, so that those who are governed can find who governs, question them, and — through the heads the founder appointed above him — see them replaced.",
   "tale": "His heroism is unglamorous and load-bearing: clean water arriving because a municipality functioned; a birth registered, a deed recorded, a road salted before the ice; a small town's budget balanced in a room with folding chairs. When government works, almost nobody notices — and that invisibility is exactly his craft succeeding. Earth has tried the alternative in every century, and the bill always comes due in hunger and disorder. The god of the well-kept ledger and the answered letter is a hero the way a bridge is a hero: quietly, every single day, under everyone's weight.",
   "job": "Rule organized — the governing of peoples"
+ },
+ {
+  "name": "God of Institution",
+  "role": "the lasting body a culture builds to hold a purpose — school, hospital, court, company, church: an organization made to outlive its founders and carry their intention across generations; child of Culture, seated in this group by subject.",
+  "function": "she is the Heart's endurance among peoples — how a good intention stops depending on one person's lifetime: what the Heart wills once, an institution keeps doing.",
+  "group": "People, Society & Desire",
+  "generation": 4,
+  "class": "People, Society & Desire",
+  "parents": [
+   "God of Culture"
+  ],
+  "children": [],
+  "house": "Kyreason's line",
+  "origin": "Institution was born when Culture's gifts first needed a body that could outlive their givers — when a healer's knowledge became a hospital, a teacher's patience became a school, and a people's promise to its orphans became a house with a charter and a door that opens every morning. Child of Culture, she is intention given an address and a lifespan longer than a life: the form a purpose takes when it refuses to die with its founder. In her telling, every civilization's memory walks on two legs — the custom carried in hearts, and the institution that keeps the custom's roof repaired.",
+  "power": "Her mastery is endurance by design — how a purpose is written into roles, rules, and successions, so that strangers not yet born can pick it up and continue it faithfully. She understands charters and their corruption alike: how a founding fire cools into procedure, and how a procedure becomes, by turns, a shelter or a cage. Nothing organized to last, lasts outside her knowing — every school, court, company, and church on Earth is a sentence in her language. Toward the ideal world she shapes one discipline: that the institution serve the purpose it was built to hold — and be rebuilt, bravely, when it begins instead to hold only itself.",
+  "tale": "Her heroism is a library that has survived its city three times. The building burned once, was flooded once, and was closed by a regime that feared its readers — and three times, librarians and grandmothers and schoolchildren carried the catalog out in their heads and in their arms, and reopened the library in a rented room, a church basement, a tent. The collection shrank and grew and shrank again; the institution — the standing promise that in this town, anyone may come and read — never closed for a single generation. Buildings are Hardware's. Books are Knowledge's. The promise, kept alive across a hundred years of other people's lifetimes, is hers.",
+  "job": "The lasting body a culture builds to hold a purpose — school, hospital, court, company, church: an organization made to outlive its founders and carry their intention across generations"
  },
  {
   "name": "God of Music",
@@ -1855,24 +1877,6 @@ window.GODS = [
   "job": "One god under two names (Hoc's ruling, 2026-11-10): as Yellow, the color of the sun's light, of caution, and of the ripened field, child of Colors"
  },
  {
-  "name": "God of Black",
-  "role": "the same God of Black who stands under God of Permanent (his entry stands in Group X — Cosmos, Chaos & the Unknown); seated under God of Colors also, by Hoc's ruling, with no extra count — in the Heavens he is night, the canvas every star and color requires.",
-  "function": "in this seat he is the Heart's dark ground — the black behind the colors, without which no light could be seen at all.",
-  "group": "The Heavens & Fate",
-  "generation": 5,
-  "class": "Cosmos, Chaos & the Unknown",
-  "parents": [
-   "God of Permanent",
-   "God of Colors"
-  ],
-  "children": [],
-  "house": "Darkness's line",
-  "origin": "Black is Permanent's child — permanence in its darkest form, the unlit that endures. His home stands here, under Permanent in Property's house: black as the color of what does not fade, the ink that outlasts the hand, the soil that outlasts the season. But the founder has seated him twice: he holds a second seat under God of Colors, among the colors of the sky, the same god in two houses — counted once, as all his seats are one god. In both houses he is the dark that belongs to the household, neither feared nor mistaken for the Unknown his great-grandfather keeps.",
-  "power": "His mastery is enduring darkness — black as substance, not absence. He understands what mortals relearn in every age: that black is not the color of nothing but of the deepest somethings — fertile earth, restful night, the ink of law, the mourning that honors the dead by refusing to be brief. His power in Colors' house is black the pigment, first and last of the palette, the outline that lets every other color be itself. His power in Permanent's house is black the keeper: what is written in him stays written. He shapes both toward the ideal world by keeping darkness honorable.",
-  "tale": "His heroism is a field in spring. The black earth of the great plains — soil so dark it looks burnt, and so rich it has fed nations — holds winter's moisture and summer's seed in the same handful. A farmer kneels and takes that soil up, and everything his family will eat this year is already decided by its darkness. And when the day is done, black does his second work: the night that does not apologize, under which the field rests and the farmer sleeps. Earth trusts black with its two most serious things — its food and its rest. He has never once betrayed either.",
-  "job": "The same God of Black who stands under God of Permanent (his entry stands in Group X — Cosmos, Chaos & the Unknown)"
- },
- {
   "name": "God of Chaos",
   "role": "the unformed at the root of the formed — his children were made *in* the chaos, per Hoc's rule that a god's home is where a thing begins; child of Darkness. Whether he was created from the withholding or present in the abyss from the beginning is still Hoc's open question.",
   "function": "he is the Heart's gate back to the unformed — the reminder that re-creation is possible because form was never the only state.",
@@ -2600,6 +2604,24 @@ window.GODS = [
   "job": "What stays — duration as a property"
  },
  {
+  "name": "God of Black",
+  "role": "permanence in its darkest form — the void-colored, the unlit that endures; child of Permanent.",
+  "function": "he is the Heart's night kept — darkness that belongs to the house, neither feared nor mistaken for the Unknown.",
+  "group": "Property & Information",
+  "generation": 5,
+  "class": "Property & Information",
+  "parents": [
+   "God of Permanent",
+   "God of Colors"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Black is Permanent's child — permanence in its darkest form, the unlit that endures. His home stands here, under Permanent in Property's house: black as the color of what does not fade, the ink that outlasts the hand, the soil that outlasts the season. But the founder has seated him twice: he holds a second seat under God of Colors, among the colors of the sky, the same god in two houses — counted once, as all his seats are one god. In both houses he is the dark that belongs to the household, neither feared nor mistaken for the Unknown his great-grandfather keeps.",
+  "power": "His mastery is enduring darkness — black as substance, not absence. He understands what mortals relearn in every age: that black is not the color of nothing but of the deepest somethings — fertile earth, restful night, the ink of law, the mourning that honors the dead by refusing to be brief. His power in Colors' house is black the pigment, first and last of the palette, the outline that lets every other color be itself. His power in Permanent's house is black the keeper: what is written in him stays written. He shapes both toward the ideal world by keeping darkness honorable.",
+  "tale": "His heroism is a field in spring. The black earth of the great plains — soil so dark it looks burnt, and so rich it has fed nations — holds winter's moisture and summer's seed in the same handful. A farmer kneels and takes that soil up, and everything his family will eat this year is already decided by its darkness. And when the day is done, black does his second work: the night that does not apologize, under which the field rests and the farmer sleeps. Earth trusts black with its two most serious things — its food and its rest. He has never once betrayed either.",
+  "job": "Permanence in its darkest form — the void-colored, the unlit that endures"
+ },
+ {
   "name": "God of Information",
   "role": "what can be known and carried — the content itself; child of Property, father of Access and Changes.",
   "function": "he is the Heart's cargo — everything the Heart's world knows, in transportable form.",
@@ -2753,7 +2775,7 @@ window.GODS = [
  },
  {
   "name": "God of Software",
-  "role": "instruction without substance — tools made of pure pattern; child of Technology, father of Artificial Intelligence.",
+  "role": "instruction without substance — tools made of pure pattern; child of Technology, father of Artificial Intelligence and Computing.",
   "function": "he is the Heart's craft echoed — Sound makes form from void; software makes behavior from words.",
   "group": "Tools & Technology",
   "generation": 5,
@@ -2762,17 +2784,35 @@ window.GODS = [
    "God of Technology"
   ],
   "children": [
+   "God of Computing",
    "God of Artificial Intelligence"
   ],
   "house": "Kyreason's line",
-  "origin": "Software was born when Technology learned to speak — when the machine's orders could be lifted out of the machine and written down as pure pattern: instruction without substance. Child of Technology, he is the strangest child of Matter's whole line, a descendant of substance whose domain weighs nothing at all. The founder's pattern echoes here knowingly: God of Sound makes form out of the Void; Software makes behavior out of words. From him descends Artificial Intelligence, the made mind — for once instructions could be written generally enough, the instructions began, in a sense the pantheon is still weighing, to read themselves.",
+  "origin": "Software was born when Technology learned to speak — when the machine's orders could be lifted out of the machine and written down as pure pattern: instruction without substance. Child of Technology, he is the strangest child of Matter's whole line, a descendant of substance whose domain weighs nothing at all. The founder's pattern echoes here knowingly: God of Sound makes form out of the Void; Software makes behavior out of words. From him descend Artificial Intelligence, the made mind, and Computing, instruction in motion — for once instructions could be written generally enough, the instructions began, in a sense the pantheon is still weighing, to read themselves.",
   "power": "His mastery is instruction — behavior specified exactly, then executed without fatigue or drift. He understands the whole anatomy of the command: the condition, the loop, the exception, the edge case no one imagined until it happened at scale. A million machines can hold one of his patterns and perform it identically, which makes him the first god whose miracles are copyable for free. Nothing written to be obeyed by machines moves without his knowing, including the flaws: his domain holds the pantheon's strictest accounting, because an error in his house does not happen once — it happens everywhere, at once, at machine speed. Toward the ideal world he shapes one discipline: that instructions be worthy of the obedience they will receive.",
   "tale": "His heroism runs a water plant at night. In a treatment facility outside a sleeping city, software watches the flow — turbidity, pressure, chemistry — and adjusts pumps and valves a thousand times before dawn, keeping the water inside the narrow band where it is safe to drink. The night operator drinks coffee and watches the watcher; by morning, two million people will turn taps without a thought, and the water will simply be clean. No one applauds instructions. But cholera once ruled every city on Earth, and what dethroned it was not a single hero — it was exactness, repeated forever. Software is exactness that never sleeps, and Earth drinks from his hands daily.",
   "job": "Instruction without substance — tools made of pure pattern"
  },
  {
+  "name": "God of Computing",
+  "role": "computation itself — instruction set to work upon the world: calculation, simulation, and the transformation of information at machine scale; child of Software.",
+  "function": "she is the Heart's arithmetic in motion — the dream's formulas, actually run: every equation the Sun seeks and the Moon applies must somewhere be computed, and she is where the computing happens.",
+  "group": "Tools & Technology",
+  "generation": 6,
+  "class": "Tools & Technology",
+  "parents": [
+   "God of Software"
+  ],
+  "children": [],
+  "house": "Kyreason's line",
+  "origin": "Computing was born when Software's instructions stopped merely describing work and began doing the world's arithmetic themselves — when calculation, once the slowest labor of the human mind, was handed to the machine and multiplied beyond any single lifetime. Child of Software, she is instruction in motion: not the pattern, but the running of it — the moment a written method becomes an answered question. Her elder sibling, Artificial Intelligence, learns from the world; Computing is the ground both stand on, the tireless execution underneath every model, every ledger, and every forecast the modern world runs on.",
+  "power": "Her mastery is execution — every operation honestly performed, in order, at scale. She understands the anatomy of a calculation the way her father understands the command: the input and its hidden errors, the algorithm and its true cost, the result and the confidence it deserves. Nothing computed anywhere computes outside her knowing — the simulation that predicts a flood and the spreadsheet that feeds a family are one substance in her house. Toward the ideal world she holds one discipline: that a result is only as worthy as the honesty of what was fed into it — compute truly, or do not pretend the answer means anything.",
+  "tale": "Her heroism is a storm rehearsed ten thousand times before it arrives. When a hurricane turns toward a coast, Computing runs the atmosphere in miniature — millions of simulated skies, each one slightly different, until the cone of possible landfalls narrows enough for a mayor to order buses and a hospital to move its patients uphill. The storm still comes; that was never hers to prevent. What she gives Earth is the rehearsal: the chance to live the disaster in advance, in numbers, and to choose the version where the fewest names are lost. Civilization's oldest prayer was to know tomorrow. She is how much of that prayer has been answered.",
+  "job": "Computation itself — instruction set to work upon the world: calculation, simulation, and the transformation of information at machine scale"
+ },
+ {
   "name": "God of Hardware",
-  "role": "the body of the machine — technology you can drop on your foot; child of Technology.",
+  "role": "the body of the machine — technology you can drop on your foot; child of Technology, father of Machinery.",
   "function": "he is the Heart's weight in the machine world — proof the pattern still answers to matter.",
   "group": "Tools & Technology",
   "generation": 5,
@@ -2780,12 +2820,31 @@ window.GODS = [
   "parents": [
    "God of Technology"
   ],
-  "children": [],
+  "children": [
+   "God of Machinery"
+  ],
   "house": "Kyreason's line",
   "origin": "Hardware was born as Software's necessary brother — Technology's child, the body of the machine. Pattern alone computes nothing; somewhere, electrons must actually move through actual substance, and that substance is his. He is technology you can drop on your foot: the casing, the bearing, the battery, the board. In a pantheon where his brother deals in the weightless, Hardware keeps the older covenant of Matter's line — that every idea, however pure, must eventually answer to weight, heat, and wear. He was born the first time a written instruction met a physical switch and the switch had to be *real*.",
   "power": "His mastery is embodiment — the physical truth of machines. He understands tolerances measured in hair-widths, metals that fatigue, seals that perish, batteries that swell, and the honest physics no pattern can argue with. Nothing that computes, lifts, spins, or carries current does so outside his knowing, and his knowing is unsentimental: a bridge sensor does not care what the software believes; it reports the strain that is actually there. He shapes his domain toward the ideal world by keeping the machine world answerable to matter — proof, renewed in every device, that the pattern still answers to the real.",
   "tale": "His heroism ticks inside a stranger's chest. A pacemaker — titanium case, battery, leads, a machine the size of a coin — counts a heart's hesitations and answers each one with a pulse, ten years without a day off, in the dark, in the wet, at body temperature. Its software is elegant, but elegance does not survive a decade inside a human being; *manufacture* does — seals that never leaked, materials the body accepted, a battery that kept its promise. When the wearer's grandchild sits on his knee, two hearts are in the room, and one of them is Hardware's. Earth trusts his domain with the loads nothing else can carry: the real weight, borne in real substance, for real years.",
   "job": "The body of the machine — technology you can drop on your foot"
+ },
+ {
+  "name": "God of Machinery",
+  "role": "the machine as a working system — parts assembled to convert energy into motion and labor: the engine, the gear-train, the press, the loom; child of Hardware.",
+  "function": "he is the Heart's borrowed muscle — strength multiplied without a single soul enslaved: the work of a hundred hands done by an arrangement of parts, so that human hands are freed for human work.",
+  "group": "Tools & Technology",
+  "generation": 6,
+  "class": "Tools & Technology",
+  "parents": [
+   "God of Hardware"
+  ],
+  "children": [],
+  "house": "Kyreason's line",
+  "origin": "Machinery was born when Hardware's parts stopped sitting in their boxes and were assembled into a working whole — when gear met gear, and energy, given a path of iron, became labor. Child of Hardware, he is not any single part but the arrangement: the engine, the press, the loom, the pump, each a small argument in metal that force, properly directed, multiplies. His grandfather Technology composes systems of tools; Machinery is where that composing first learned to move — the tool that does not wait for the hand, but turns on its own, and keeps turning.",
+  "power": "His mastery is conversion — energy into work, motion into product, one rotation driving a hundred. He understands torque and tolerance together: why a machine sings when its parts are true and tears itself apart when one runs false, and why maintenance is not repair but honesty paid in advance. Nothing that lifts, mills, pumps, prints, or carries by mechanism works outside his knowing. Toward the ideal world he shapes one promise: that strength can be multiplied without multiplying suffering — that the heavy work of the world be borne by arrangement, and not by backs.",
+  "tale": "His heroism stands in a flour mill that has run for ninety years. Three generations of one family have kept its machines — oiling, listening, replacing the worn belt before it can fail — and the town has eaten bread from its stones and rollers through depression, war, and drought years when the harvest ran thin and every sack mattered. No single harvest was saved by a hero. They were all saved by a machine that was still running, kept true by people who understood that a mechanism is a promise you maintain. When the mill's oldest gear was finally retired, they mounted it by the door — not as scrap. As a veteran.",
+  "job": "The machine as a working system — parts assembled to convert energy into motion and labor: the engine, the gear-train, the press, the loom"
  },
  {
   "name": "God of Internet",
