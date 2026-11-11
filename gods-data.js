@@ -2172,15 +2172,15 @@ window.GODS = [
    "God of Dog",
    "God of Rooster",
    "God of Pig",
-   "God of Ares",
+   "God of Aries",
    "God of Taurus",
    "God of Gemini",
    "God of Cancer",
    "God of Leo",
-   "God of Libra",
    "God of Virgo",
+   "God of Libra",
    "God of Scorpio",
-   "God of Saggitaurus",
+   "God of Sagittarius",
    "God of Capricorn",
    "God of Aquarius",
    "God of Pisces"
@@ -2391,7 +2391,7 @@ window.GODS = [
   "job": "One god under two names (Hoc's ruling, 2026-11-10): as Yellow, the color of the sun's light, of caution, and of the ripened field, child of Colors"
  },
  {
-  "name": "God of Ares",
+  "name": "God of Aries",
   "role": "the first sign of the twelve (kept in Hoc's spelling) — the spark of beginning; courage, impulse, and the charge at the year's gate; child of Zodiac at his Astrology seat.",
   "function": "he is the Heart's initiative — the first step taken before certainty arrives.",
   "group": "The Heavens & Fate",
@@ -2402,9 +2402,9 @@ window.GODS = [
   ],
   "children": [],
   "house": "Darkness's line",
-  "origin": "First of the twelve sign gods, born of Zodiac at his Astrology seat when the wheel first turned and the year's gate needed a keeper. His name is kept in Hoc's spelling — Ares, the charge at the gate. He stands where every cycle begins: at the spark before the plan, the step before the road. Of all the signs he is the youngest in temper and the oldest in office, for nothing in the wheel moves until someone goes first.",
-  "power": "Ares holds complete mastery of the beginning: initiative, courage, and the honest impulse. He can light resolve in a stalled heart and lend speed to a decision that is already right. What he cannot do is choose the direction — the aim belongs to Saggitaurus, the fairness to Libra, the harvest to Virgo. His gift starts things; the wheel finishes them together.",
-  "tale": "In the year of the great fire on Mount Calloway, it was a sixteen-year-old volunteer — first to arrive, first up the ridge with a wet sack and a spade — whose twenty minutes of solitary work cut the firebreak the crews later widened and held. Nobody had appointed her. She said afterward that standing in the road watching the smoke had simply become impossible. The town's citation does not mention any god. Ares asks for no mention. Going first was the whole of it.",
+  "origin": "First of the twelve sign gods, born of Zodiac at his Astrology seat when the wheel first turned and the year's gate needed a keeper. His name was first written Ares in Hoc's hand, and corrected at his direction — Aries, the charge at the gate. He stands where every cycle begins: at the spark before the plan, the step before the road. Of all the signs he is the youngest in temper and the oldest in office, for nothing in the wheel moves until someone goes first.",
+  "power": "Aries holds complete mastery of the beginning: initiative, courage, and the honest impulse. He can light resolve in a stalled heart and lend speed to a decision that is already right. What he cannot do is choose the direction — the aim belongs to Sagittarius, the fairness to Libra, the harvest to Virgo. His gift starts things; the wheel finishes them together.",
+  "tale": "In the year of the great fire on Mount Calloway, it was a sixteen-year-old volunteer — first to arrive, first up the ridge with a wet sack and a spade — whose twenty minutes of solitary work cut the firebreak the crews later widened and held. Nobody had appointed her. She said afterward that standing in the road watching the smoke had simply become impossible. The town's citation does not mention any god. Aries asks for no mention. Going first was the whole of it.",
   "job": "The first sign of the twelve (kept in Hoc's spelling) — the spark of beginning"
  },
  {
@@ -2419,7 +2419,7 @@ window.GODS = [
   ],
   "children": [],
   "house": "Darkness's line",
-  "origin": "Second of the sign gods, born of Zodiac at his Astrology seat when the wheel's first charge needed ground to stand on. Where Ares strikes the spark, Taurus keeps the fire: she is the bull in the garden gate, the patience of rich soil, the appetite that enjoys what it has earned. Her season is the heart of spring, when beginnings stop being ideas and start being fed.",
+  "origin": "Second of the sign gods, born of Zodiac at his Astrology seat when the wheel's first charge needed ground to stand on. Where Aries strikes the spark, Taurus keeps the fire: she is the bull in the garden gate, the patience of rich soil, the appetite that enjoys what it has earned. Her season is the heart of spring, when beginnings stop being ideas and start being fed.",
   "power": "Taurus holds complete mastery of steadfastness: endurance, appetite, and worth held calmly. She can steady a resolve through the long middle of any work, and teach a heart the difference between keeping and clinging. She does not hurry and cannot be hurried; what she grows, she grows at the speed of soil — and it stays grown.",
   "tale": "The olive terraces above the village of Petraea were abandoned for two generations, their walls fallen, their trees wild — until one family returned and began, wall by wall, tree by tree, a restoration everyone priced at thirty years. It took twenty-six. The granddaughter who laid the last terrace wall now presses oil from trees her grandfather pruned as sticks. Asked the secret, she gives Taurus's answer without knowing it: \"We never stopped. That is the whole technique. We never stopped.\"",
   "job": "The bull of the wheel — steadfastness, appetite, and the garden's patience"
@@ -2476,23 +2476,6 @@ window.GODS = [
   "job": "The lion — the Sun's own sign"
  },
  {
-  "name": "God of Libra",
-  "role": "the scales — balance, judgment, and the partnership weighed fairly; child of Zodiac at his Astrology seat.",
-  "function": "she is the Heart's fairness — two sides held patiently until they level.",
-  "group": "The Heavens & Fate",
-  "generation": 9,
-  "class": "The Heavens & Fate",
-  "parents": [
-   "God of Zodiac"
-  ],
-  "children": [],
-  "house": "Darkness's line",
-  "origin": "Sixth of the sign gods, born of Zodiac at his Astrology seat at the wheel's balance point, where day and night stand equal and the year must be weighed. Libra is the scales: judgment as a craft, partnership as a discipline, beauty as proportion made visible. She does not rush the beam. Of all the signs, hers is the office most often mistaken for slowness by those who have never had to be fair.",
-  "power": "Libra holds complete mastery of balance: fairness, proportion, and the weighed agreement. She can hold two sides in the air until both have truly been heard, and find the fulcrum neither party could see. She cannot make the unfair fair by calling it balanced — her scales answer only to real weight, and a thumb on either pan is the one crime her house prosecutes without mercy.",
-  "tale": "The two villages that share the Valserine river ended their forty-year water feud not in court but at a table in the mill, with a miller keeping the ledger — inflows, outflows, drought years, flood years, read aloud to both councils until the numbers had worn the grievances smooth. The agreement they signed is still called the Miller's Peace. Its first clause is Libra's whole doctrine, written by a man who had never heard her name: *Both sides drink, or the river decides.*",
-  "job": "The scales — balance, judgment, and the partnership weighed fairly"
- },
- {
   "name": "God of Virgo",
   "role": "the harvest maiden — discernment and craft; the grain sorted from the chaff, one handful at a time; child of Zodiac at his Astrology seat.",
   "function": "she is the Heart's discernment — care taken in small, exact things.",
@@ -2508,6 +2491,23 @@ window.GODS = [
   "power": "Virgo holds complete mastery of discernment: sorting, mending, and the exact preparation of useful things. She can find the one spoiled measure in a hundred good ones and the one loose stitch before the seam fails. Nothing is beneath her attention; that is precisely her power. What she cannot do is rest while anything in her keeping is unsorted — the wheel gives her the sheaf, and she gives the wheel clean grain.",
   "tale": "The seed library at Alto Passo holds four thousand packets, each labeled by hand — variety, year, field, and the name of the farmer who saved it. When the blight took the valley's commercial wheat three summers ago, it was the library's oldest landrace, sorted and kept by three generations of one family's daughters, that resisted and reseeded the valley. The agronomists published their paper. The family framed a different document: the packet label from 1962, in a grandmother's handwriting. *Sorted is saved,* it says underneath, in pencil.",
   "job": "The harvest maiden — discernment and craft"
+ },
+ {
+  "name": "God of Libra",
+  "role": "the scales — balance, judgment, and the partnership weighed fairly; child of Zodiac at his Astrology seat.",
+  "function": "she is the Heart's fairness — two sides held patiently until they level.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Sixth of the sign gods, born of Zodiac at his Astrology seat at the wheel's balance point, where day and night stand equal and the year must be weighed. Libra is the scales: judgment as a craft, partnership as a discipline, beauty as proportion made visible. She does not rush the beam. Of all the signs, hers is the office most often mistaken for slowness by those who have never had to be fair.",
+  "power": "Libra holds complete mastery of balance: fairness, proportion, and the weighed agreement. She can hold two sides in the air until both have truly been heard, and find the fulcrum neither party could see. She cannot make the unfair fair by calling it balanced — her scales answer only to real weight, and a thumb on either pan is the one crime her house prosecutes without mercy.",
+  "tale": "The two villages that share the Valserine river ended their forty-year water feud not in court but at a table in the mill, with a miller keeping the ledger — inflows, outflows, drought years, flood years, read aloud to both councils until the numbers had worn the grievances smooth. The agreement they signed is still called the Miller's Peace. Its first clause is Libra's whole doctrine, written by a man who had never heard her name: *Both sides drink, or the river decides.*",
+  "job": "The scales — balance, judgment, and the partnership weighed fairly"
  },
  {
   "name": "God of Scorpio",
@@ -2527,7 +2527,7 @@ window.GODS = [
   "job": "The scorpion — depth, secrecy, and the sting kept in the dark"
  },
  {
-  "name": "God of Saggitaurus",
+  "name": "God of Sagittarius",
   "role": "the archer (kept in Hoc's spelling) — the arrow aimed beyond the horizon; travel, philosophy, and the far target; child of Zodiac at his Astrology seat.",
   "function": "he is the Heart's aim — desire given a direction.",
   "group": "The Heavens & Fate",
@@ -2538,8 +2538,8 @@ window.GODS = [
   ],
   "children": [],
   "house": "Darkness's line",
-  "origin": "Ninth of the sign gods, born of Zodiac at his Astrology seat as the archer, kept in Hoc's spelling — half horse, half human, all trajectory: the beast's strength aimed by the mind's far target. Saggitaurus is the wheel's hunger for distance — travel, philosophy, the teacher's road, the joke told at the exact moment the lesson would otherwise be lost. His season is the year's last fire, before the deep winter.",
-  "power": "Saggitaurus holds complete mastery of aim: direction, meaning, and the long shot honestly taken. He can give a scattered life a horizon and a horizon a claim; he teaches by pointing, and his pointing is never at what is near. He cannot guarantee the arrow lands — no god of aim can — but because of him, nobody in his reach shoots at nothing and calls it fate.",
+  "origin": "Ninth of the sign gods, born of Zodiac at his Astrology seat as the archer — first written Saggitaurus in Hoc's hand, corrected at his direction — half horse, half human, all trajectory: the beast's strength aimed by the mind's far target. Sagittarius is the wheel's hunger for distance — travel, philosophy, the teacher's road, the joke told at the exact moment the lesson would otherwise be lost. His season is the year's last fire, before the deep winter.",
+  "power": "Sagittarius holds complete mastery of aim: direction, meaning, and the long shot honestly taken. He can give a scattered life a horizon and a horizon a claim; he teaches by pointing, and his pointing is never at what is near. He cannot guarantee the arrow lands — no god of aim can — but because of him, nobody in his reach shoots at nothing and calls it fate.",
   "tale": "The cartographer who walked the entire watershed of the Rio Seco on foot — eleven hundred miles, two dry seasons — produced the map the region still uses, but the valleys remember him for his schools: at every village that fed him, he stayed a week teaching children to read a horizon, find north by three methods, and draw their own valley from the hill above it. \"A map is someone else's journey,\" he told them. \"Learn to make your own.\" Forty years on, three of those children are surveyors, and all of them still walk their boundaries before they draw them.",
   "job": "The archer (kept in Hoc's spelling) — the arrow aimed beyond the horizon"
  },
