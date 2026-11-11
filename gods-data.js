@@ -2845,6 +2845,18 @@ window.GODS = [
    "God of Time"
   ],
   "children": [
+   "God of December",
+   "God of January",
+   "God of February",
+   "God of March",
+   "God of April",
+   "God of May",
+   "God of June",
+   "God of July",
+   "God of August",
+   "God of September",
+   "God of October",
+   "God of November",
    "God of Command",
    "God of Structure"
   ],
@@ -2892,6 +2904,329 @@ window.GODS = [
   "job": "The turn without waste — each repetition leaner than the last"
  },
  {
+  "name": "God of December",
+  "role": "the first month in Hoc's order and the year's depth — the solstice month, when the light is shortest and the fire is tended closest; child of Order.",
+  "function": "he is the Heart's midwinter keeping — proof that the darkest station is still a station, and the turning begins inside it.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "First of the month gods in Hoc's order, born of God of Order when the calendar took flesh — December, the year's depth, where the solstice hides: the longest night of the year, and inside it, unnoticed by the despairing, the light's turning. He is the month of the tended fire, the stored harvest, and the feast held deliberately in the dark.",
+  "power": "December holds complete mastery of the year's depth: endurance through the darkest station, stores kept against the cold, and joy celebrated on schedule rather than on feeling. He can keep a household's — or a heart's — fire rated through the longest night. He does not shorten the dark; his whole doctrine is that the dark is a station, and stations end.",
+  "tale": "The winter solstice is humanity's oldest appointment: stones aligned to it five thousand years ago still catch its sunrise. Every culture in the cold half of the world answered December the same way — with fire, feasting, and gathering — an instinct so universal it looks like instruction. The month's heroism is statistical and immense: it is the season human beings most deliberately refuse to let each other freeze, in body or in spirit.",
+  "job": "The first month in Hoc's order and the year's depth — the solstice month, when the light is shortest and the fire is tended closest"
+ },
+ {
+  "name": "God of January",
+  "role": "the threshold month — two-faced by ancient custom, looking back at the old year and forward into the new; the month of vows and cold starts; child of Order.",
+  "function": "she is the Heart's doorway — every honest beginning made with the old year still visible behind it.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Second of the month gods in Hoc's order, born of God of Order at the year's threshold — January, named in the old world for the two-faced god of doorways, one face on the year behind and one on the year ahead. She is the month of vows made in the cold, of ledgers opened, of starts attempted without any evidence yet that they will hold.",
+  "power": "January holds complete mastery of the threshold: beginnings, resolutions, and the honest audit of what is being carried across. She can give a new start its dignity and strip an old failure of its right to follow uninvited. She cannot guarantee the year — doorways never do — but nothing in her keeping crosses without being looked at by both her faces.",
+  "tale": "More human intention is invested in January than in any other month on Earth: gyms fill, ledgers open, letters of resignation and application are written in the same cold weeks. That most of it fades by February is the standing joke — and beside the point, she insists: a species that did not keep re-attempting its own improvement at the threshold would have stopped improving. The door is hers. The crossing is ours.",
+  "job": "The threshold month — two-faced by ancient custom, looking back at the old year and forward into the new"
+ },
+ {
+  "name": "God of February",
+  "role": "the short month — the year's held breath; purification by custom, leaping by calendar; the month that proves length is not worth; child of Order.",
+  "function": "she is the Heart's economy — the smallest measure, exactly kept.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Third of the month gods, born of God of Order as the year's shortest measure — February, the held breath between winter's depth and spring's campaign. Named in the old world for purification, she is the month of making ready: seeds ordered, tools mended, accounts settled in the quiet. Every four years she quietly accepts an extra day so the calendar stays honest — and mentions it to no one.",
+  "power": "February holds complete mastery of economy: the smallest measure exactly kept, preparation done in obscurity, and the leap-day correction — the small honest adjustment that keeps a whole system true. She can make a little go exactly far enough. Her mastery refuses waste in both directions: nothing hoarded, nothing squandered, in the year's leanest room.",
+  "tale": "Humanity's calendar nearly broke on February: the leap day she carries is the reason the seasons still arrive in their named months, a correction of one day in four years on which the entire agricultural world silently depends. Gardeners know her other office — the seed catalogs arrive in her weeks, and the year's whole harvest is, in a real sense, decided at her kitchen tables, in the dark, by lamplight, on paper.",
+  "job": "The short month — the year's held breath"
+ },
+ {
+  "name": "God of March",
+  "role": "the marching month — the equinox crossing, the first campaign of the year, when winter's garrison is relieved by mud, wind, and green spears; child of Order.",
+  "function": "he is the Heart's advance — the season ordered forward, out of the cold, at a march.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Fourth of the month gods, born of God of Order when the year stops enduring and starts advancing — March, named in the old world for the war-god, because his month opened the campaigning season. He is the equinox month: day and night weighed equal, then the light begins to win. Mud, wind, and green spears — the year's garrison relieved at last.",
+  "power": "March holds complete mastery of the advance: the ordered forward movement of a season, a campaign, a recovery. He can turn endurance into momentum without breaking what endurance built. His winds are famous and his temper is weather, but his doctrine is pure Order: advance when the balance tips, advance together, and do not stop at the first green thing — it is a scout, not the spring.",
+  "tale": "The March equinox is one of Earth's two great balance points, marked by temples, festivals, and new-year celebrations across half the world's cultures — more peoples have started their year in his weeks than in January's. Farmers take his other sacrament seriously: the first full working of the soil, when the year's food is literally entrusted to the ground. Every spring offensive of sowing, in every century, has marched under his name whether it knew it or not.",
+  "job": "The marching month — the equinox crossing, the first campaign of the year, when winter's garrison is relieved by mud, wind, and green spears"
+ },
+ {
+  "name": "God of April",
+  "role": "the opening month — buds, nests, and first rains; the world unclenched; child of Order.",
+  "function": "she is the Heart's opening — what winter sealed, gently and on schedule, undone.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Fifth of the month gods, born of God of Order as the year's opening hand — April, whose old name means *to open*. Buds, nests, first soft rains: she is the month the world unclenches. Nothing in her is finished and everything in her is begun, and she holds that combination — total promise, no proof — with a steadiness the flashier months never learn.",
+  "power": "April holds complete mastery of opening: beginnings in their tender form, germination, and hope disciplined by weather. She can coax a sealed thing to risk its first green inch, and she teaches the patience that opening requires — a bud forced is a bud lost, and she prosecutes forcing as a crime against timing. Her showers are not interruptions of her work. They are her work.",
+  "tale": "The April rains decide more harvests than the summer sun does, a fact every farming culture has encoded in proverb — the month's soft water is the difference between the seed's promise and its performance. Her other dominion is subtler: she is the month human beings most associate with renewal they can see, and the measurable lift in the world's mood during her weeks is a public-health fact wearing a poet's name.",
+  "job": "The opening month — buds, nests, and first rains"
+ },
+ {
+  "name": "God of May",
+  "role": "the growing month — the green at full confidence, blossom turning to fruit-set, the year standing up in its strength; child of Order.",
+  "function": "she is the Heart's flourishing — growth that has stopped apologizing for itself.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Sixth of the month gods, born of God of Order at the year's green flood — May, when growth stops asking permission. Blossom turns to fruit-set, the hedgerows riot, the light lengthens toward its throne. She is flourishing as a discipline: not luck, not mood, but the predictable result of root, rain, and time arriving together and being used without waste.",
+  "power": "May holds complete mastery of flourishing: growth at full confidence, the conversion of preparation into abundance. She can take anything January vowed, February prepared, March advanced, and April opened — and make it visibly, undeniably alive. Her one law is harvest-shaped: flourishing is not the reward at the end of the work; it is the work, in its green uniform.",
+  "tale": "The maypole is older than the villages that still dance it: humanity has always marked this month as the year's great green fact. Economists know her too — the construction season, the planting's completion, the tourist year's ignition all turn on her weather. And every beekeeper on Earth can testify to her central doctrine in its purest form: in May, a hive can double. Growth, properly prepared, is not gradual. It compounds.",
+  "job": "The growing month — the green at full confidence, blossom turning to fruit-set, the year standing up in its strength"
+ },
+ {
+  "name": "God of June",
+  "role": "the height of the light — the solstice month, the longest days of the year, the sun at his throne's top step; child of Order.",
+  "function": "he is the Heart's high noon — fullness held at its peak, and already, honestly, turning.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Seventh of the month gods, born of God of Order at the top of the light — June, the solstice month, holder of the longest day. He stands at the sun's highest step with the honesty his office demands: from here, the light begins, almost imperceptibly, to give back. His greatness is that he celebrates the peak without lying about it.",
+  "power": "June holds complete mastery of the peak: fullness recognized, used, and honored at its height. He can teach a life to inhabit its longest day completely — neither hoarding it against the decline nor wasting it in dread of the decline. He is the only month whose power includes the turning inside the triumph, and he holds both without flinching.",
+  "tale": "Midsummer is celebrated from Scandinavia to the Andes — bonfires on the longest evening, festivals of the light at its maximum. Farmers know his practical majesty: the hay harvest, the year's fodder security, is won or lost in his dry weeks. And his quietest gift is astronomical and total: the solstice he carries is one of the four hinges of the entire calendar, the moment Earth's tilt shows its full hand. Every summer that has ever been lived was crowned in his office.",
+  "job": "The height of the light — the solstice month, the longest days of the year, the sun at his throne's top step"
+ },
+ {
+  "name": "God of July",
+  "role": "the heat month — high summer's furnace, the grain hardening in the fields, thunder in the afternoons; child of Order.",
+  "function": "he is the Heart's tempering — what the heat finishes, it finishes thoroughly.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Eighth of the month gods, born of God of Order in the year's furnace — July, high summer: heat as a governing power, thunder in the afternoons, the grain hardening gold in the fields. He is the tempering month. What spring made soft, he makes durable; what June crowned, he tests.",
+  "power": "July holds complete mastery of tempering: strength finished by heat, endurance under load, the harvest hardened rather than merely grown. He can keep a people, a crop, or a resolve functional at temperatures — literal and otherwise — that would wilt them in any other month, because his keeping includes shade, water, and rest rationed like ammunition. He wastes nothing, especially people.",
+  "tale": "The dog days were feared by the ancient world and are respected by the modern one: July's heat decides wheat yields on three continents and tests every city's power grid, water system, and public health in a single annual examination. Yet his heroism has a gentler register: he is the month of swimming taught, of fruit at its peak, of the year's longest evenings given to being alive outdoors. The furnace, rightly kept, is also a festival.",
+  "job": "The heat month — high summer's furnace, the grain hardening in the fields, thunder in the afternoons"
+ },
+ {
+  "name": "God of August",
+  "role": "the harvest's majesty — the first fruits and the golden fields, abundance with a scythe in its hand; child of Order.",
+  "function": "he is the Heart's first gathering — the year's work beginning to be weighed.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Ninth of the month gods, born of God of Order with a scythe in one hand and a sheaf in the other — August, named in the old world for an emperor, and owned ever since by the harvest. He is abundance arriving at the weighbridge: the first fruits, the golden fields, the moment the year's promises are audited in grain.",
+  "power": "August holds complete mastery of the first gathering: harvest begun, worth weighed early, and plenty handled without panic or greed. He can teach a household to bring in what is ripe when it is ripe — the whole art — and to leave what is unripe standing without anxiety. His scales are the year's first honest ones.",
+  "tale": "Lammas, the loaf-mass, opened his month for a thousand years: the first grain baked into bread and carried to the altar, because the first loaf is a theological statement — *it worked; we will eat*. Grain harvests across the northern world still peak in his weeks, and the entire ancient architecture of granaries, tithes, and famine insurance was designed around his arithmetic. He is the month humanity learned to count its survival in.",
+  "job": "The harvest's majesty — the first fruits and the golden fields, abundance with a scythe in its hand"
+ },
+ {
+  "name": "God of September",
+  "role": "the balance month — the second equinox, the return to school and ledger, summer's accounts called in fairly; child of Order.",
+  "function": "she is the Heart's settling — day and night weighed equal, and the year audited without flinching.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Tenth of the month gods, born of God of Order at the year's second balance — September, the other equinox, when day and night stand equal again and the light begins, gracefully, to lose. She is the return: to school, to ledger, to the indoors arts — summer's accounts called in fairly, without nostalgia's thumb on the scale.",
+  "power": "September holds complete mastery of the settling: accounts balanced, lessons resumed, stores inventoried against the coming cold. She can give a life its autumn term — the disciplined second beginning that is, for most adults, the real new year. Her fairness is equinoctial: everything weighed at equal light, nothing excused, nothing condemned past its measure.",
+  "tale": "More of humanity's formal learning has begun in September than in any other month in history — the school year of the northern world is her institution, and hundreds of millions of childhoods are structured by her first weeks. Harvest moons, wine harvests, and the great autumn festivals of Asia all keep her feasts. She is proof that a beginning does not need spring's weather; it needs a date, a ledger, and the decision to resume.",
+  "job": "The balance month — the second equinox, the return to school and ledger, summer's accounts called in fairly"
+ },
+ {
+  "name": "God of October",
+  "role": "the falling gold — the year's splendor in decline, leaves as currency spent beautifully; child of Order.",
+  "function": "he is the Heart's beautiful spending — glory let go at exactly its ripest moment.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Eleventh of the month gods, born of God of Order in the year's most beautiful decline — October, the falling gold, when the trees spend their splendor all at once and the light goes amber. He is glory with an exit strategy: nothing in his keeping clings past ripeness, and everything in it is more beautiful for knowing the date.",
+  "power": "October holds complete mastery of letting go at ripeness: splendor released on schedule, stores finalized, the year's loose ends gathered before the dark. He can teach the hardest timing in any life — not the start, not the endurance, but the release at exactly the ripest moment, one day before decline would make the decision for you.",
+  "tale": "The wine harvest climaxes in his weeks; the apple and the pumpkin keep his festivals; and the great color-turn of the northern forests moves a tourist economy worth billions — humanity literally travels to watch his office performed. Beneath the beauty is his serious work: the last gathering-in before winter, the final audit of stores, the month by whose end every prudent household in the cold world knows whether it will eat in February. Splendor, in his keeping, is a form of accounting.",
+  "job": "The falling gold — the year's splendor in decline, leaves as currency spent beautifully"
+ },
+ {
+  "name": "God of November",
+  "role": "the remembrance month — the descent toward winter, the year's dead honored, stores counted against the cold; child of Order.",
+  "function": "she is the Heart's remembrance — gratitude and grief kept in the same dry storehouse.",
+  "group": "Time, Number & Order",
+  "generation": 4,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Order"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Twelfth of the month gods in Hoc's order, born of God of Order on the year's descent — November, the remembrance month, when the world's northern half turns toward the dark with its stores counted and its dead honored. She is the quietest of the twelve and, in the cold countries, the most necessary: the month that teaches how to enter winter like a guest who was expected.",
+  "power": "November holds complete mastery of remembrance: gratitude and grief kept in the same dry storehouse, the honored past made into provisions rather than anchors. She can help a life carry its dead the way a house carries its beams — structurally, with gratitude, without collapse. Her stores are memories, and she rations them against despair with a quartermaster's care.",
+  "tale": "Remembrance days across the world cluster in her weeks — the war dead, the saints, the ancestors, the harvest's final thanksgiving all keep her appointments, as if humanity collectively agreed that descent requires ceremony. Her practical office matches her sacred one: the last planting of garlic and winter wheat, the final sealing of houses, the month in which every cold-country proverb says the same thing in a hundred languages: *be ready, and be grateful, in that order.*",
+  "job": "The remembrance month — the descent toward winter, the year's dead honored, stores counted against the cold"
+ },
+ {
+  "name": "God of Monday",
+  "role": "the week's threshold — the Moon's day, the first step back into the working world, hardest by reputation and most honest by position; child of Enforcement.",
+  "function": "he is the Heart's return — beginnings enforced gently, every seven days, without exception.",
+  "group": "Time, Number & Order",
+  "generation": 6,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Enforcement"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "First of the weekday gods, born of God of Enforcement when the week took flesh — Monday, the Moon's day, the threshold of the working world. He is the most blamed of the seven and the least guilty: his office is not the work itself but the return to it, the weekly re-entry that every life must make after rest. He stands at the gate with the list, and the list is fair.",
+  "power": "Monday holds complete mastery of the return: beginnings enforced gently, rhythm restored after interruption. He can get a stalled life moving again at the pace of one honest morning, and he is immune to the hatred his office attracts — he has heard it all, every week, forever, and he opens the gate anyway. His doctrine is the calendar's kindest: you never have to restart your life. You only have to restart your week.",
+  "tale": "The modern world's entire rhythm runs on his gate: shifts rotate, markets open, schools resume, and the great weekly migration of humanity leaves its homes in his first hours. Economists track his signature in everything from heart-attack statistics to stock behavior — no other day carries his measurable weight. His heroism is unglamorous and total: a civilization that can reliably begin again every seven days can survive almost anything, and the reliability is his.",
+  "job": "The week's threshold — the Moon's day, the first step back into the working world, hardest by reputation and most honest by position"
+ },
+ {
+  "name": "God of Tuesday",
+  "role": "the sharpened day — the week's blade, named for the war-god in the old tongues; the day work stops warming up; child of Enforcement.",
+  "function": "he is the Heart's edge — effort given its point.",
+  "group": "Time, Number & Order",
+  "generation": 6,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Enforcement"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Second of the weekday gods, born of God of Enforcement as the week's sharpened edge — Tuesday, named in the old tongues for the one-handed god of war and law. The warm-up is over in his hours; the work is at full engagement; nothing about him is ceremonial. He is the day the week stops introducing itself.",
+  "power": "Tuesday holds complete mastery of engagement: effort at full stretch, the point given to the week's blade. He can take Monday's returned rhythm and make it cut — focus, output, the deep hours where real work actually happens. Researchers of his day keep finding the same thing his worshippers always knew: he is, measurably, the most productive seat in the week, and he asks no credit for it.",
+  "tale": "Study after study of the working world crowns his day the peak of output — the meetings held, the code shipped, the applications filed all crest in his hours. Election days in great republics are set on him by law older than the countries' modern forms. He is the week's engine room: unvisited by poets, indispensable to everyone who has ever finished anything. If a thing in your life was ever truly *done*, the odds are heavy that its decisive hours were his.",
+  "job": "The sharpened day — the week's blade, named for the war-god in the old tongues"
+ },
+ {
+  "name": "God of Wednesday",
+  "role": "the middle day — the week's fulcrum, named for the one-eyed wanderer and the messenger in the old tongues; messages, trades, and turning points; child of Enforcement.",
+  "function": "she is the Heart's midpoint — the balance hour when the week can still be turned.",
+  "group": "Time, Number & Order",
+  "generation": 6,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Enforcement"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Third of the weekday gods, born of God of Enforcement at the week's exact middle — Wednesday, named in the old tongues for the one-eyed wanderer-god who traded an eye for wisdom, and in the southern tongues for the messenger. She is the fulcrum day: half the week behind, half ahead, the balance hour in which a week — or anything else — can still be turned.",
+  "power": "Wednesday holds complete mastery of the midpoint: assessment, messages, and the timely turn. She can read a week's true state without panic or flattery and deliver the correction while correction is still cheap. Her one eye sees what two eyes miss — the whole shape, from the middle, both ways. Nothing that reaches her honestly leaves unexamined; nothing she passes on is exaggerated.",
+  "tale": "Markets have their midweek reckonings, sailors their mid-voyage fixes, and every project ever managed has been saved or lost at her station — the review held while change is still possible. The old tongues gave her day to the wisdom-god and the messenger at once, which her worshippers call the calendar's most accurate joke: the middle is where the news and the knowledge meet. She asks one question, on schedule, of every endeavor under her: *knowing what you now know, is this still the way?*",
+  "job": "The middle day — the week's fulcrum, named for the one-eyed wanderer and the messenger in the old tongues"
+ },
+ {
+  "name": "God of Thursday",
+  "role": "the thunder day — the week's strength at full stretch, named for the storm-god in the old tongues; expansion, weather, and big work; child of Enforcement.",
+  "function": "he is the Heart's full stretch — power applied while the week is young enough to use it.",
+  "group": "Time, Number & Order",
+  "generation": 6,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Enforcement"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Fourth of the weekday gods, born of God of Enforcement as the week's thunder — Thursday, named in the old tongues for the storm-god, the hammer-bearer, the defender of the world against its giants. In his hours the week is at full stretch: strength applied while there is still week enough to use it, weather made and weathered.",
+  "power": "Thursday holds complete mastery of full stretch: power applied at the decisive point, the big push made before the week's energy turns toward rest. He can lend a final surge its aim — expansion with a target, thunder with an address. He is not the storm that wastes; he is the storm that defends, and the difference is his entire priesthood.",
+  "tale": "The week's great releases cluster in his hours — the reports published, the products launched, the journeys begun — as if the working world instinctively saves its thunder for him. Farmers in the old world watched his day for weather-signs with a seriousness the almanacs preserved; his storms water more crops than any irrigation of his age. And every defender who ever stood at a gate in the week's fourth watch, doing the unglamorous work of keeping giants off the road, has been his clergy without knowing it.",
+  "job": "The thunder day — the week's strength at full stretch, named for the storm-god in the old tongues"
+ },
+ {
+  "name": "God of Friday",
+  "role": "the release day — named for the goddess of love in the old tongues; wages, weddings, and the week's first loosening; child of Enforcement.",
+  "function": "she is the Heart's loosening — discipline that knows when its work is done.",
+  "group": "Time, Number & Order",
+  "generation": 6,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Enforcement"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Fifth of the weekday gods, born of God of Enforcement at the week's loosening — Friday, named in the old tongues for the goddess of love. Wages, weddings, and the first free evening: she is where discipline, having kept the week's law, sets down its tools in the right order. Her office is not escape. It is completion with its shoes off.",
+  "power": "Friday holds complete mastery of the release: work closed honorably, rewards paid on time, rest begun without guilt. She can teach an exhausted life the difference between stopping and collapsing — the tools set down in order, the gate locked, the mind actually leaving the building. A week that ends in her keeping ends *well*, which is rarer and more important than ending fast.",
+  "tale": "Payday across half the world is hers; the week's wages land in her hours, and the economies of evenings — the restaurants, the theaters, the visiting trains — are her liturgy measured in money. More weddings are celebrated under her approaching weekend than any other arrangement of days. And in the faiths that keep a Friday holy, her afternoon has been a door into rest for fourteen centuries. She is the proof his father Enforcement keeps in a frame: a law that cannot release is not order. It is only pressure.",
+  "job": "The release day — named for the goddess of love in the old tongues"
+ },
+ {
+  "name": "God of Saturday",
+  "role": "the audit day — Saturn's day, the week's ledger closed, rest taken under discipline rather than collapse; child of Enforcement.",
+  "function": "he is the Heart's accounting — the week weighed before it is released.",
+  "group": "Time, Number & Order",
+  "generation": 6,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Enforcement"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Sixth of the weekday gods, born of God of Enforcement as the week's auditor — Saturday, Saturn's day, the only one of the seven still wearing a planet-god's own name in the common tongue. His is the ledger day: the week's work weighed, the stores inventoried, rest taken not as collapse but as a discipline older than empires.",
+  "power": "Saturday holds complete mastery of the audit: accounts closed, results weighed, and rest kept under law. He can tell a life exactly what its week amounted to — no flattery, no despair, the numbers read aloud — and then, having weighed it, release it. His rest is the most deliberate of the seven's gifts: not the absence of work, but its completion, signed.",
+  "tale": "The seventh-day rest is one of humanity's oldest continuous institutions, kept by faiths and labor laws alike — the weekend itself, that hard-won invention, has its root in his office. Markets hold their weekly closes in his hours; farmers' markets fill his mornings with the week's actual produce, the audit made edible. Every household that has ever taken stock on his day — pantry, purse, and conscience — has kept his feast correctly: weigh it, learn it, then put the ledger down and eat.",
+  "job": "The audit day — Saturn's day, the week's ledger closed, rest taken under discipline rather than collapse"
+ },
+ {
+  "name": "God of Sunday",
+  "role": "the Sun's day — rest and radiance, the week's crown and its quiet restart; the day the next week is secretly decided by how this one is kept; child of Enforcement.",
+  "function": "she is the Heart's rest with light in it — renewal, enforced like a law and kept like a feast.",
+  "group": "Time, Number & Order",
+  "generation": 6,
+  "class": "Time, Number & Order",
+  "parents": [
+   "God of Enforcement"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Seventh of the weekday gods, born of God of Enforcement as the week's crown — Sunday, the Sun's day, rest with light in it. She is the quietest day and the most secretly decisive: how her hours are kept determines, more than any resolution, what the coming week will actually be. She is the week's first day in the old reckoning and its last in the new — the hinge the whole calendar swings on.",
+  "power": "Sunday holds complete mastery of renewal: rest that restores, light that gathers, the gentle preparation that never becomes work. She can return a spent life to itself — not by adding anything, but by protecting the empty hours in which recovery happens. Her law is Enforcement's gentlest and most violated: the renewal is not optional, and she keeps the gate against everything that would steal it, including virtue.",
+  "tale": "Whole civilizations have organized themselves around her rest — the markets closed, the fields idle, the long lunch an institution. Sports fill her afternoons, faiths her mornings, and families their one reliable table. Studies of recovery keep vindicating her ancient claim in modern language: the unworked day is not lost production but its foundation. She asks little and gives the week its meaning: proof, served weekly, that the world continues even when we stop — and that we return to it kinder for having watched it do so.",
+  "job": "The Sun's day — rest and radiance, the week's crown and its quiet restart"
+ },
+ {
   "name": "God of Command",
   "role": "the given order — a decision made binding; child of Order, father of Enforcement and Hierarchy.",
   "function": "he is the Heart's voice at work — the will, spoken once, clearly.",
@@ -2922,7 +3257,14 @@ window.GODS = [
    "God of Command"
   ],
   "children": [
-   "God of Cell"
+   "God of Cell",
+   "God of Monday",
+   "God of Tuesday",
+   "God of Wednesday",
+   "God of Thursday",
+   "God of Friday",
+   "God of Saturday",
+   "God of Sunday"
   ],
   "house": "Darkness's line",
   "origin": "God of Enforcement is Command's child, born in the gap between the order given and the deed done. An order spoken and ignored is worse than silence — it teaches the whole world that words are weightless, and the next order dies before it is spoken. So the Heart's house of measure raised a second god to stand in that gap and close it. His reach runs the full length of his father's chain, down to his own child, the God of Cell, whose work — in Hoc's words — is to practice on locating and controling single cells to respond: enforcement, at the smallest jurisdiction there is.",
