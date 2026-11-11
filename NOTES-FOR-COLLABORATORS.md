@@ -14,13 +14,13 @@ That means:
 ## How the site is built
 
 - Plain static HTML/CSS/JS, no build framework, published by GitHub Pages from the repo root on `main`.
-- `gods-data.js` is **generated** from the founding records (218 gods: name, generation, parents, children, house, class, role, function to the Heart, job, recorded wisdom). Do not hand-edit it; it is regenerated whenever the pantheon changes.
+- `gods-data.js` is **generated** from the founding records (228 gods: name, generation, parents, children, house, class, role, function to the Heart, job, recorded wisdom). Do not hand-edit it; it is regenerated whenever the pantheon changes.
 - `pantheon.html` and `game.html` render entirely from `gods-data.js` in the visitor's browser.
 - `forums.html` is regenerated each week: every Sunday the Weekly Forum is held, and the new sitting is inserted at the top of the Forums page and re-uploaded. If you add a forum entry by hand, it may be replaced on the next weekly regeneration — again, route content through Hoc's records.
 
 ## House rules for content (from the founder)
 
-- The pantheon count is **218**. Three gods are counted once although they stand in two places: the **God of Passion** (double seat, under Soul and under Sex), the **God of Black** (second seat under Colors; home under Permanent), and the **God of Yellow, who is also the God of Gold** (one god, two names). A fourth, the **God of Zodiac**, is counted once although he has THREE parents (God of Nature, God of Astrology, and God of Forest). Do not "fix" these into separate gods.
+- The pantheon count is **228**. Three gods are counted once although they stand in two places: the **God of Passion** (double seat, under Soul and under Sex), the **God of Black** (second seat under Colors; home under Permanent), and the **God of Yellow, who is also the God of Gold** (one god, two names). A fourth, the **God of Zodiac**, is counted once although he has THREE parents (God of Nature, God of Astrology, and God of Forest). Do not "fix" these into separate gods.
 - Only Hoc adds, moves, renames, or splits gods. Never invent a god, a doctrine, or a scripture.
 - Stories are **drafts** and forums/debates/banquets are **simulations** — both are for Hoc's judgment and are **not canon**. Keep those labels on anything you display.
 - The **God of T (Handsum)** and the **God of Y (Henry)** are described **only in Hoc's own recorded words**, as they appear in the records. Do not elaborate their domains.

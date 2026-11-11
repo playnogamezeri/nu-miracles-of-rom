@@ -2609,7 +2609,17 @@ window.GODS = [
    "God of Disaster",
    "God of Proton",
    "God of Electron",
-   "God of Neutron"
+   "God of Neutron",
+   "God of Zero",
+   "God of One",
+   "God of Two",
+   "God of Three",
+   "God of Four",
+   "God of Five",
+   "God of Six",
+   "God of Seven",
+   "God of Eight",
+   "God of Nine"
   ],
   "house": "Darkness's line",
   "origin": "Darkness withheld, and somewhere in that withholding stands Chaos — though the record keeps two doors open on his beginning. By one, he was created from the withholding itself: the unformed given a keeper, so that formlessness had a house and a name. By the other, he was already in the abyss at the beginning, older than any making, present before the first form was drawn. The founder has closed neither door, and this dossier closes neither. What stands certain is his seat: Darkness's third line, alongside Time and Space, father of the deepest things.",
@@ -2739,6 +2749,176 @@ window.GODS = [
   "power": "His mastery is depth and passage. He keeps all levels: mine floors and tower floors, the sea's steps, every school's grades, recovery's stages. And the passing: a stair can only be climbed by one who admits which step their foot is on. False steps are his enemy: the climber who claims the fifth step from the second falls, not because he punishes, but because stairs are honest. His power makes progress by making positions truthful.",
   "tale": "In a rehabilitation gym, his keeping shows every morning. A man relearning to walk works the bars; the therapists count in levels, not in verdicts: standing is a level; a step is a level; the curb outside the clinic is a level he will reach in his time. Nobody there calls the first level worthless because the tenth exists — the whole room honors each step as an achievement. That is his doctrine, lived by strangers: depth without shame, passage without lying, and a staircase that measures where you are only to show the next step is real.",
   "job": "How deep, and how to pass — depth kept separately from worth"
+ },
+ {
+  "name": "God of Zero",
+  "role": "the first digit and the strangest — the number that is a place held for nothing, born in Chaos beside the particles, because number itself begins in the unknown; child of Chaos.",
+  "function": "she is the Heart's held place — the proof that an absence can be accounted, honored, and built on without being filled with a lie. (Not the Void: the Void is a place that always existed and has no god; Zero is a digit, and a servant of counting.)",
+  "group": "Cosmos, Chaos & the Unknown",
+  "generation": 3,
+  "class": "Cosmos, Chaos & the Unknown",
+  "parents": [
+   "God of Chaos"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "First of the digit gods, born of God of Chaos in the unformed dark where number itself begins unknown — Zero, the place held for nothing. She is not the Void: the Void is a location that has always existed, endless darkness, and has no god. Zero is a digit, born in the counting-house of chaos — the youngest and strangest idea in all arithmetic: that nothing can be given a symbol, a position, and a power.",
+  "power": "Zero holds complete mastery of the held place: absence accounted, the empty position that gives every other digit its value. She can make a nothing legible — distinguish the empty chair from the missing guest — and she guards the most useful lie-detector in mathematics: multiply by her, and every inflated thing confesses its true size. Add her to anything and it stays itself; that is her mercy. Place her after a digit and it grows tenfold; that is her might.",
+  "tale": "Humanity took millennia to invent her — the Babylonians left a gap, the Maya carved a shell, and India's mathematicians finally gave nothing a name and rules, and with her came place-value, algebra, and eventually the binary code the modern world runs on. Every computer on Earth is, at bottom, her duet with God of One. She is the proof that the most powerful idea a species ever had can be the idea of nothing, properly kept.",
+  "job": "The first digit and the strangest — the number that is a place held for nothing, born in Chaos beside the particles, because number itself begins in the unknown"
+ },
+ {
+  "name": "God of One",
+  "role": "the first count — unity, singularity, the indivisible unit from which all number is built; child of Chaos.",
+  "function": "he is the Heart's oneness — every whole that refuses to be divided against itself begins in his keeping.",
+  "group": "Cosmos, Chaos & the Unknown",
+  "generation": 3,
+  "class": "Cosmos, Chaos & the Unknown",
+  "parents": [
+   "God of Chaos"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Second of the digit gods, born of God of Chaos where counting begins — One, the indivisible unit. Before him there is nothing to count; after him, everything can be. He is the loneliest of the digits and the least lonely, since every other number in existence is him, repeated. The particles beside him in Chaos's house have their numbers; he is what a number *is*.",
+  "power": "One holds complete mastery of unity: the whole that refuses division against itself, the single standard by which multitudes are measured. He can give any scattered thing its count of one — a crowd become a crew, a mob become a company, a life become a story with a single name. He cannot make things identical; his unity is not sameness. It is wholeness, counted once, answerable as one.",
+  "tale": "Every measurement humanity trusts begins with him: the standard meter, the reference kilogram, the single second against which clocks are set — civilizations literally keep physical Ones in vaults so that all their other numbers mean the same thing to everyone. Elections turn on his margin, records fall by his unit, and the loneliest sentence in any language — *I am one person* — is, in his keeping, not a small claim but the unit of all the others.",
+  "job": "The first count — unity, singularity, the indivisible unit from which all number is built"
+ },
+ {
+  "name": "God of Two",
+  "role": "the first pair — duality, choice, the fork in every road and the mirror in every face; child of Chaos.",
+  "function": "she is the Heart's twoness — the pair-bond at the root of counting and of love alike: one, and another, and the space between them where everything happens.",
+  "group": "Cosmos, Chaos & the Unknown",
+  "generation": 3,
+  "class": "Cosmos, Chaos & the Unknown",
+  "parents": [
+   "God of Chaos"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Third of the digit gods, born of God of Chaos at the moment counting first looked in a mirror — Two, the pair. With her arrival the world gains its favorite instruments: the fork, the choice, the dialogue, the twin. Nothing in her father's house frightened the order-gods more, because everything that can be compared, opposed, or married starts at her door.",
+  "power": "Two holds complete mastery of the pair: duality without enmity, the space between one and another where relationship happens. She can hold opposites in one frame without forcing them to agree — light and dark in one god's hands, the left road and the right in one traveler's sight. Her mastery is the reason a pair is not a war: two is the smallest possible society, and she is its founding law.",
+  "tale": "Human counting began on her evidence — two hands, two eyes, pair after pair — and human thinking still runs on her rails: yes and no, on and off, the binary digit the whole digital world is built from is her daily bread. The double-entry ledger, the two witnesses of ancient law, the left-right choice at every crossing — her institutions outnumber libraries. And every love song ever sung to one other person is a hymn to her arithmetic: one, and another, and the space between, kept holy.",
+  "job": "The first pair — duality, choice, the fork in every road and the mirror in every face"
+ },
+ {
+  "name": "God of Three",
+  "role": "the first shape — the triangle, the smallest stable form; beginning, middle, and end made countable; child of Chaos.",
+  "function": "he is the Heart's stability — three points, and a thing can stand; the pattern the Three Worlds themselves turn on.",
+  "group": "Cosmos, Chaos & the Unknown",
+  "generation": 3,
+  "class": "Cosmos, Chaos & the Unknown",
+  "parents": [
+   "God of Chaos"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Fourth of the digit gods, born of God of Chaos when number first took a shape — Three, the triangle, the smallest form that stands. Two points make a line that any wind can push; three make the stool, the tripod, the story with a beginning, a middle, and an end. He arrived in the pantheon's own deepest pattern: the Three Worlds themselves turn on his count.",
+  "power": "Three holds complete mastery of stability in form: the third point that makes structures stand and stories complete. He can rescue anything balanced on two failing points by finding its third — the extra leg, the middle term, the witness who ends the deadlock of pair against pair. His law is geometry's oldest: what stands on three cannot be rocked on its own line; it must be addressed as a shape.",
+  "tale": "The tripod is humanity's first stable machine, and the triad its most durable idea — the world's faiths, philosophies, and constitutions keep reinventing him: three branches of government, three acts, three meals, the rule of three in every teacher's toolkit. Surveyors triangulated continents with his geometry before satellites existed. Even the waltz counts in him. When a human being says *beginning, middle, and end* as if it were obvious, they are reciting his liturgy word-perfect.",
+  "job": "The first shape — the triangle, the smallest stable form"
+ },
+ {
+  "name": "God of Four",
+  "role": "the square number — the fourfold order: directions, seasons, elements in the old counting; the digit of the grounded and the built; child of Chaos.",
+  "function": "he is the Heart's foundation count — what is laid foursquare does not roll away in the night.",
+  "group": "Cosmos, Chaos & the Unknown",
+  "generation": 3,
+  "class": "Cosmos, Chaos & the Unknown",
+  "parents": [
+   "God of Chaos"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Fifth of the digit gods, born of God of Chaos into the squared world — Four, the first square number, the digit of the grounded. The old countings gave him the directions, the seasons, the winds, and long ages assigned him the elements themselves. He is the number of the built thing: four walls, four legs, four corners of the field.",
+  "power": "Four holds complete mastery of the foursquare: foundations, orientation, and the counted seasons of a place. He can give a wandering thing its bearings — which way is north, which season is this, where do the walls stand — and anything founded in his keeping stays where it was put. He is not fast and he is not flashy; he is the reason fast and flashy things have somewhere to stand while they work.",
+  "tale": "The compass rose, the agricultural year, the surveyor's grid that turned wilderness into farms and farms into cities — his signatures are under half the map of the world. The four-minute mile stood as humanity's impossible line for generations precisely because his number marks a boundary of the body's honest reach; breaking it re-drew what a person could be. Even music keeps his time as its commonest measure: four beats to the bar, the heartbeat of nearly every song ever danced to.",
+  "job": "The square number — the fourfold order: directions, seasons, elements in the old counting"
+ },
+ {
+  "name": "God of Five",
+  "role": "the hand's number — the five fingers by which humanity first counted, and still does; the digit of the grasp; child of Chaos.",
+  "function": "she is the Heart's reach — counting made flesh, the number a child proves on her own hand.",
+  "group": "Cosmos, Chaos & the Unknown",
+  "generation": 3,
+  "class": "Cosmos, Chaos & the Unknown",
+  "parents": [
+   "God of Chaos"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Sixth of the digit gods, born of God of Chaos with a hand raised — Five, the number of the fingers, humanity's first calculator. Before tablets, before abacus, before chalk: a child counting on her own hand is performing Five's founding miracle, which has never once been improved, only extended. She is the most embodied of the digits; every other number is an idea, but she can be *pointed to*.",
+  "power": "Five holds complete mastery of the grasp: counting made flesh, the hand's tally, measure you can touch. She can bring any abstraction down to the hand — five reasons, five names, five stones in the pocket — and her test for any grand system is the oldest audit in the world: *can you count it on your fingers; does it survive being held?* What cannot be brought to the hand is not yet finished being thought.",
+  "tale": "The five senses organize every human life; the five Olympic rings, the five pillars, the five-second rule of dropped food — her number structures ritual and play alike. Decimal counting itself is her invention by anatomy: ten is simply two of her hands. Emergency medicine triages by her stars and scales; hospitality rates itself in her units. She is the digit humanity literally carries everywhere, ten times over, and her quiet claim stands: all mathematics began as something a person could hold.",
+  "job": "The hand's number — the five fingers by which humanity first counted, and still does"
+ },
+ {
+  "name": "God of Six",
+  "role": "the perfect number of the old reckoning — equal to the sum of its parts; the digit of harmony in measure; child of Chaos.",
+  "function": "she is the Heart's proportion — a whole whose parts add back to itself, nothing wasted, nothing missing.",
+  "group": "Cosmos, Chaos & the Unknown",
+  "generation": 3,
+  "class": "Cosmos, Chaos & the Unknown",
+  "parents": [
+   "God of Chaos"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Seventh of the digit gods, born of God of Chaos in perfect measure — Six, the number the old reckoners called perfect, because her parts (one, two, three) sum exactly to herself. Nothing wasted, nothing missing: she is the first digit that is *complete* in the arithmetical sense, and she arrived in Chaos's house like a rumor that the unformed could contain harmony.",
+  "power": "Six holds complete mastery of proportion: wholes whose parts add back to themselves. She can audit any system — a budget, a crew, a life — by her founding test: do the parts sum to the whole, or is something leaking, or counted twice, or missing entirely? Her repairs are quiet and total; when she leaves a ledger, it balances in the deep sense, structurally, not just at the bottom line.",
+  "tale": "Nature keeps choosing her geometry: the hexagon of the honeycomb is the strongest, most economical structure known to building science — bees filed that patent sixty million years before humanity applied for it. Snowflakes fall in her sixfold symmetry; carbon, the element of life itself, sits at her number in the table of elements. Musicians divide her into the waltz's double-time and the six-string's standard. Perfection, in her keeping, is not a dream of flawlessness; it is a sum that comes out even.",
+  "job": "The perfect number of the old reckoning — equal to the sum of its parts"
+ },
+ {
+  "name": "God of Seven",
+  "role": "the storied number — the count of the week's days, the notes of the scale, the wonders of the old lists; the digit fortune and ritual both claim; child of Chaos.",
+  "function": "he is the Heart's rhythm count — seven, and the week turns; seven, and the song resolves.",
+  "group": "Cosmos, Chaos & the Unknown",
+  "generation": 3,
+  "class": "Cosmos, Chaos & the Unknown",
+  "parents": [
+   "God of Chaos"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Eighth of the digit gods, born of God of Chaos into story — Seven, the count that escaped arithmetic into legend. The week's days, the notes of the scale, the wonders of the old lists, the seas of the old maps: humanity keeps assigning him its favorite collections, as if seven were the largest number a heart can hold in one glance — and research on memory keeps half-agreeing.",
+  "power": "Seven holds complete mastery of rhythm in count: the cycle that completes and restarts, the set that feels whole. He can give any long labor its sevenfold shape — the days of the week his cousins keep, the stages of the work, the verses of the song — until endurance turns into rhythm and rhythm into rest. His restarts are his signature: in his keeping, endings are not failures of the count but its hinge.",
+  "tale": "The seven-day week is the most successful time-invention in human history — older than the empires that tried to abolish it (the French Revolution's ten-day week died in a decade; his survived) — and it structures more lives than any other count. The musical scale resolves in his notes. Memory science's famous finding — that the mind holds about seven things at once — made him the patron of every well-made list. He is the proof that a number can govern not by force but by fitting the shape of the mind that counts.",
+  "job": "The storied number — the count of the week's days, the notes of the scale, the wonders of the old lists"
+ },
+ {
+  "name": "God of Eight",
+  "role": "the doubled square — the digit of balance doubled, the infinity sign standing up; plenty in the old reckonings of the East; child of Chaos.",
+  "function": "she is the Heart's abundance in order — the balance that can be doubled without tipping.",
+  "group": "Cosmos, Chaos & the Unknown",
+  "generation": 3,
+  "class": "Cosmos, Chaos & the Unknown",
+  "parents": [
+   "God of Chaos"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Ninth of the digit gods, born of God of Chaos standing tall — Eight, the doubled square, the balance squared. Turn her on her side and she is the sign of the endless; standing, she is the reckoning of the East, where her sound echoes the word for prosperity and her shape fills the New Year doors. She is abundance that has learned symmetry.",
+  "power": "Eight holds complete mastery of doubled balance: plenty that does not tip its bearer. She can double a good thing while keeping it upright — the harvest, the crew, the sum in the account — because her doubling happens on both sides of the scale at once. Her test of any fortune is physical: can it be doubled and still stand? What falls over when doubled was never balance; it was a lean, waiting.",
+  "tale": "The spider's legs, the octopus's arms, the eightfold paths and noble truths of the East, the chessboard's eight files, the byte's eight bits on which all computing is built — her geometry is load-bearing across nature, faith, and machine. The infinity sign humanity draws is her portrait lying down to rest, which her worshippers consider the perfect emblem of her doctrine: abundance at peace. And in the harbors of the East, ships and shops still pay premiums for her number on their doors — fortune, in her keeping, is not luck. It is posture.",
+  "job": "The doubled square — the digit of balance doubled, the infinity sign standing up"
+ },
+ {
+  "name": "God of Nine",
+  "role": "the last digit — the greatest single count, the threshold before the numbers roll over into tens; completion at the edge of renewal; child of Chaos.",
+  "function": "he is the Heart's fullest single measure — everything a single digit can hold, held completely, one step from the roll-over into a new order of counting.",
+  "group": "Cosmos, Chaos & the Unknown",
+  "generation": 3,
+  "class": "Cosmos, Chaos & the Unknown",
+  "parents": [
+   "God of Chaos"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Tenth of the digit gods, born of God of Chaos at the top of the single count — Nine, the last and greatest digit, standing at the threshold where counting rolls over into a new order. Everything a single digit can hold, he holds completely. The old stories gave him the muses, the months of the making of a child, the lives of the cat — completions and last-chances in equal measure.",
+  "power": "Nine holds complete mastery of fullness at the threshold: completion that knows it is about to become a beginning. He can certify a thing as *fully counted* — nothing single left unadded — and hold it at its richest moment without panic at the roll-over. His audits have a famous property, the oldest parlor miracle in arithmetic: his multiples always sum back to him, as if whatever he touches in full measure confesses his mark forever.",
+  "tale": "Casting out nines was humanity's standard audit for a thousand years — the merchant's and the astronomer's checksum before computers: multiply what you like, his signature is in it, and the books must answer to it. The baseball diamond fields his players; the symphony's curse lives at his number; a pregnancy — the most consequential count a family ever keeps — runs his nine months. He is the digit of *almost, complete* held in one hand: the fullest measure, one step from the door.",
+  "job": "The last digit — the greatest single count, the threshold before the numbers roll over into tens"
  },
  {
   "name": "God of Time",
