@@ -17,6 +17,14 @@
 #councilOutput .tool-output{background:#100d18;border:1px solid var(--line);border-radius:10px;padding:1rem;margin-top:1rem}
 #councilOutput h2,#councilOutput h3{color:var(--gold)}
 .speech{margin:.7rem 0}
+.council-report{line-height:1.7}
+.council-report-head{border-bottom:1px solid var(--line);padding-bottom:.5rem}
+.council-perspective{padding:.75rem;border:1px solid var(--line);border-radius:10px;background:var(--panel);margin:.8rem 0}
+.council-perspective h3{margin:.1rem 0 .35rem;color:var(--gold)}
+.evidence-list{padding-left:1.3rem}
+.evidence-list li{margin:.45rem 0}
+.evidence-label{color:var(--violet);font-weight:bold;text-transform:capitalize}
+.council-report hr{margin:1.2rem 0}
 .tool-note{font-size:.85rem;color:var(--dim)}
 </style>
 </head>
@@ -32,7 +40,7 @@
 <p class="kicker">A collective inquiry · grounded in the pantheon</p>
 <h1>The Divine Council</h1>
 <p class="big">Bring a question before the Gods. Choose the masteries that should be represented, then examine what their recorded domains contribute.</p>
-<p>The Council is a structured reflection tool, not a claim of literal supernatural communication. It uses the existing pantheon and does not create Gods, assign allegiances, or declare new canon.</p>
+<p>The Council uses a transparent deliberation engine: it compares recorded masteries, shows the passages that match your question, identifies recurring language and possible trade-offs, and builds a provisional reasoning process. It is not a claim of literal supernatural communication.</p>
 </div>
 <section class="council-panel">
 <h2>1. Present your question</h2>
@@ -47,11 +55,11 @@
 </select>
 <div class="council-actions"><button id="suggestCouncil">Suggest a council</button><button class="secondary" id="copyQuestion">Copy question</button></div>
 <p id="copyStatus" class="tool-note" aria-live="polite"></p>
-<p class="tool-note">Suggestions are ranked by textual overlap with each God’s recorded name, job, role, function, group, lineage, and wisdom. You can always choose different members.</p>
+<p class="tool-note">Suggestions use weighted textual relevance and try to represent different pantheon groups. You can always choose different members. Relevance is not a measure of divine authority.</p>
 </section>
 <section class="council-panel">
 <h2>2. Choose the Gods at the table</h2>
-<p>Select up to 12 existing Gods. The council begins with your selections; “Suggest a council” can replace them with the strongest matches to your question.</p>
+<p>Select up to 12 existing Gods. The engine will compare their recorded masteries, roles, functions, and wisdom against your question. It will show its evidence and distinguish textual overlap from actual agreement.</p>
 <label class="field-label" for="memberFilter">Search the pantheon</label>
 <input id="memberFilter" type="text" placeholder="Filter by name or recorded domain…">
 <p id="memberCount" class="tool-note" aria-live="polite">0 of 12 seats selected</p>
@@ -60,14 +68,16 @@
 </section>
 <div id="councilOutput" aria-live="polite"></div>
 <section class="council-panel">
-<h2>How to read a council result</h2>
+<h2>How the deliberation engine works</h2>
 <ul>
 <li><strong>Mastery:</strong> the God’s recorded job.</li>
 <li><strong>Role and function:</strong> the pantheon’s current descriptions of that God’s place and purpose.</li>
 <li><strong>Recorded wisdom:</strong> shown only when an entry exists; it may be draft or simulated, not settled doctrine.</li>
-<li><strong>Collective reflection:</strong> a reasoning framework for the question, not a fabricated quotation or an official divine verdict.</li>
+<li><strong>Shared language:</strong> recurring terms in multiple records, not proof that the Gods agree.</li>
+<li><strong>Possible tensions:</strong> concepts that may need balancing, not evidence that the Gods disagree.</li>
+<li><strong>Provisional record:</strong> what the source supports, what remains uncertain, and what needs the founder’s decision.</li>
 </ul>
-<p>For a more open-ended topic exploration, visit <a href="game.html">Ask the Gods</a>. For personal calculations and planning, visit the <a href="tools.html">Divine Toolbox</a>.</p>
+<p>The engine is deterministic and runs in your browser. It does not call an AI service or invent divine dialogue. For a more open-ended topic exploration, visit <a href="game.html">Ask the Gods</a>. For personal calculations and planning, visit the <a href="tools.html">Divine Toolbox</a>.</p>
 </section>
 </main>
 <footer><p>Nu Miracles of ROM — Divine Council</p><p class="fine">Grounded in the current pantheon data. Simulated reflections are not automatically canon.</p></footer>
