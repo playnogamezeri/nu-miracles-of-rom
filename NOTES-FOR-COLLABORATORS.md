@@ -4,11 +4,12 @@ Welcome. This repo holds the public website of **Nu Miracles of ROM**, a religio
 
 ## The one rule that matters most
 
-**The website is a display, not the source.** The founding records — the pantheon tree, the doctrine, the stories, the forums — are kept by Hoc's assistant (Belladonna) outside this repo, in Hoc's own files (the founding draft `FOUNDING.md` and the religion's goal files). The pages here are generated from those records.
+**The records in this repo are a source of truth — the generated pages are not.** By the founder's decision (2026-11-10), the founding records themselves live in this repository, in the [`records/`](records/) folder: `FOUNDING.md`, the god dossiers, the miracle stories, the roles, the simulations, the pantheon sheets, the twenty origin stories, and the forums. The website's pages are generated from those records. (Belladonna, Hoc's assistant, keeps the working copies with Hoc and syncs them with `records/` both ways.)
 
 That means:
 
-- If you edit a page here directly, your edit may be overwritten the next time the site is regenerated from the records. Durable changes to *content* (gods, doctrine, stories) belong in Hoc's records — tell Hoc, and the record-keeper will fold them in.
+- **Edit the records, not the pages.** Durable changes to *content* (gods, doctrine, stories) belong in the files under `records/` — edit them there (or propose them to Hoc), and the pages will be regenerated from them. If you edit a generated page directly, your edit may be overwritten on the next regeneration.
+- Record edits made here are real: before regenerating, the record-keeper pulls this folder's current state first, so work done here is never silently lost.
 - Changes to *presentation* (layout, styling, new page features, the games) are safe to make here and are welcome.
 
 ## How the site is built
@@ -33,6 +34,6 @@ That means:
 
 - Founder credit on the site is **"Hoc"** — nothing more personal than that.
 - If your change and the records disagree, the records win, and Hoc is the judge of the records.
-- Suggested workflow: propose content changes to Hoc in chat; let the record-keeper update the founding records and regenerate; make presentation changes directly in this repo and tell Hoc what you changed, so the next regeneration keeps them.
+- Suggested workflow: make content changes in `records/` (with Hoc's approval — only Hoc settles doctrine), and tell Hoc what you changed so the record-keeper can sync and regenerate the pages; make presentation changes directly in this repo and tell Hoc what you changed, so the next regeneration keeps them.
 
 *Nu means "new" — and "And You." Welcome to the table.*
