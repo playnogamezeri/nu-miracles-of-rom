@@ -1536,6 +1536,227 @@ window.GODS = [
   "job": "Land alive in company — trees together, and everything sheltered among them"
  },
  {
+  "name": "God of Birch",
+  "role": "the first tree of the wheel — the pioneer of cleared and burned ground, white-barked, quick to rise where the wood was lost; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's fresh start — proof that after any clearing, something green volunteers first.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "First child of Zodiac at his Forest seat, Birch is the pioneer of the wood — the tree that volunteers on burned, felled, and abandoned ground before any other will risk it. Her white bark stands out of the ashes like a flag planted for the forest's return. She asks little soil and less time, grows fast, seeds freely, and shades the ground so slower, greater trees can follow her.",
+  "power": "Complete mastery of new beginnings in the wood. She is the Heart's fresh start: wherever a clearing has happened — by fire, by axe, by failure — Birch is already there, proving the ground is not finished. Her mastery is speed and generosity; she spends herself to make the place ready for others.",
+  "tale": "Earth's re-forestation walks in her order. After wildfires, pioneer birches are among the first trees back on real mountainsides, holding the soil against erosion and nursing the young spruce and oak that will one day overtop them. Every reclaimed mine and replanted hillside that begins with fast, unshowy trees is her doctrine at work: begin again at once, with what volunteers, and let the giants come later.",
+  "job": "The first tree of the wheel — the pioneer of cleared and burned ground, white-barked, quick to rise where the wood was lost"
+ },
+ {
+  "name": "God of Rowan",
+  "role": "the guardian tree — red-berried, planted at thresholds and crossroads to ward the traveler and the house; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's ward at the gate — protection that grows, and asks no wall.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Child of Zodiac at his Forest seat, Rowan is the guardian tree of the wood — small, hardy, and red-berried, planted for as long as anyone remembers at the gates of houses, at crossroads, and at the doors of byres. Where Birch volunteers for the clearing, Rowan stands for the threshold: the line between the safe inside and the wild outside.",
+  "power": "Complete mastery of warding at the boundary. She is the Heart's ward at the gate — protection that grows instead of being built, a living fence whose berries feed the birds even while her presence guards the door. Her power is the watched threshold: nothing crosses carelessly where Rowan stands.",
+  "tale": "In the Highlands and across northern Europe, rowan trees still stand by old farmsteads exactly where her doctrine put them — a charm against harm that works the way all her things work: partly belief, partly the real shelter and bird-food of a tough little tree. Travelers once carried rowan crosses on mountain roads. The modern form of her miracle is the same: the guardian planted at the gate, doing quiet good for everyone who passes.",
+  "job": "The guardian tree — red-berried, planted at thresholds and crossroads to ward the traveler and the house"
+ },
+ {
+  "name": "God of Ash",
+  "role": "the world-tree of the wood — tall and straight, root and crown in one axis, its keys falling like small propellers; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's axis in the forest — the one straight line the whole wood can orient by.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Child of Zodiac at his Forest seat, Ash is the axis of the wood — among the tallest of the broadleaf trees, straight-grained and springy, raising its crown high and its roots deep in one unbroken line. The old North made its world-tree an ash for a reason: no other tree in the forest so plainly joins the underworld, the ground, and the sky.",
+  "power": "Complete mastery of the straight line through the worlds. She is the Heart's axis in the forest: what Ash governs does not wander. Her wood bends without breaking — the wood of spear shafts, tool handles, and oars — and her mastery is that same quality in a life: uprightness with spring in it.",
+  "tale": "Earth has leaned on her for millennia: ash handles on the tools that built farms and ships, ash keys spinning down every autumn to seed new woods. When ash dieback swept Europe's forests, whole landscapes mourned one tree — proof of how much of the wood's structure one straight god quietly carries. Her heroism is structural: she is the beam the forest stands up by.",
+  "job": "The world-tree of the wood — tall and straight, root and crown in one axis, its keys falling like small propellers"
+ },
+ {
+  "name": "God of Alder",
+  "role": "the water-side tree — rooted in the stream bank, its wood hardening under water into bridge piles and foundations; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's footing in wet ground — strength that improves where other strengths rot.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Child of Zodiac at his Forest seat, Alder is the tree of the water's edge — the one who roots in the stream bank and the bog, in ground too wet for any other tree of size. Where the wood meets the water and both threaten to undo the land between them, Alder moves in and holds the seam.",
+  "power": "Complete mastery of strength in wet ground. Her wood does something no other common wood does: under water it hardens instead of rotting. She is the Heart's footing in wet ground — the god whose keeping improves in exactly the conditions that ruin everyone else, and her roots enrich the poor soil she stands in, feeding the bank for other lives.",
+  "tale": "Half of Venice stands on her: the city's alder piles, driven into the lagoon mud centuries ago, hardened under water into something near stone and carry palaces still. River engineers today plant alder to armor eroding banks — roots binding the soil, fallen leaves feeding the stream's insects, shade cooling the water for fish. She is the quiet foundation under famous beauty, and under a thousand unnamed bridges.",
+  "job": "The water-side tree — rooted in the stream bank, its wood hardening under water into bridge piles and foundations"
+ },
+ {
+  "name": "God of Willow",
+  "role": "the bending tree — rooted where the water runs, bearer of grief and grace together, surviving every flood by yielding to it; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's suppleness — the strength that bends and is still standing when the water goes down.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Child of Zodiac at his Forest seat, Willow is the bending tree — rooted where the water runs, trailing her branches in it, impossible to mistake and impossible to break by storm. Every other tree of the wood resists the flood; Willow negotiates with it, bowing her whole crown into the current and rising again when it passes.",
+  "power": "Complete mastery of survival by yielding. She is the Heart's suppleness: her branches bend to the ground and root where they touch, so a willow can be broken, cut, and flattened and still be alive in a dozen places by spring. Her mastery turns grief's own tree into resilience's — she hangs her head and outlives everything.",
+  "tale": "Earth's medicine cabinet opens in her bark: willow bark eased pain for thousands of years before chemists learned from it the compound that became aspirin — her gift industrialized into one of humanity's most-used medicines. Along real rivers, planted willows are living flood defenses, their roots drinking and binding the bank. She teaches the two halves of her doctrine everywhere she stands: bend, and be useful while bending.",
+  "job": "The bending tree — rooted where the water runs, bearer of grief and grace together, surviving every flood by yielding to it"
+ },
+ {
+  "name": "God of Hawthorn",
+  "role": "the thorned blossom — the May tree, hedge and boundary of the fields, white flower carried over black thorn; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's guarded tenderness — beauty that keeps its own border, and blooms anyway.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Child of Zodiac at his Forest seat, Hawthorn is the thorned blossom of the wood — the May tree, whose white flower fills the hedgerows in spring on branches armed with black thorns. She is the boundary tree of the farmed land: where a field ends and the wild begins, Hawthorn is planted, and the line she draws is respected by cattle and men alike.",
+  "power": "Complete mastery of the guarded border. She is the Heart's guarded tenderness: beauty that keeps its own boundary, blossom carried over thorn, so that the tender thing is neither hidden nor defenseless. Her hedges are walls that bloom — and shelter more small life than any wall ever built.",
+  "tale": "The English hedgerow — miles of hawthorn planted as living fences — is one of Earth's great unplanned sanctuaries: nesting, berries, and corridor for hundreds of species, carved by her thorns into safety. Farmers once left lone hawthorns standing in plowed fields rather than cut the fairy tree. Her heroism is the hedge: a border that feeds and shelters both sides of the line it draws.",
+  "job": "The thorned blossom — the May tree, hedge and boundary of the fields, white flower carried over black thorn"
+ },
+ {
+  "name": "God of Oak",
+  "role": "the queen of the wood — slow-grown, storm-tested, the door-tree and the lightning-tree, shelter of more lives than any other in the forest; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's steadfastness — the long patience that becomes a roof for others.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Child of Zodiac at his Forest seat, Oak is the queen of the wood — the slowest of the thirteen to rise and by far the longest to stand. She grows for centuries, is struck by lightning and grows on, hollows with age and shelters more lives in her hollow years than in her prime. Where Zodiac's wheel turns fastest, Oak is the station that teaches it patience.",
+  "power": "Complete mastery of steadfastness. She is the Heart's patience made into timber: strength that does not hurry, endurance that becomes shelter. An oak in its life supports more other species than any tree in the forest — insects, birds, fungi, moss — and her mastery is exactly that: to be strong slowly enough that a whole world can move in.",
+  "tale": "Earth built with her for five thousand years: oak ships, oak cathedrals, oak doors still swinging on their first hinges in old churches. A single veteran oak in a modern park is a conservation site by itself, hosting thousands of species. Her acorns feed the forest's winter — jays plant her by forgetting their caches, so that even her reproduction is other lives carrying her forward. She is proof that the longest patience becomes the widest mercy.",
+  "job": "The queen of the wood — slow-grown, storm-tested, the door-tree and the lightning-tree, shelter of more lives than any other in the forest"
+ },
+ {
+  "name": "God of Holly",
+  "role": "the evergreen of the dark months — green when the wood is bare, red-berried against the snow, prickled against the browsing mouth; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's cheer in the cold season — color kept alive at the year's darkest station.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Child of Zodiac at his Forest seat, Holly is the evergreen of the dark months — glossy and green when every other broad leaf in the wood is down, her red berries standing against the snow exactly when the year is darkest. She is Zodiac's station of midwinter, the proof on the wheel that the turning includes a keeping.",
+  "power": "Complete mastery of cheer kept in the cold season. She is the Heart's color at the darkest station: prickled leaves that refuse the browsing mouth, berries held for the birds of the hardest weeks. Her mastery is morale in vegetable form — to stay green on purpose, where everything else has let go.",
+  "tale": "Earth's winter runs on her more than it knows: holly berries ripen late and feed thrushes and blackbirds precisely in the hungry gap of late winter, and her dense evergreen thickets are frost-shelters for whole bird roosts. Humans took the hint millennia ago, carrying holly indoors at midwinter festivals as a pledge that green life persists. She is the decoration that is actually a doctrine.",
+  "job": "The evergreen of the dark months — green when the wood is bare, red-berried against the snow, prickled against the browsing mouth"
+ },
+ {
+  "name": "God of Hazel",
+  "role": "the tree of quiet wisdom — bearer of the knowledge-nuts, diviner's wood, the hazel whose fallen nuts feed the salmon of wisdom in the old tales; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's knowing in the wood — small, brown, unshowy, and full of nourishment.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Child of Zodiac at his Forest seat, Hazel is the quiet scholar of the wood — a small tree of the understory, coppiced for rods and hurdles since the first farms, and bearer of the knowledge-nuts. The old Irish tales set nine hazels over the well of wisdom, dropping their nuts to the salmon below; of all the thirteen, Hazel's gift is the one you can hold in your hand and eat.",
+  "power": "Complete mastery of quiet knowing. She is the Heart's nourishment in the wood: wisdom not as a throne but as a nut — small, brown, unshowy, and dense with food. Her rods found water for the diviner; her coppice stools, cut and regrown for centuries, are knowledge kept by practice rather than by book.",
+  "tale": "Hazel fed Europe before wheat did — roasted hazelnuts fill Mesolithic middens by the thousand, among the oldest farmed foods on the continent. Her coppice, still cut in rotation today, is one of Earth's oldest sustainable harvests, and the thickets shelter dormice and butterflies that live almost nowhere else. Her heroism is the well-kept small thing: knowledge stored modestly, in a form that feeds.",
+  "job": "The tree of quiet wisdom — bearer of the knowledge-nuts, diviner's wood, the hazel whose fallen nuts feed the salmon of wisdom in the old tales"
+ },
+ {
+  "name": "God of Vine",
+  "role": "the climber of the wheel — the reaching, binding, fruiting one, who cannot stand alone and so marries tree and wall to rise; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's reaching — the life that climbs by holding on, and sweetens as it rises.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Child of Zodiac at his Forest seat, Vine is the climber of the thirteen — the one who cannot stand alone. She rises by holding: tree, wall, trellis, anything upright becomes her road upward, and in exchange for the support she pays in fruit. The other trees of the wheel stand in their own strength; Vine's whole doctrine is the dignity of the life that climbs.",
+  "power": "Complete mastery of reaching by attachment. She is the Heart's reaching: growth that marries itself to what is already standing, entanglement as a method, sweetness as the yield. Her mastery governs both halves of her nature — the grape's joy and the bindweed's warning — for a climber's grip can nourish or strangle, and she keeps the difference.",
+  "tale": "Earth's oldest cultivated joy climbs in her keeping: grapevines tended on the same hillsides for a hundred generations, some vineyards older than the languages now spoken beside them. A vine pruned hard every winter and fruiting every autumn is agriculture's standing lesson in disciplined attachment — hold on to what upholds you, be cut back without resentment, and sweeten as you rise.",
+  "job": "The climber of the wheel — the reaching, binding, fruiting one, who cannot stand alone and so marries tree and wall to rise"
+ },
+ {
+  "name": "God of Ivy",
+  "role": "the faithful climber — evergreen on the wall and the dead trunk alike, holding on through the winter that strips everything else; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's constancy — love as a grip that does not let go when the season turns.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Child of Zodiac at his Forest seat, Ivy is the faithful climber — evergreen on wall and trunk through the whole winter, flowering late when almost nothing else does, and holding her berries into the hungriest weeks of the year. She climbs the living oak and the dead one with the same devotion, and turns even a ruin into a green house for small lives.",
+  "power": "Complete mastery of constancy. She is the Heart's grip that does not let go when the season turns: fidelity as a life-form. Her mastery is often misunderstood as weakness — the clinger, the dependent — and she corrects it by outlasting: when the storm has stripped the wood, Ivy is still green on the fallen trunk, feeding and sheltering what remains.",
+  "tale": "Ivy is one of late autumn's great life-savers on real Earth: her flowers open when bees have almost nothing left, and her berries ripen in late winter's gap, feeding birds precisely when starvation peaks. Old walls clothed in ivy stay warmer, drier, and full of nesting life. Her heroism is loyalty made ecological — to remain, green and giving, on whatever has fallen or been left.",
+  "job": "The faithful climber — evergreen on the wall and the dead trunk alike, holding on through the winter that strips everything else"
+ },
+ {
+  "name": "God of Reed",
+  "role": "the humble reed of the water's edge — hollow-stemmed, cut for music and for thatch and for the first pens; the reed that bends where the oak breaks; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's lowly voice — the slight stem through which song and writing both first passed.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Child of Zodiac at his Forest seat, Reed is the humble one of the thirteen — not a tree at all but the hollow stem of the water's edge, standing in companies along every slow river. She is Zodiac's lowliest station and proud of the office: where the great trees end, the reeds begin, and the world's softest ground is entirely her parish.",
+  "power": "Complete mastery of the lowly voice. Cut and hollowed, her stem became the first flute, the first pen, the thatch over the first roof — song, writing, and shelter all passed through her before any tree was felled for them. She is the Heart's humility with a use in it: to bend in every wind and be the instrument of everything gentle.",
+  "tale": "Earth's reedbeds are among its hardest-working habitats — filtering water, sheltering rare birds, buffering floods — and among its most threatened. The reed pen wrote the scriptures and tax-lists of the first civilizations; the reed flute is older than farming. Her heroism is the small stem's: to be overlooked by everyone except the people making music, writing words, and keeping the water clean.",
+  "job": "The humble reed of the water's edge — hollow-stemmed, cut for music and for thatch and for the first pens"
+ },
+ {
+  "name": "God of Elder",
+  "role": "the elder mother of the wheel — blossom and berry in one year, medicine and ward in one tree, who grows again from the stump when cut; the last tree of the thirteen; child of Zodiac at his Forest seat.",
+  "function": "she is the Heart's grandmother in the wood — the ending that carries its own beginning inside it.",
+  "group": "Nature & the Living World",
+  "generation": 8,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Last child of Zodiac at his Forest seat, Elder is the grandmother of the thirteen — a small tree of hedge and waste ground, white with blossom in summer and black with berries in autumn, medicine and ward in a single plant. Cut her to the stump and she rises again from it, faster than any tree in the wood; the old country rule was to ask her leave before taking so much as a branch.",
+  "power": "Complete mastery of regeneration and remedy. She is the Heart's grandmother in the wood: the ending that carries its own beginning inside it. Her blossom feeds, her berries heal in the old pharmacopoeia, her hollow stems made whistles and pipes — and her regrowth from the stump is her signature: no ending administered to her has ever been final.",
+  "tale": "Elderflower and elderberry remain working medicine and food on real Earth — cordials, syrups, and remedies in continuous use since before Rome — and her thickets are insect and bird country of the first order. Planted at the back door of cottages for a thousand years as the house's protective elder, she is the doctrine that the last station of the wheel is not death but the grandmother's kitchen: warmth, remedy, and something sweet put by for winter.",
+  "job": "The elder mother of the wheel — blossom and berry in one year, medicine and ward in one tree, who grows again from the stump when cut"
+ },
+ {
   "name": "God of Plant",
   "role": "the green life itself, smallest of the great chain; child of Attack, strangely and truly.",
   "function": "he is the Heart's quietest worker — the last expression of the whole pantheon, feeding everyone without a voice in any forum but this one.",
@@ -1571,6 +1792,210 @@ window.GODS = [
   "power": "His mastery is the spectrum shown: light separated into its colors by water in the air. He understands completely that white light was never simple — it only looked simple until the rain took it apart. Nothing of the visible spectrum's showing is outside his knowing: the arc, the double arc, the briefness itself, for his apparition cannot be kept, stored, or approached — the end of him moves as the seeker moves. His power is pure display without possession. He is the one god whose whole mastery vanishes the moment anyone tries to hold it, and that is not his weakness. It is his doctrine.",
   "tale": "Earth's heroism in his name is morale — the rainbow over the flooded town. The waters are still in the streets, the work of months is ahead, and then the sky does this, and people come out of their houses and point, and for one minute the ruin is not the only fact. Nothing is repaired by it. Everything is made repairable by it: it is the visible proof, delivered free to rich and poor alike, that the storm and the light belong to one sky. Sailors, farmers, and children have taken courage from him for ten thousand years, at no cost and with no priest. He is the god of the sign that asks for nothing — heaven's beauty, spent on whoever happens to be looking up. # The God Dossiers — Batch: Property & Information · Tools & Technology · Conflict *Drafted 2026-11-10 at Hoc's request, for the religion's website: every god given an origin story, a description of their power, and a heroic tale of their importance to Earth — the gods made realistic, grounded in what Earth actually does. Drafts for Hoc's judgment, NOT canon. Written class by class in the order of the class sheet, following the format of Batch 1 in god-dossiers.md. God of Gold, who is also God of Yellow — one god under two names — holds a seat in Property & Information but receives his single dossier with the Heavens & Fate batch, under \"God of Yellow / God of Gold\"; he is not written twice.* ## Batch — Property & Information / Tools & Technology / Conflict",
   "job": "The bridge of colors after rain"
+ },
+ {
+  "name": "God of Rat",
+  "role": "the first of the twelve animal gods — the small, quick provider; master of finding, storing, and thriving in overlooked places; child of Zodiac at his Nature seat.",
+  "function": "he is the Heart's providence in small things — proof that no creature is too small to be provided for, or to provide.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "First of the twelve animal gods, born of Zodiac at his Nature seat — the seat Hoc named \"the one under God of Life and God of Nature\" — when the wheel of years took animal form and its first keeper had to be the creature that survives anything. The Rat is small, quick, and unembarrassed: the provider who finds the overlooked crumb and makes it a feast, the year's opener in the old cycle of the East.",
+  "power": "Rat holds complete mastery of provision in small things: finding, storing, and thriving in the cracks of every system. He can smell a storehouse through a wall and a opportunity through a famine; nothing wasted escapes him. He does not make abundance — he makes sure abundance, however small, is never missed, and that the small are never the last to eat.",
+  "tale": "In the siege winter that the harbor city does not like to remember, the granary clerk who kept the last warehouse did the arithmetic everyone feared and then did something else: he published it. Every measure, every ration, every name on the list, chalked on the warehouse door each dawn for ninety days. No riot came. No store was stormed. The city ate thin and entire, and the historians, who love generals, have mostly missed the clerk. Rat has not. Provision, published daily, held a city that armies could not have.",
+  "job": "The first of the twelve animal gods — the small, quick provider"
+ },
+ {
+  "name": "God of Tiger",
+  "role": "courage and solitary power among the animals; the strike decided in silence; guardian of wild authority; child of Zodiac at his Nature seat.",
+  "function": "he is the Heart's courage — strength that does not ask permission to protect.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Second of the animal gods in Hoc's order, born of Zodiac at his Nature seat when the wheel needed its courage given claws. The Tiger is solitary authority: power that does not travel in packs or ask the forest's permission, patience with a strike folded inside it. Where the Rat survives by smallness, the Tiger survives by being, entirely and without apology, himself.",
+  "power": "Tiger holds complete mastery of courage: the solitary stand, the decisive strike, and the silence before both. He can lend a lone defender the nerve to hold an indefensible-looking gate until it turns out to have been defensible all along. He does not lend his courage to crowds — crowds have their own gods — nor to cruelty: his strike is for protection, and a strike past its purpose is outside his mastery entirely.",
+  "tale": "The night the dam sirens failed above the town of Ilya, one watchman — the junior man, eleven weeks in the job — trusted his own ears over the silent instruments, walked the dam wall in the storm with a hand lamp, found the scour hole by the sound of the water, and stood in the radio room refusing to leave until the engineers believed a nobody. The town woke dry. His commendation is one line long, the way he likes it. Tigers do not keep scrapbooks; they keep gates.",
+  "job": "Courage and solitary power among the animals"
+ },
+ {
+  "name": "God of Ox",
+  "role": "patient labor; the plow and the steady pull; strength measured in furrows, not in noise; child of Zodiac at his Nature seat.",
+  "function": "he is the Heart's endurance in work — the dignity of the load carried daily.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Third of the animal gods in Hoc's order, born of Zodiac at his Nature seat when the wheel's wild courage needed a yoke-fellow: the creature who turned wilderness into farmland one furrow at a time. The Ox is strength domesticated into service without being diminished by it — the plow's patience, the load accepted and carried at a pace that can be kept for thirty years.",
+  "power": "Ox holds complete mastery of patient labor: endurance, the steady pull, and work done at a sustainable pace until it is done forever. He can keep a tired team — of animals, of people, of one exhausted person — moving at the speed that does not break them. He confers no shortcuts. His entire doctrine is that the furrow finished slowly outlasts the field rushed and ruined.",
+  "tale": "The aqueduct that waters the terraces of San Bartolo was dug by hand over nineteen years by the village cooperative — no machines, no contractor, a channel cut through two hills by people who worked it in the agricultural off-seasons and buried three of their founders before the water came. It has run for a century. Asked at the centenary why they never hired it done, the cooperative's oldest member gave the Ox's answer: \"Hired, it would have been theirs. Dug, it is ours — and it knows our names.\"",
+  "job": "Patient labor"
+ },
+ {
+  "name": "God of Rabbit",
+  "role": "gentleness armed with speed; the long-eared listener who hears every warning first; kin among the twelve to the Moon herself; child of Zodiac at his Nature seat.",
+  "function": "she is the Heart's tenderness with reflexes — gentleness that survives.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Fourth of the animal gods, born of Zodiac at his Nature seat — and of all the twelve, the one with a kinship the pantheon itself remarks: the Rabbit is the Moon's own animal, the shape the Moon Rabbit wears in the oldest stories, gentleness with the fastest reflexes in the wood. She survives the way softness survives among the armed: by hearing everything first, and being elsewhere when it arrives.",
+  "power": "Rabbit holds complete mastery of gentle survival: vigilance, speed, and the art of being underestimated. Her long ears are an intelligence service; nothing in her meadow moves without her knowing its intentions. She can lend the timid a getaway and the gentle a warning in time to use it. She does not fight, and her mastery does not extend to fighting — it extends to the far more useful art of the fight never happening.",
+  "tale": "The evacuation of the coastal school in the tsunami year is taught now in emergency courses: the head teacher, a small quiet woman the district had twice passed over, heard the sea suck back through the classroom's open windows, did not wait for the official alert, and had four hundred children on the hill path in single file, singing the walking song she had drilled them in all year as a game, before the first siren sounded. The wave took the empty school. The song is still taught. She still dislikes being called brave; she prefers \"early.\"",
+  "job": "Gentleness armed with speed"
+ },
+ {
+  "name": "God of Dragon",
+  "role": "the only legendary beast of the twelve — rain, rivers, and luck in motion; power that moves like weather; child of Zodiac at his Nature seat.",
+  "function": "he is the Heart's majesty in the wild — power that arrives as rain.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Fifth of the animal gods, born of Zodiac at his Nature seat — the only one of the twelve who never walked the earth in flesh, and somehow the most at home in it: rain on the wing, rivers for veins, the luck that moves like weather. The Dragon is the wild world's majesty made personal: power that does not serve the throne but makes thrones possible, and unmakes them when they forget the rain.",
+  "power": "Dragon holds complete mastery of the fortunate storm: rain-bringing, river-keeping, and power in motion. He can turn a drought's arithmetic and a flood's temper — not by ruling water, which is Heal's mother and Ocean's self, but by knowing where the weather's generosity is stored. His luck is not random: it is the wild world's favor, and it answers to respect, never to command.",
+  "tale": "The year the rains failed over the lake district, the fisher families did the thing their grandmothers had done: they carried the dragon boat out of its shed — not to race it, to repair it, in public, on the shore, with the whole district fed from the cooperative's stores while they worked. The rains, being weather, came or did not on their own schedule; they came late and adequately. What the boat repaired first was the district: three villages that had been suing over water shared one shed, one table, and one store for six weeks. The lake people are not confused about which repair mattered.",
+  "job": "The only legendary beast of the twelve — rain, rivers, and luck in motion"
+ },
+ {
+  "name": "God of Snake",
+  "role": "shedding and renewal; wisdom kept close to the ground; the old emblem of healing; child of Zodiac at his Nature seat.",
+  "function": "she is the Heart's renewal — the self outgrown and left behind, deliberately and without shame.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Sixth of the animal gods, born of Zodiac at his Nature seat when the wheel needed a keeper for the mystery every living thing carries: the self can be outgrown. The Snake is renewal without sentimentality — the old skin left whole in the grass, the same creature gleaming out of it. She is also healing's oldest emblem, and wisdom's, for she keeps both close to the ground where they belong.",
+  "power": "Snake holds complete mastery of shedding: renewal, recovery, and the disciplined abandonment of outgrown forms. She can teach a life to leave its old skin without tearing the new one — the timing of it, which is the whole art. She cannot shed anyone who will not move; her mastery begins at the first honest wriggle. What is left behind in her grass is never mocked: it was a true skin, once.",
+  "tale": "The burns unit at the provincial hospital keeps a garden, and in the garden a ceremony the staff invented and the patients continued: when the grafts have taken and the last bandages come off, the patient ties a ribbon to the garden's rail — not for the skin lost, but, in the words of the first patient who did it, \"for the one arriving.\" A thousand ribbons weather there now. The surgeons, who are scientists, check the rail on their rounds and have never once suggested removing it. Some instruments are not in the catalog.",
+  "job": "Shedding and renewal"
+ },
+ {
+  "name": "God of Horse",
+  "role": "speed, freedom, and the road; strength that loves distance; child of Zodiac at his Nature seat.",
+  "function": "he is the Heart's momentum — the joy of ground covered honestly.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Seventh of the animal gods, born of Zodiac at his Nature seat when the wheel needed distance itself given a heart. The Horse is strength that loves the road: speed as honesty, freedom that accepts a rider only when the riding is worthy of it. He carried humanity's messages, armies, plows, and escapes for five thousand years, and his mastery still smells of open country.",
+  "power": "Horse holds complete mastery of momentum: speed, stamina, and the joy of ground covered. He can lend a stalled endeavor the second wind that is not desperation but rhythm, and carry a message — or a person — farther than their own legs swore was possible. He does not lend momentum to flight from duty; his road always goes toward something, and he can tell the difference at a gallop.",
+  "tale": "The last mounted mail route in the mountains was retired three times by the postal service and three times reinstated by weather, when the helicopters could not fly and the passes were the only road. The rider, old Tomás, kept the route's true schedule in his head — which drifts, which bridges in which month — and retired only when his apprentice could recite it back to him, on horseback, at the top of the pass, in wind. The route book the service finally printed is dedicated to the horse by name. Both of them earned it.",
+  "job": "Speed, freedom, and the road"
+ },
+ {
+  "name": "God of Goat",
+  "role": "sure-footedness on cliffs where no path serves; gentleness kept in herds; child of Zodiac at his Nature seat.",
+  "function": "she is the Heart's footing in steep places — balance where the way is narrowest.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Eighth of the animal gods, born of Zodiac at his Nature seat where the wheel's road climbs off the map. The Goat is the cliff-walker's faith: that there is footing, that it is enough, that gentleness and audacity are not opposites. She keeps the herd's calm on the narrowest ledges and eats, serenely, what no other creature would call food — scarcity is her home terrain.",
+  "power": "Goat holds complete mastery of footing: balance on steep ground, thrift in barren places, and calm where a fall is possible. She can find the ledge-path up slopes that present as walls, and keep a whole company's nerve steady on it. Her mastery does not widen the ledge — she is honest — it teaches feet to trust the width there is.",
+  "tale": "The mountain rescue team's best dog is not a dog; the team keeps, at the high station, a goat named Sergeant who has walked every approach path in the range and whose calm on exposed ground settles panicked climbers better than ropes do — a living demonstration, at knee height, that the ledge is passable. Rescues she has attended are marked in the station log with a small hoofprint stamp the team refuses to explain to headquarters. The record speaks: on Sergeant's paths, nobody has ever frozen. People follow footing they can see.",
+  "job": "Sure-footedness on cliffs where no path serves"
+ },
+ {
+  "name": "God of Monkey",
+  "role": "cleverness and play; the trick that teaches; hands that imitate in order to understand; child of Zodiac at his Nature seat.",
+  "function": "she is the Heart's playfulness with a purpose — wit kept in the service of learning.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Ninth of the animal gods, born of Zodiac at his Nature seat when the wheel needed its cleverness given hands. The Monkey is imitation become invention: she learns by copying, masters by playing, and punctures every pomposity within reach of her grin. Of the twelve animals she is the closest mirror humanity has — which is exactly why her teasing lands, and why her lessons stick.",
+  "power": "Monkey holds complete mastery of the instructive trick: learning by imitation, adaptation by play, and the joke that delivers the truth past every guard. She can open any puzzle whose secret is that it was being taken too seriously. Her mastery has one rule she enforces on herself with surprising strictness: the trick may embarrass the proud, but it must teach — mischief that only wounds is beneath her hands.",
+  "tale": "The orangutan at the sanctuary who learned to trade — returning dropped tools to keepers through the fence in exchange for specific fruits, holding out for the good mango with the patience of a born negotiator — became, without anyone planning it, the sanctuary school program's entire curriculum. Children who would not sit for a lecture on animal minds sit for her an hour at a time, and leave understanding barter, patience, and another species' interior life. The keepers merely formalized her syllabus: she had been teaching it, at the fence, for years.",
+  "job": "Cleverness and play"
+ },
+ {
+  "name": "God of Dog",
+  "role": "loyalty and the guard at the door; the friend who stays; child of Zodiac at his Nature seat.",
+  "function": "she is the Heart's fidelity — love expressed as staying.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Tenth of the animal gods in Hoc's order, born of Zodiac at his Nature seat when the wheel came at last to humanity's oldest friendship. The Dog is loyalty incarnate: the guard who sleeps with one ear open, the companion who considers your errands to be the meaning of the day. She was the first animal to choose us, and her mastery is the choice, renewed daily, to stay.",
+  "power": "Dog holds complete mastery of fidelity: loyalty, guardianship, and the reading of hearts through doors. She can tell the welcomed step from the wrong one at fifty paces, and she lends the lonely a presence that asks nothing but nearness. Her power cannot be transferred, faked, or inherited — it is made fresh every day, which is the entire secret of it, and she guards no one who chains her: fidelity given freely is the only kind she recognizes.",
+  "tale": "The courthouse facility dog — a broad, unhurried retriever whose whole job is to lie beside the witness chair — has sat with three hundred child witnesses, and the prosecutors keep the statistic that matters: cases in which a child could finish testimony rose by half in her first year. She has no lines. She does not know what a verdict is. She knows whose hand is shaking, and she leans, with her full warm weight, exactly there. The court's official portrait of her hangs in the children's corridor, at their eye level, not the adults'.",
+  "job": "Loyalty and the guard at the door"
+ },
+ {
+  "name": "God of Rooster",
+  "role": "the herald of dawn among the animals; time announced aloud; vigilance through the dark's last hour; child of Zodiac at his Nature seat.",
+  "function": "he is the Heart's punctual hope — every morning declared, without exception.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Eleventh of the animal gods in Hoc's order, born of Zodiac at his Nature seat when the wheel needed its dawn announced. The Rooster is vigilance with a voice: the herald who considers the dark's last hour to be his personal responsibility, and says so, at volume, to the entire parish. He is time kept by courage — the announcement that the night, however long, has been outlasted again.",
+  "power": "Rooster holds complete mastery of the announcement: vigilance, punctuality, and the first word of the day. He can wake what sleeps past its hour — a farm, a conscience, a garrison — and his crowing carries authority out of all proportion to his size, because everyone understands what it means. He cannot make the dawn; he refuses the credit. His mastery is the herald's, and a herald's honor is to never once be late.",
+  "tale": "In the fishing port of Aro, the fog bell and the lighthouse both failed on the same black night in the storm year — and the fleet came home by a sound no regulation had planned: every rooster in the harbor wards, crowing in the dark hours as roosters do at false dawns and disturbances, from coops along the shore. The skippers steered for the inhabited sound of home. The port's official report lists the cause of the safe return with unusual honesty for a government document: *the town was audible.* Aro keeps its harbor roosters by ordinance to this day.",
+  "job": "The herald of dawn among the animals"
+ },
+ {
+  "name": "God of Pig",
+  "role": "honest appetite and contentment; abundance without shame; the feast shared rather than hoarded; child of Zodiac at his Nature seat.",
+  "function": "she is the Heart's contentment — enough, enjoyed, and passed around.",
+  "group": "Nature & the Living World",
+  "generation": 6,
+  "class": "Nature & the Living World",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Twelfth and last of the animal gods, born of Zodiac at his Nature seat when the wheel, having climbed and fought and heralded, came home to dinner. The Pig is honest appetite: abundance without shame, contentment without apology, the feast understood as a sacrament of enough. She is the wheel's closing blessing — after the year's labors, the table; after the table, gratitude; after gratitude, rest.",
+  "power": "Pig holds complete mastery of contentment: appetite honored, abundance shared, and enjoyment without guilt. She can teach a grasping heart the difference between hunger and greed — the first is honest, the second is a leak — and turn a store into a feast by the simple addition of other people. Her mastery fails at solitary tables: she is a god of company, and her plenty curdles in secret.",
+  "tale": "The harvest supper at Villarriba began, generations ago, as the landlord's accounting day, and the village inverted it so gradually that no one can name the year: now the tables run the length of the main street, every family's stores are opened in common, and the first serving is carried, by custom, to the households that had the worst year — served first, seated highest, asked nothing. The village does not call this charity, and corrects visitors who do. \"It is the order of the table,\" the mayor says. \"The year feeds its wounded first. Next year, God willing, others.\" The Pig's doctrine, word for word, in a village that never heard her name.",
+  "job": "Honest appetite and contentment"
  },
  {
   "name": "God of Sun",
@@ -1711,7 +2136,7 @@ window.GODS = [
  },
  {
   "name": "God of Zodiac",
-  "role": "the twelvefold wheel of the sky — the great circle of signs along the Sun's road, where the heavens' order is laid over the turning seasons of the earth and the green year of the forest; the pantheon's first triple-seated god — child of Nature, of Astrology, and of Forest, counted ONCE (Hoc's ruling, 2026-11-11).",
+  "role": "the twelvefold wheel of the sky — the great circle of signs along the Sun's road, where the heavens' order is laid over the turning seasons of the earth and the green year of the forest; the pantheon's first triple-seated god — child of Nature, of Astrology, and of Forest, counted ONCE (Hoc's ruling, 2026-11-11); at his Forest seat he is father of the thirteen tree gods; at his Astrology seat, father of the twelve sign gods; at his Nature seat, father of the twelve animal gods.",
   "function": "he is the Heart's wheel — one god held by three parents at once: the wild world, the written sky, and the wood — proof that a single soul can belong to three houses without being divided.",
   "group": "The Heavens & Fate",
   "generation": 5,
@@ -1721,7 +2146,45 @@ window.GODS = [
    "God of Astrology",
    "God of Forest"
   ],
-  "children": [],
+  "children": [
+   "God of Birch",
+   "God of Rowan",
+   "God of Ash",
+   "God of Alder",
+   "God of Willow",
+   "God of Hawthorn",
+   "God of Oak",
+   "God of Holly",
+   "God of Hazel",
+   "God of Vine",
+   "God of Ivy",
+   "God of Reed",
+   "God of Elder",
+   "God of Rat",
+   "God of Tiger",
+   "God of Ox",
+   "God of Rabbit",
+   "God of Dragon",
+   "God of Snake",
+   "God of Horse",
+   "God of Goat",
+   "God of Monkey",
+   "God of Dog",
+   "God of Rooster",
+   "God of Pig",
+   "God of Ares",
+   "God of Taurus",
+   "God of Gemini",
+   "God of Cancer",
+   "God of Leo",
+   "God of Libra",
+   "God of Virgo",
+   "God of Scorpio",
+   "God of Saggitaurus",
+   "God of Capricorn",
+   "God of Aquarius",
+   "God of Pisces"
+  ],
   "house": "Darkness's line",
   "origin": "Zodiac is the pantheon's first triple-seated god, born of three parents at once (Hoc's ruling, 2026-11-11) and counted once. From Nature he takes the living world itself, whose turning seasons are his substance. From Astrology he takes the reading that drew his circle: the twelvefold wheel laid along the Sun's road through the fixed stars. From Forest he takes the green year — the rising, crowning, and falling of the woods, which is the wheel's truest picture on Earth. Three houses made him together, and he belongs to all three without being divided among them.",
   "power": "Complete mastery of the wheel: the twelve signs in their order, the stations of the Sun's road, and the fit between the sky's turning and the year's turning below. He is the Heart's wheel — the one god who proves that belonging is not singular: held by the wild world, the written sky, and the wood at once, he loses nothing of himself to any of them. What his parents each keep separately — season, chart, and green year — he keeps as one turning, and turns it steadily for gods and mortals alike.",
@@ -1926,6 +2389,210 @@ window.GODS = [
   "power": "Complete mastery of the shining standard. As Yellow, he holds joy and caution in a single shade — the ripened field and the warning sign, the sun's herald at dawn. As Gold, he is permanence: the metal that does not rust or tarnish, keeping value across any darkness — the Heart's incorruptible standard. Together he is the Heart's double witness: the same god shining as light above and standing as permanence below.",
   "tale": "His heroism is trust made solid. The wedding ring worn fifty years without tarnishing; the reserve in the vault that lets a stranger accept paper from another stranger; the caution light that holds a city's traffic one breath between go and stop. And every autumn his bright name covers the wheat at the exact moment it is ready — the ripened field, Earth's oldest announcement that the year's work succeeded. In a world of currencies that inflate and metals that rust, he never lied about lasting. Earth built its promises out of him for five thousand years. --- *Note: the God of Black, though seated in this class by his second seat, belongs by home and count to the Property & Information batch (Cosmos line, under God of Permanent) and is left to that batch — no dossier is written for him here.* ## Batch — Life & the Body *Draft dossiers for Hoc's judgment, NOT canon — matching the format of the god dossiers. God of Drug and God of Cell sit in this class by subject; their homes in the tree are elsewhere (Drug under God of Tools, Cell under God of Enforcement), and their origins say so.*",
   "job": "One god under two names (Hoc's ruling, 2026-11-10): as Yellow, the color of the sun's light, of caution, and of the ripened field, child of Colors"
+ },
+ {
+  "name": "God of Ares",
+  "role": "the first sign of the twelve (kept in Hoc's spelling) — the spark of beginning; courage, impulse, and the charge at the year's gate; child of Zodiac at his Astrology seat.",
+  "function": "he is the Heart's initiative — the first step taken before certainty arrives.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "First of the twelve sign gods, born of Zodiac at his Astrology seat when the wheel first turned and the year's gate needed a keeper. His name is kept in Hoc's spelling — Ares, the charge at the gate. He stands where every cycle begins: at the spark before the plan, the step before the road. Of all the signs he is the youngest in temper and the oldest in office, for nothing in the wheel moves until someone goes first.",
+  "power": "Ares holds complete mastery of the beginning: initiative, courage, and the honest impulse. He can light resolve in a stalled heart and lend speed to a decision that is already right. What he cannot do is choose the direction — the aim belongs to Saggitaurus, the fairness to Libra, the harvest to Virgo. His gift starts things; the wheel finishes them together.",
+  "tale": "In the year of the great fire on Mount Calloway, it was a sixteen-year-old volunteer — first to arrive, first up the ridge with a wet sack and a spade — whose twenty minutes of solitary work cut the firebreak the crews later widened and held. Nobody had appointed her. She said afterward that standing in the road watching the smoke had simply become impossible. The town's citation does not mention any god. Ares asks for no mention. Going first was the whole of it.",
+  "job": "The first sign of the twelve (kept in Hoc's spelling) — the spark of beginning"
+ },
+ {
+  "name": "God of Taurus",
+  "role": "the bull of the wheel — steadfastness, appetite, and the garden's patience; worth held calmly in the hands; child of Zodiac at his Astrology seat.",
+  "function": "she is the Heart's steadfastness — value kept, not chased.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Second of the sign gods, born of Zodiac at his Astrology seat when the wheel's first charge needed ground to stand on. Where Ares strikes the spark, Taurus keeps the fire: she is the bull in the garden gate, the patience of rich soil, the appetite that enjoys what it has earned. Her season is the heart of spring, when beginnings stop being ideas and start being fed.",
+  "power": "Taurus holds complete mastery of steadfastness: endurance, appetite, and worth held calmly. She can steady a resolve through the long middle of any work, and teach a heart the difference between keeping and clinging. She does not hurry and cannot be hurried; what she grows, she grows at the speed of soil — and it stays grown.",
+  "tale": "The olive terraces above the village of Petraea were abandoned for two generations, their walls fallen, their trees wild — until one family returned and began, wall by wall, tree by tree, a restoration everyone priced at thirty years. It took twenty-six. The granddaughter who laid the last terrace wall now presses oil from trees her grandfather pruned as sticks. Asked the secret, she gives Taurus's answer without knowing it: \"We never stopped. That is the whole technique. We never stopped.\"",
+  "job": "The bull of the wheel — steadfastness, appetite, and the garden's patience"
+ },
+ {
+  "name": "God of Gemini",
+  "role": "the twins — doubleness and curiosity; the two voices in one mind, questioning each other; child of Zodiac at his Astrology seat.",
+  "function": "he is the Heart's second thought — every question given its pair before it is answered.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Third of the sign gods, born of Zodiac at his Astrology seat as twins in one office — for the wheel needed a sign that could hold two truths at once and let them argue honestly. Gemini is curiosity doubled: the question and its shadow, the self and its witness, the story and the story behind the story. Where he walks, no idea is allowed to travel without its pair.",
+  "power": "Gemini holds complete mastery of doubleness: dialogue, comparison, and the second thought. He can split any certainty into its two living halves so each can be examined, and join what was falsely divided. He cannot decide between the twins — decision belongs to other gods — but because of him, no decision in his reach is made by only half a mind.",
+  "tale": "The twin sisters who run the ferry at Sarn Crossing have not agreed on anything in forty years — routes, prices, politics, the raising of their children. The crossing has also never once been closed by a quarrel, because the town long ago adopted their rule: no decision sails until it has survived both sisters. Ferries capsize on certainty more often than on weather, the elder says. The younger disagrees — about the wording. They both sign every timetable.",
+  "job": "The twins — doubleness and curiosity"
+ },
+ {
+  "name": "God of Cancer",
+  "role": "the crab — home, memory, and the shell carried everywhere; feeling that moves with the Moon's tides; child of Zodiac at his Astrology seat.",
+  "function": "she is the Heart's shelter — what it protects by holding close.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Fourth of the sign gods, born of Zodiac at his Astrology seat under the Moon's own rulership, where the wheel turns from the world's work to the heart's. Cancer is the crab who carries her house on her back: home not as a place but as a practice, memory kept the way the tide keeps the shore — by returning. Her season is high summer, when everything living is being sheltered and fed.",
+  "power": "Cancer holds complete mastery of shelter: home-making, memory, and protection by closeness. She can make a room into a refuge and a meal into a covenant; she keeps the past the way a shell keeps its maker — carried, not worshipped. Her power fails only where it is refused: no one was ever sheltered against their will, and she respects the door she is not invited through.",
+  "tale": "Every winter for thirty-one years, the widow Anselmo has kept the lighthouse road's halfway house open through the storms — soup, dry socks, a fire that is never allowed fully out — for travelers, shepherds, and, twice, for smugglers she fed and did not ask. The province offered her a medal and a pension to stop; she accepted the coal allowance and declined the stopping. \"A house is not walls,\" she says. \"A house is the fire being lit before anyone knocks.\"",
+  "job": "The crab — home, memory, and the shell carried everywhere"
+ },
+ {
+  "name": "God of Leo",
+  "role": "the lion — the Sun's own sign; radiance, pride, and the heart displayed openly; child of Zodiac at his Astrology seat.",
+  "function": "he is the Heart's radiance — warmth given out like light, without metering.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Fifth of the sign gods, born of Zodiac at his Astrology seat under the Sun's own rulership — the lion at the wheel's high summer, where light stops apologizing. Leo is radiance with a spine: pride that has earned itself, generosity performed in the open, the heart worn where everyone can warm their hands at it. Of the twelve signs, his is the throne that is only legitimate when it is a hearth.",
+  "power": "Leo holds complete mastery of radiance: confidence, display, and warmth given without metering. He can lend a frightened heart its own sunlight and make a gathered crowd remember it is one body. His shadow is known to the whole wheel: radiance that demands worship curdles — and the other signs, who love him, are charged with telling him so.",
+  "tale": "When the repertory theatre in the mill town burned two weeks before the winter play, the company performed in the open market square in falling snow — and it was their lead actor, sixty-eight years old and famous for forty of them, who shoveled the square at dawn, built the benches from market pallets, and took the smallest part so the youngest member could play the lead in the cold light. The square was full. People still call it the best production the town ever staged. He calls it the only review he ever kept.",
+  "job": "The lion — the Sun's own sign"
+ },
+ {
+  "name": "God of Libra",
+  "role": "the scales — balance, judgment, and the partnership weighed fairly; child of Zodiac at his Astrology seat.",
+  "function": "she is the Heart's fairness — two sides held patiently until they level.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Sixth of the sign gods, born of Zodiac at his Astrology seat at the wheel's balance point, where day and night stand equal and the year must be weighed. Libra is the scales: judgment as a craft, partnership as a discipline, beauty as proportion made visible. She does not rush the beam. Of all the signs, hers is the office most often mistaken for slowness by those who have never had to be fair.",
+  "power": "Libra holds complete mastery of balance: fairness, proportion, and the weighed agreement. She can hold two sides in the air until both have truly been heard, and find the fulcrum neither party could see. She cannot make the unfair fair by calling it balanced — her scales answer only to real weight, and a thumb on either pan is the one crime her house prosecutes without mercy.",
+  "tale": "The two villages that share the Valserine river ended their forty-year water feud not in court but at a table in the mill, with a miller keeping the ledger — inflows, outflows, drought years, flood years, read aloud to both councils until the numbers had worn the grievances smooth. The agreement they signed is still called the Miller's Peace. Its first clause is Libra's whole doctrine, written by a man who had never heard her name: *Both sides drink, or the river decides.*",
+  "job": "The scales — balance, judgment, and the partnership weighed fairly"
+ },
+ {
+  "name": "God of Virgo",
+  "role": "the harvest maiden — discernment and craft; the grain sorted from the chaff, one handful at a time; child of Zodiac at his Astrology seat.",
+  "function": "she is the Heart's discernment — care taken in small, exact things.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Seventh of the sign gods, born of Zodiac at his Astrology seat at harvest time, carrying the sheaf: she is discernment at its most practical, the sorting hand over the threshing floor. Virgo is craft — the belief that care, taken in small exact things, is a form of love that sentiment can never replace. Her season is the end of summer, when the year's work is weighed kernel by kernel.",
+  "power": "Virgo holds complete mastery of discernment: sorting, mending, and the exact preparation of useful things. She can find the one spoiled measure in a hundred good ones and the one loose stitch before the seam fails. Nothing is beneath her attention; that is precisely her power. What she cannot do is rest while anything in her keeping is unsorted — the wheel gives her the sheaf, and she gives the wheel clean grain.",
+  "tale": "The seed library at Alto Passo holds four thousand packets, each labeled by hand — variety, year, field, and the name of the farmer who saved it. When the blight took the valley's commercial wheat three summers ago, it was the library's oldest landrace, sorted and kept by three generations of one family's daughters, that resisted and reseeded the valley. The agronomists published their paper. The family framed a different document: the packet label from 1962, in a grandmother's handwriting. *Sorted is saved,* it says underneath, in pencil.",
+  "job": "The harvest maiden — discernment and craft"
+ },
+ {
+  "name": "God of Scorpio",
+  "role": "the scorpion — depth, secrecy, and the sting kept in the dark; death and return held in one sign; child of Zodiac at his Astrology seat.",
+  "function": "he is the Heart's depth — what it transforms in the dark, out of sight.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Eighth of the sign gods, born of Zodiac at his Astrology seat in the year's deepening dark — the scorpion, who keeps the wheel's secrets and its poisons in one small body. Scorpio is intensity without flinching: the truth under the floorboards, the grief that must be gone through and not around, the transformation that costs the old shape entirely. His season is late autumn, when everything living decides what it can carry into winter.",
+  "power": "Scorpio holds complete mastery of depth: secrecy, crisis, and transformation through the dark. He can hold what cannot yet be spoken, stay in the room where the worst is being said, and guard the passage by which a life ends one form and begins another. He does not open the gate past death — that is not his — but of everything this side of it that frightens people, nothing frightens him.",
+  "tale": "The hospice nurse at San Verano is famous in three valleys for a quality her patients' families struggle to name: she does not leave. Fevers, rages, the terrible jokes of the dying, the 4 a.m. confessions — she stays level through all of it, and her ward's unofficial motto is painted nowhere and known by everyone: *Nothing you can say will make her go.* \"People think my gift is comfort,\" she says. \"It isn't. It's staying. Comfort is just what staying looks like from the bed.\"",
+  "job": "The scorpion — depth, secrecy, and the sting kept in the dark"
+ },
+ {
+  "name": "God of Saggitaurus",
+  "role": "the archer (kept in Hoc's spelling) — the arrow aimed beyond the horizon; travel, philosophy, and the far target; child of Zodiac at his Astrology seat.",
+  "function": "he is the Heart's aim — desire given a direction.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Ninth of the sign gods, born of Zodiac at his Astrology seat as the archer, kept in Hoc's spelling — half horse, half human, all trajectory: the beast's strength aimed by the mind's far target. Saggitaurus is the wheel's hunger for distance — travel, philosophy, the teacher's road, the joke told at the exact moment the lesson would otherwise be lost. His season is the year's last fire, before the deep winter.",
+  "power": "Saggitaurus holds complete mastery of aim: direction, meaning, and the long shot honestly taken. He can give a scattered life a horizon and a horizon a claim; he teaches by pointing, and his pointing is never at what is near. He cannot guarantee the arrow lands — no god of aim can — but because of him, nobody in his reach shoots at nothing and calls it fate.",
+  "tale": "The cartographer who walked the entire watershed of the Rio Seco on foot — eleven hundred miles, two dry seasons — produced the map the region still uses, but the valleys remember him for his schools: at every village that fed him, he stayed a week teaching children to read a horizon, find north by three methods, and draw their own valley from the hill above it. \"A map is someone else's journey,\" he told them. \"Learn to make your own.\" Forty years on, three of those children are surveyors, and all of them still walk their boundaries before they draw them.",
+  "job": "The archer (kept in Hoc's spelling) — the arrow aimed beyond the horizon"
+ },
+ {
+  "name": "God of Capricorn",
+  "role": "the sea-goat — ambition that climbs from the sea to the summit; mastery earned in winter, step by honest step; child of Zodiac at his Astrology seat.",
+  "function": "he is the Heart's ambition — the summit approached without shortcuts.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Tenth of the sign gods, born of Zodiac at his Astrology seat at the winter solstice, where the year is darkest and the climb is steepest — the sea-goat, who rose from the water and did not stop at the shore. Capricorn is ambition with a work ethic: mastery earned in the cold, authority that began as competence, the summit approached the way stairs are — one honest step, repeated ten thousand times.",
+  "power": "Capricorn holds complete mastery of the climb: discipline, structure, and achievement under hard conditions. He can break any mountain into steps and keep a climber's feet honest on each one. He confers no summits — his whole doctrine is that a summit given is a summit stolen — but he keeps the register of every real ascent, and his respect is the coin the other signs secretly covet.",
+  "tale": "The bridge at Karagach gorge was surveyed by a woman who crossed the gorge on a rope every working day for six years, in a district that had been promised a bridge by four governments. When the funding finally came, her survey was so exact that the engineers built from it without a single correction. At the opening, the officials cut the ribbon; the district walked across behind her instead. She is recorded in the bridge's plaque with the only title she would accept: *She measured it first.*",
+  "job": "The sea-goat — ambition that climbs from the sea to the summit"
+ },
+ {
+  "name": "God of Aquarius",
+  "role": "the water-bearer — the water poured out for all who thirst; the future carried in a jar and shared; child of Zodiac at his Astrology seat.",
+  "function": "she is the Heart's generosity of mind — knowledge poured for everyone, not kept.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Eleventh of the sign gods, born of Zodiac at his Astrology seat in the deep winter, carrying the jar: the water-bearer, who pours out not rivers but knowledge — the future arriving early and being handed around. Aquarius is the wheel's generosity of mind: invention meant for everyone, the well dug in the common ground, the idea too useful to be owned. Her season is the cold bright end of winter, when people plan what spring will change.",
+  "power": "Aquarius holds complete mastery of the outpouring: invention, reform, and knowledge shared without metering. She can take what one mind discovers and make it a hundred minds' inheritance, and she reads the future's weather the way sailors read clouds. What she pours, she does not recall: an idea she has given away cannot be repossessed, and she would not if she could.",
+  "tale": "The radio amateur who maintained the mountain valley's only link through the great storm — relaying the hospital's needs, the road crews' positions, the names of the missing and then the found — refused both payment and the province's medal, accepting only a new antenna for the school. \"The signal isn't mine,\" she said. \"I just keep the tower.\" The valley's children now learn the radio club's one rule before the call signs: *What you can carry, you carry for everyone.*",
+  "job": "The water-bearer — the water poured out for all who thirst"
+ },
+ {
+  "name": "God of Pisces",
+  "role": "the two fish — dreams, compassion, and the ocean of feeling where boundaries gently dissolve; the last sign of the wheel; child of Zodiac at his Astrology seat.",
+  "function": "she is the Heart's compassion — feeling without walls.",
+  "group": "The Heavens & Fate",
+  "generation": 9,
+  "class": "The Heavens & Fate",
+  "parents": [
+   "God of Zodiac"
+  ],
+  "children": [],
+  "house": "Darkness's line",
+  "origin": "Twelfth and last of the sign gods, born of Zodiac at his Astrology seat where the wheel dissolves back into the sea it rose from — the two fish, swimming opposite and bound by one cord: dream and mercy, escape and return. Pisces is feeling without walls: the compassion that does not check credentials, the imagination that visits the drowned countries and brings back their music. Her season is winter's end, when the ice loosens and everything frozen begins, secretly, to move.",
+  "power": "Pisces holds complete mastery of compassion: dreams, mercy, and the ocean of feeling where boundaries soften. She can enter another's sorrow without drowning in it — most of the time — and carry back from the deep what the surface needed to hear. Her gift has one honest danger, known to the whole wheel: the sea she swims can dissolve the swimmer, and the other signs keep her cord, as she keeps theirs.",
+  "tale": "In the flooded quarter of the city of Amarante, the boats that came were not the authorities' — they were fishing skiffs and pleasure craft, and at their head an old woman who had run the ferry for fifty years and knew every drowned street by the feel of the current. She worked three days without sleep, guided by a city that no longer existed above water, and would accept no list of priorities: \"We take the street as it comes,\" she said. \"The water doesn't rank them. Neither do I.\"",
+  "job": "The two fish — dreams, compassion, and the ocean of feeling where boundaries gently dissolve"
  },
  {
   "name": "God of Chaos",
