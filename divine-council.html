@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0d0b14">
+<title>Divine Council — Nu Miracles of ROM</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.council-panel{background:linear-gradient(145deg,#1c1728,#14111c);border:1px solid var(--line);border-radius:14px;padding:1.15rem;margin:1rem 0}
+.council-panel textarea{width:100%;min-height:7rem;box-sizing:border-box;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:.7rem;font:inherit}
+.council-panel input,.council-panel select{width:100%;max-width:100%;box-sizing:border-box;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:.6rem;font:inherit}
+.council-actions{display:flex;gap:.5rem;flex-wrap:wrap;margin:.8rem 0}
+.council-actions button.secondary{background:#3a3355;color:#ece7f5}
+#councilMembers{display:flex;flex-wrap:wrap;gap:.4rem;max-height:22rem;overflow:auto;padding:.7rem;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+#councilMembers .chip{font:inherit}
+#councilOutput .tool-output{background:#100d18;border:1px solid var(--line);border-radius:10px;padding:1rem;margin-top:1rem}
+#councilOutput h2,#councilOutput h3{color:var(--gold)}
+.speech{margin:.7rem 0}
+.tool-note{font-size:.85rem;color:var(--dim)}
+</style>
+</head>
+<body>
+<header class="site-head">
+<div class="brand"><a href="index.html">Nu Miracles of ROM</a></div>
+<nav>
+<a href="index.html">Home</a><a href="pantheon.html">The Pantheon</a><a href="worlds.html">The Worlds</a><a href="stories.html">The Stories</a><a href="forums.html">Forums & Debates</a><a href="game.html">The Game</a><a href="questions.html">Open Questions</a><a href="tools.html">Divine Tools</a><a href="divine-council.html">Divine Council</a>
+</nav>
+</header>
+<main>
+<div class="hero">
+<p class="kicker">A collective inquiry · grounded in the pantheon</p>
+<h1>The Divine Council</h1>
+<p class="big">Bring a question before the Gods. Choose the masteries that should be represented, then examine what their recorded domains contribute.</p>
+<p>The Council is a structured reflection tool, not a claim of literal supernatural communication. It uses the existing pantheon and does not create Gods, assign allegiances, or declare new canon.</p>
+</div>
+<section class="council-panel">
+<h2>1. Present your question</h2>
+<label class="field-label" for="councilQuestion">What would you like the council to consider?</label>
+<textarea id="councilQuestion" placeholder="Example: How should a community balance individual freedom with collective responsibility?"></textarea>
+<label class="field-label" for="councilMode">Council approach</label>
+<select id="councilMode">
+<option value="balanced">Balanced — consider the whole situation</option>
+<option value="practical">Practical — actions, resources, consequences</option>
+<option value="philosophical">Philosophical — definitions, assumptions, values</option>
+<option value="creative">Creative — explore possibilities carefully</option>
+</select>
+<div class="council-actions"><button id="suggestCouncil">Suggest a council</button><button class="secondary" id="copyQuestion">Copy question</button></div>
+<p id="copyStatus" class="tool-note" aria-live="polite"></p>
+<p class="tool-note">Suggestions are ranked by textual overlap with each God’s recorded name, job, role, function, group, lineage, and wisdom. You can always choose different members.</p>
+</section>
+<section class="council-panel">
+<h2>2. Choose the Gods at the table</h2>
+<p>Select up to 12 existing Gods. The council begins with your selections; “Suggest a council” can replace them with the strongest matches to your question.</p>
+<label class="field-label" for="memberFilter">Search the pantheon</label>
+<input id="memberFilter" type="text" placeholder="Filter by name or recorded domain…">
+<p id="memberCount" class="tool-note" aria-live="polite">0 of 12 seats selected</p>
+<div id="councilMembers" aria-label="Select council members"></div>
+<div class="council-actions"><button id="conveneCouncil">Convene the council</button><button class="secondary" id="clearCouncil">Clear selections</button></div>
+</section>
+<div id="councilOutput" aria-live="polite"></div>
+<section class="council-panel">
+<h2>How to read a council result</h2>
+<ul>
+<li><strong>Mastery:</strong> the God’s recorded job.</li>
+<li><strong>Role and function:</strong> the pantheon’s current descriptions of that God’s place and purpose.</li>
+<li><strong>Recorded wisdom:</strong> shown only when an entry exists; it may be draft or simulated, not settled doctrine.</li>
+<li><strong>Collective reflection:</strong> a reasoning framework for the question, not a fabricated quotation or an official divine verdict.</li>
+</ul>
+<p>For a more open-ended topic exploration, visit <a href="game.html">Ask the Gods</a>. For personal calculations and planning, visit the <a href="tools.html">Divine Toolbox</a>.</p>
+</section>
+</main>
+<footer><p>Nu Miracles of ROM — Divine Council</p><p class="fine">Grounded in the current pantheon data. Simulated reflections are not automatically canon.</p></footer>
+<script src="gods-data.js"></script>
+<script src="divine-council.js"></script>
+</body>
+</html>
